@@ -1,37 +1,6 @@
-## Welcome to GitHub Pages
+# HOME
 
-You can use the [editor on GitHub](https://github.com/IBRice101/IBRice101.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at ABertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/IBRice101/IBRice101.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## [Linux From Scratch: Raspberry Pi Style - Part 0: Prerequisites](https://IBRice101.github.io/RPi-LFS/0-Prerequisites.md)
+The beginning of what I hope to be a pretty great project, setting up an Apache Web Server on a raspberry pi starting from absolutely nothing! This first edition covers my journey setting up the development environment, starting fro    m before I'd even touched QEMU (scary, I know!)
