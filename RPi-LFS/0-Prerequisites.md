@@ -2,7 +2,7 @@
 
 ## Intro
 
-Hi there! I'm IBR and in this file I'm going to take you through the absolute ordeal I had to go through in order to go from literally nothing at all to a working Linux-based OS running an Apache web server. If you're familiar with LFS (Linux From Scratch) you may be wondering why this is such a big deal... Well, I bloody hope that's not what you're thinking actually, because it's hard enough to do already without you breathing down my neck. Where this differs from what I might have done otherwise though is that I decided, like an idiot, to develop this LFS system for Raspberry Pi, which as you may know doesn't use the standard x86 CPU architecture, but instead uses an ARM chip, similar to the architecture of most mobile phones. This made things... Interesting, to say the least, and I hope you'll stick around to figure out exactly how and why this was the case :).
+Hi there! I'm Isaac and in this file I'm going to take you through the absolute ordeal I had to go through in order to go from literally nothing at all to a working Linux-based OS running an Apache web server. If you're familiar with LFS (Linux From Scratch) you may be wondering why this is such a big deal... Well, I bloody hope that's not what you're thinking actually, because it's hard enough to do already without you breathing down my neck. Where this differs from what I might have done otherwise though is that I decided, like an idiot, to develop this LFS system for Raspberry Pi, which as you may know doesn't use the standard x86 CPU architecture, but instead uses an ARM chip, similar to the architecture of most mobile phones. This made things... Interesting, to say the least, and I hope you'll stick around to figure out exactly how and why this was the case :).
 
 Before we start, my specs, as they were when I first began this journey:
 
@@ -22,7 +22,7 @@ Before we start, my specs, as they were when I first began this journey:
 
 In order to create this system I had to abandon my much more powerful Windows machine in favour of my smaller Linux based laptop, this is for a whole load of reasons, primarily it's because the LFS Book recommends it anyway. However the other primary reason for me wanting to develop on Linux is, due to the fact that the RPi has an ARM based CPU architecture, I have to develop in a similarly ARM oriented OS, (Raspberry Pi OS in this case)... I cannot do this using standard windows-based software hypervisors such as VMWare Workstation because they only offer virtualisation, not emulation which is what is required to emulate differing architectures.
 
-"So IBR" you may say with unwavering curiosity, "How the hell are you gonna get out of this one???", and to that I have one answer: QEMU.
+"So Isaac" you may say with unwavering curiosity, "How the hell are you gonna get out of this one???", and to that I have one answer: QEMU.
 
 ## QEMU
 
