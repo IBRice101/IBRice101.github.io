@@ -46,7 +46,7 @@ With QEMU/KVM and virt-manager set up, it was now time to set up the host system
 Note: due to the size of the launch command I had to keep it in a separate shell script file lol, it looks like this:
 
 ```sh
-qemu-system-arm -M versatilepb -cpu arm1176 -m 256 -kernel qemu-rpi-kernel/kernel-qemu-4.19.50-buster -hda 2021-01-11-raspios-buster-armhf-full.img -append "dwc_otg.lpm_enable=0 root=/dev/sda2 console=tty1 rootfstype=ext4 elevator=deadline rootwait" -dtb qemu-rpi-kernel/versatile-pb-buster.dtb -no-reboot -serial stdio
+qemu-system-arm -M versatilepb -cpu arm1176 -m 2048 -kernel qemu-rpi-kernel/kernel-qemu-4.19.50-buster -hda 2021-01-11-raspios-buster-armhf-full.img -append "dwc_otg.lpm_enable=0 root=/dev/sda2 console=tty1 rootfstype=ext4 elevator=deadline rootwait" -dtb qemu-rpi-kernel/versatile-pb-buster.dtb -no-reboot -serial stdio
 ```
 
 ## Recommended Reading
