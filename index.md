@@ -16,3 +16,5 @@ My [twitter](https://twitter.com/IBRice101/)
 My [linkedin](https://www.linkedin.com/in/isaac-b-5b6149138/)
 
 My email: ibasquerice [at] gmail [dot] com
+
+they/them :)
