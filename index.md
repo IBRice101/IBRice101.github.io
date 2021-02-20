@@ -4,7 +4,7 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at ABerta
 
 ---
 
-## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice.github.io/MiniProjects/Raspberry-Pi-QEMU-VM)
+## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice101.github.io/MiniProjects/Raspberry-Pi-QEMU-VM)
 A Guide to installing and running Raspberry Pi OS under an x86 Linux environment, pretty exciting stuff, eh?
 
 ---
