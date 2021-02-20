@@ -4,8 +4,13 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at ABerta
 
 ---
 
+## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice.github.io/MiniProjects/Raspberry-Pi-QEMU-VM)
+A Guide to installing and running Raspberry Pi OS under an x86 Linux environment, pretty exciting stuff, eh?
+
+---
+
 ## [HackBack2 — great fun, VERY challenging (Also OSINT)](https://IBRice101.github.io/CTFs/hackback)
-Another CTF walkthrough I wrote for a single section of the Hackback2 competition in 2019, I came first in the OSINT Section which I ws pretty chuffed about
+Another CTF walkthrough I wrote for a single section of the Hackback2 competition in 2019, I came first in the OSINT Section which I was pretty chuffed about
 
 ---
 
@@ -14,8 +19,8 @@ A walkthrough I wrote for the first CTF I did back in October 2019, go easy on m
 
 ---
 
-## [Linux From Scratch: Raspberry Pi Style - Part 0: Prerequisites](https://IBRice101.github.io/RPi-LFS/0-Prerequisites)
-The beginning of what I hope to be a pretty great project, setting up an Apache Web Server on a raspberry pi starting from absolutely nothing! This first edition covers my journey setting up the development environment, starting from before I'd even touched QEMU (scary, I know!)
+## [Linux From Scratch!](https://IBRIce101.github.io/LFS/)
+The home directory of my journey from sucking at something (Linux) to being sorta good at something (also Linux), genuinely excited about this project, and I hope you are too!
 
 ---
 
