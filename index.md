@@ -4,6 +4,12 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at Aberta
 
 ---
 
+## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon.md)
+
+I did a little IoT Hacking this past week, here are my notes!
+
+---
+
 ## [My Hacksoc Wiki contributions](https://IBRice101.github.io/HacksocWiki)
 
 I've been contributing a little bit to the Abertay Hacking Society wiki, here's a bit of my work (i.e. all the articles I wrote myself), take a loot!
