@@ -1,6 +1,12 @@
 # HOME
 
-Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at ABertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
+Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at Abertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
+
+---
+
+## [My Hacksoc Wiki contributions](https://IBRice101.github.io/HacksocWiki)
+
+I've been contributing a little bit to the Abertay Hacking Society wiki, here's a bit of my work (i.e. all the articles I wrote myself), take a loot!
 
 ---
 
@@ -20,7 +26,7 @@ A walkthrough I wrote for the first CTF I did back in October 2019, go easy on m
 ---
 
 ## [Linux From Scratch!](https://IBRIce101.github.io/LFS/)
-The home directory of my journey from sucking at something (Linux) to being sorta good at something (also Linux), genuinely excited about this project, and I hope you are too!
+The home directory of my journey from sucking at something (Linux) to being sorta good at something (also Linux), genuinely excited about this project, and I hope you are too! [Currently on back-burner]
 
 ---
 
@@ -30,6 +36,6 @@ My [twitter](https://twitter.com/IBRice101/)
 
 My [linkedin](https://www.linkedin.com/in/isaac-b-5b6149138/)
 
-My email: ibasquerice [at] gmail [dot] com
+My email: izbr [at] protonmail [dot] com
 
 they/them :)
