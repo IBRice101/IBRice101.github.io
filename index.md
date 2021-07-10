@@ -4,7 +4,7 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at Aberta
 
 ---
 
-## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon.md)
+## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon)
 
 I did a little IoT Hacking this past week, here are my notes!
 
