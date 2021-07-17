@@ -9,7 +9,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 ## Year 1 Semester 1 - CMP101: Computer Hardware Architecture and Operating Systems (CHAOS)
 
 - Grade: A
-- Description: An introduction to the basics of computing, with a specific focus on hardware and operating systems. This module, along with a lot of other first year modules, is designed to get people up to speed, and as a result a lot of the earlier weeks' work is pretty trivial. Additionally, this is one of only two modules where an exam forms any of the final grade. 
+- Description: Introduction to the core ideas of computer architecture for students studying the subject of computing, building a mental model of the functioning of a typical computer system that can be used to reason about system (hardware/software) behaviour.  
 - Coursework:
     - 1: I was given a small Arduino (Wemos) Microcontroller board, as well as some peripherals, wires, and a breadboard, and told to create what you like, I made a Caesar Cipher (Caesarduino) device that would output to a small LED Screen and display the number of rotations on a 7 segment display (50%)
     - 2: An exam (50%)
@@ -19,7 +19,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 ## Year 1 Semester 1 - CMP104: Programming with C++
 
 - Grade: A
-- Description: The fundamentals of software development in C++, in this module you'll learn about generic features of languages, such as conditional statements, loops, functions, and so on.
+- Description: Software development through learning to design and implement applications in C++. The fundamentals of classes and objects, including key features such as class descriptions, constructors, methods and field, together with method implementation through assignment, selection and iterative control structures. 
 - Coursework: A program that emulated a fruit machine
 
 ---
@@ -27,7 +27,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 ## Year 1 Semester 1 - CMP109: Computer Networking 1
 
 - Grade: B+
-- Description: A basic overview of computer networking(TCP/IP, OSI, Protocols, Applications, etc.), is the 2nd of 2 modules that have an examined portion of the grade
+- Description: A basic understanding of computer networking.  
 - Coursework: 
     - Portfolio (50%):
         - Wireshark HTTP Analysis
@@ -41,25 +41,32 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ## Year 1 Semester 2 - CMP102: Software Design
 
-- Grade: 
-- Description: 
+- Grade: B 
+- Description: Some of the fundamental ideas of software engineering. Learn to develop and communicate designs for small and large-scale software systems.  
 - Coursework: 
+    - Unit 1 (50%):
+        - Quizzes (50%)
+        - Coding Exercises (30%)
+        - Software Design Exercises (20%)
+    - Unit 2 (50%: A program to simulate two players playing a game of darts
 
 ---
 
 ## Year 1 Semester 2 - CMP110: Introduction To Security
 
-- Grade: 
-- Description: 
+- Grade: B
+- Description: Introduction to the broad area of computer security within the context of current legal frameworks.  
 - Coursework: 
+    - Law Presentation (25%): A presentation on the computer misuse act and their equivalent in another country (we chose Russia, done in groups)
+    - Investigation (75%): An investigation into an aspect of security of my own choosing. For this project I did a deep dive into Buffer Overflows, the history, what they are, how they're used, and ultimately, how one can be triggered.
 
 ---
 
-## Year 1 Semester 2 - ELE007: Cities of The Future
+## Year 1 Semester 2 - ELE007: Cities of The Future [ELECTIVE]
 
-- Grade: 
-- Description: 
-- Coursework: 
+- Grade: A
+- Description: This module will introduce the concept of smart cities, which brings together hard infrastructure, social capital including local skills and community institutions, and (digital) technologies to fuel sustainable economic development and provide an attractive environment for all (Department for Business Innovation Skills October 2013)
+- Coursework: a group presentation on how cities of the future will develop in certain aspects, my group chose IoT devices 
 
 ---
 
