@@ -26,15 +26,15 @@ In order to create this system I had to abandon my much more powerful Windows ma
 
 ## QEMU
 
-[QEMU](https://www.qemu.org/) is a "generic and open source machine emulator and virtualizer." Before this project started I thought, naiively, that I could just download a raspberry pi iso file and pop it in VMware Workstation without a care in the world. As mentioned before, this obviously isn't the case. However, this (sort of) is the case for QEMU, thankfully! Its role as an emulator means that the hardware architecture required to run it can be... well... emulated with relative ease. I didn't actually have qemu installed at this point though so I thought I probably should get on that.
+[QEMU](https://www.qemu.org/) is a "generic and open source machine emulator and virtualizer." Before this project started I thought, naively, that I could just download a raspberry pi iso file and pop it in VMware Workstation without a care in the world. As mentioned before, this obviously isn't the case. However, this (sort of) is the case for QEMU, thankfully! Its role as an emulator means that the hardware architecture required to run it can be... Well... Emulated with relative ease. I didn't actually have QEMU installed at this point though so I thought I probably should get on that.
 
-The other packages I istalled alongside QEMU were:
+The other packages I installed alongside QEMU were:
 
 * `virt-manager`, a GUI interface for managing Virtual Machines
 * `virt-viewer`, graphical viewer for the guest OS display
 * `dnsmasq`, a lightweight package for network infrastructure over small networks (i.e. the connection between guest and host/outside world)
 * `vde2`, Virtual Distributed Ethernet, a toolbox to manage virtual networks.
-* `bridge-utils`, Utilities for configuring the Linux ethernet bridge (a way to connect two ethernet segments together via ethernet address as opposed to IP address)
+* `bridge-utils`, Utilities for configuring the Linux Ethernet bridge (a way to connect two Ethernet segments together via Ethernet address as opposed to IP address)
 * `openbsd-netcat`, jack-of-all-trades networking utility
 
 Because I'm a total noob I had to use [this](https://computingforgeeks.com/complete-installation-of-kvmqemu-and-virt-manager-on-arch-linux-and-manjaro/) extremely handy walkthrough. It should be noted though that the only issue I experienced here was in step 2, the installation of `libguestfs`. These issues being that the walkthrough encourages you to install through yaourt, which is a deprecated and insecure package manager for the Arch User Repository (AUR), after trying to be fancy and install through the standard `git clone [url.git]; cd [repo]; makepkg -si`, I encountered some issues to do with Java that to be quite honest I couldn't get around, so I instead opted for the Manjaro `Add/Remove packages` program, which functioned absolutely lovely.

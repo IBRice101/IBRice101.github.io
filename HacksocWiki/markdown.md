@@ -9,7 +9,7 @@ description: >-
 
 Markdown is an extremely lightweight markup language for formatting text in a plaintext editor. Places Markdown is used include Wikipedia's editor, GitHub (for documentation and readme files), online forums, blogs, Discord, and this wiki!
 
-The specification for the language was outlined in [this](https://daringfireball.net/projects/markdown/) blog post by John Gruber, however due to some ambiguities, there are a few different implementations that do certain things differently. The description in this article will give a basic overview of the language and aim to point out posible differences when they arise
+The specification for the language was outlined in [this](https://daringfireball.net/projects/markdown/) blog post by John Gruber, however due to some ambiguities, there are a few different implementations that do certain things differently. The description in this article will give a basic overview of the language and aim to point out possible differences when they arise
 
 ## Paragraphs
 
@@ -29,7 +29,7 @@ To create headings, simply add hash(es) (#) in front of a word or phrase.
 
 [^1]: Make sure to add a space after the hash, this is best practise and makes it easier for someone to read the markdown itself
 
-The number of hashes you add should correspond to the level of headings you want to use. so for example:
+The number of hashes you add should correspond to the level of headings you want to use. So for example:
 
 ```markdown
 # This would be heading level 1
@@ -37,7 +37,7 @@ The number of hashes you add should correspond to the level of headings you want
 ### This would be heading level 3
 ```
 
-And so on. These headings (as with a lot of Markdown's syntax) have a direct equivalent in HTML, the markup language that webpages use for formatting. The equivalent would be using the \<h1>, \<h2>, and \<h3> tags respectively
+And so on. These headings (as with a lot of Markdown's syntax) have a direct equivalent in HTML, the markup language that web pages use for formatting. The equivalent would be using the \<h1>, \<h2>, and \<h3> tags respectively
 
 ### Alternate Syntax
 
@@ -82,7 +82,6 @@ You can also create nested blockquotes using multiple \>s
 > this 
 > > looks
 > > > like
-> > >
 > > > > this
 
 Or in code:
@@ -105,11 +104,11 @@ and ~~like this~~
 
 ### Mixing
 
-It is possible in Markdown to mix different forms of emphasis, for example you can have a bold italic strikthrough-ed piece of text, which would look 
+It is possible in Markdown to mix different forms of emphasis, for example you can have a bold italic strikethrough'd piece of text, which would look 
 
 > ~~***like this***~~ 
 
-after the markdown is comipled, and like this in text editor:
+After the markdown is compiled, and like this in text editor:
 
 ```markdown
 > ~~***like this***~~
