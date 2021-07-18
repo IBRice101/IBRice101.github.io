@@ -72,49 +72,53 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ## Year 2 Semester 1 - CMP201: Data Structures and Algorithms 1
 
-- Grade: 
-- Description: 
-- Coursework: 
+- Grade: A
+- Description: Introduction to the standard data structures and algorithms that form the core of algorithmic thought in computer science that familiarises students with the idea of reasoning about the behaviour and performance of a computer programme.  
+- Coursework: Comparing the speed of two algorithms that perform the same task - I compared the Boyer-Moore and Rabin-Karp string searching algorithms 
 
 ---
 
 ## Year 2 Semester 1 - CMP204: Dynamic Web Development 1 
 
-- Grade: 
-- Description: 
+- Grade: A+
+- Description: Dynamic web applications, through client-side and server side internet development. 
 - Coursework: 
+    - Unit 1 (40%): An exclusively client side website themed around a band or musical artist of my choice - I picked Daft Punk 
+    - Unit 2 (60%): Building upon the previous site to integrate server side functionality using PHP and MariaDB (SQL etc.)
 
 ---
 
 ## Year 2 Semester 1 - CMP210: Ethical Hacking 1
 
-- Grade: 
-- Description: 
-- Coursework: 
+- Grade: A+
+- Description: This module develops a critical understanding of the tools used by Ethical Hackers to examine the security of a device or network. Students will systematically investigate a computer network for possible vulnerabilities.
+- Coursework: performing a security assessment on a small company network - I was given three VMs, a Kali one and two Windows Server ones that were vulnerable and was told to hack it following a specific methodology 
 
 ---
 
 ## Year 2 Semester 2 - CMP202: Data Structures and Algorithms 2
 
-- Grade: 
-- Description: 
-- Coursework: 
+- Grade: B+
+- Description: Introduction to some of the practical performance concerns in the selection and implementation of algorithms, using a range of case studies drawn from typical real-world applications. 
+- Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a Mandelbrot Set Generator based on code provided to me 
 
 ---
 
 ## Year 2 Semester 2 - CMP209: Digital Forensics 1
 
-- Grade: 
-- Description: 
-- Coursework: 
+- Grade: A
+- Description: The basic technology and techniques used to investigate cybercrime. A systematic approach to planning and implementing a comprehensive computer forensic investigation, particularly evidence collection and the reconstruction of events therefrom. 
+- Coursework: To perform a digital forensic analysis on a hard drive discovered at the scene of arrest of an alleged criminal, the target was illicit images of birds and other ornithological material such as PDFs, audio files, and videos.
 
 ---
 
 ## Year 2 Semester 2 - ELE012: Film and Game Genres
 
-- Grade: 
-- Description: 
+- Grade: A
+- Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
 - Coursework: 
+    - Unit 1 (50%): Arrival An Analysis Through The Lens Of Sci-Fi Convention
+    - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men
 
 ---
 
