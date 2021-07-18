@@ -10,7 +10,7 @@ A note: some folders have significantly less content than others, this because a
 
 I completed the course on the 18th of July 2021 at around 6PM :)
 
-The Git repo with all products of my work is available at https://github.com/IBRice101/automate-the-boring-stuff
+The Git repo with all products of my work is available at [my GitHub](https://github.com/IBRice101/automate-the-boring-stuff)
 
 ![My Certificate of Completion](media/Certificate.jpg)
 
