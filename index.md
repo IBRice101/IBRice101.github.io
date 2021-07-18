@@ -10,7 +10,7 @@ The home of all of my uni work, what to expect for future students, how I saw th
 
 ---
 
-## [Automate the Boring Stuff with Python](https://IBRice.github.io/MiniProjects/AutomateTheBoringStuffWithPython)
+## [Automate the Boring Stuff with Python](https://IBRice.github.io/MiniProjects/ATBSWP)
 
 When it was free for a little while in July 2021 I took a .5 hour course on automation in Python!
 
