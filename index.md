@@ -10,6 +10,12 @@ The home of all of my uni work, what to expect for future students, how I saw th
 
 ---
 
+## [Automate the Boring Stuff with Python](https://IBRice.github.io/MiniProjects/AutomateTheBoringStuffWithPython/)
+
+WHen it was free for a little while in July 2021 I took a .5 hour course on automation in Python!
+
+---
+
 ## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon)
 
 I did a little IoT Hacking this past week, here are my notes!
