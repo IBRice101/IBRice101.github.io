@@ -62,7 +62,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 2 - ELE007: Cities of The Future [ELECTIVE]](ELE007.md)
+## [Year 1 Semester 2 - ELE007: Cities of The Future \[ELECTIVE\]](ELE007.md)
 
 - Grade: A
 - Description: This module will introduce the concept of smart cities, which brings together hard infrastructure, social capital including local skills and community institutions, and (digital) technologies to fuel sustainable economic development and provide an attractive environment for all (Department for Business Innovation Skills October 2013)
@@ -112,7 +112,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 2 - ELE012: Film and Game Genres](ELE012.md)
+## [Year 2 Semester 2 - ELE012: Film and Game Genres \[ELECTIVE\]](ELE012.md)
 
 - Grade: A
 - Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
