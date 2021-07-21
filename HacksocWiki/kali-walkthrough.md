@@ -48,7 +48,7 @@ Next you'll need to give the VM a descriptive name, I've done with "Kali-Walkthr
 
 ![Naming the VM](../media/HacksocWiki/image-20210516200436301.png)
 
-Next you'll be asked to specify the size of the disk you want to use, 20gb is sufficient for the operating system as it is, with a little bit of extra room if required, however if you will be doing work on the machine that requires local file storage then it's probably best to boost that up to 30 or 40gb, depending on your own needs.
+Next you'll be asked to specify the size of the disk you want to use, 20GB is sufficient for the operating system as it is, with a little bit of extra room if required, however if you will be doing work on the machine that requires local file storage then it's probably best to boost that up to 30 or 40GB, depending on your own needs.
 
 ![Specify disk size](../media/HacksocWiki/image-20210516200459260.png)
 
@@ -98,13 +98,13 @@ Look over the partition disks page to make sure everything is in order, once you
 
 ![Continue partitioning](../media/HacksocWiki/image-20210516203141001.png)
 
-Now comes the part where you get to choose software that comes preinstalled on the operating system. The first thing to settle on is the desktop environment,with the options being XFCE \(the Kali default\), GNOME, and KDE Plasma. This oprion is primarily for aesthtic purposes \(and assorted built in programs etc\). If you don't already have a preference, I recommend selecting XFCE.
+Now comes the part where you get to choose software that comes pre-installed on the operating system. The first thing to settle on is the desktop environment,with the options being XFCE \(the Kali default\), GNOME, and KDE Plasma. This option is primarily for aesthetic purposes \(and assorted built in programs etc.). If you don't already have a preference, I recommend selecting XFCE.
 
-After this is the tools. I'd recommend keeping defult settings here as well and installing extra programs as and when you require them, this keeps the size of the VM to a reasonable level whilst also ensuring you have most of the tools you'll need.
+After this is the tools. I'd recommend keeping default settings here as well and installing extra programs as and when you require them, this keeps the size of the VM to a reasonable level whilst also ensuring you have most of the tools you'll need.
 
 ![Software selection - desktop environment and preinstalled software](../media/HacksocWiki/image-20210516203420303.png)
 
-Select "yes" when prompted to install the GRUB bootloader to your primary drive, this program runs as soon as you start the VM up and allows you to select what operting system you would like to boot. Install it to `/dev/sda`, which should be the only option other than "enter device manually"
+Select "yes" when prompted to install the GRUB bootloader to your primary drive, this program runs as soon as you start the VM up and allows you to select what operating system you would like to boot. Install it to `/dev/sda`, which should be the only option other than "enter device manually"
 
 ![Install GRUB bootloader](../media/HacksocWiki/image-20210516205213203.png)
 

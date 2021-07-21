@@ -4,7 +4,19 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at Aberta
 
 ---
 
-## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon.md)
+## [University Work](https://IBRice101.github.io/Uni/)
+
+The home of all of my uni work, what to expect for future students, how I saw the modules themselves, and how I did the coursework
+
+---
+
+## [Automate the Boring Stuff with Python](https://IBRice101.github.io/MiniProjects/ATBSWP)
+
+When it was free for a little while in July 2021 I took a .5 hour course on automation in Python!
+
+---
+
+## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon)
 
 I did a little IoT Hacking this past week, here are my notes!
 
@@ -12,7 +24,7 @@ I did a little IoT Hacking this past week, here are my notes!
 
 ## [My Hacksoc Wiki contributions](https://IBRice101.github.io/HacksocWiki)
 
-I've been contributing a little bit to the Abertay Hacking Society wiki, here's a bit of my work (i.e. all the articles I wrote myself), take a loot!
+I've been contributing a little bit to the Abertay Hacking Society wiki, here's a bit of my work (i.e. all the articles I wrote myself), take a look!
 
 ---
 
@@ -28,11 +40,6 @@ Another CTF walkthrough I wrote for a single section of the Hackback2 competitio
 
 ## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](https://IBRice101.github.io/CTFs/c4ptur3-th3-fl4g)
 A walkthrough I wrote for the first CTF I did back in October 2019, go easy on me I was only a babby hacker then lol
-
----
-
-## [Linux From Scratch!](https://IBRIce101.github.io/LFS/)
-The home directory of my journey from sucking at something (Linux) to being sorta good at something (also Linux), genuinely excited about this project, and I hope you are too! [Currently on back-burner]
 
 ---
 

@@ -9,7 +9,7 @@ description: >-
 
 ![Z Shell Logo](../media/HacksocWiki/zsh-logo.jpg)
 
-the Z shell, often called Zsh, is a Unix shell, (a program that works as a text-based interface between a user and a computer) based heavily on the Bourne Shell (`sh`), and the Bourne Again shell (`bash`). This article will give an introduction to the shell, explain the benefits of it, and then walkthrough the installation and configuration procedure.
+The Z shell, often called Zsh, is a Unix shell, (a program that works as a text-based interface between a user and a computer) based heavily on the Bourne Shell (`sh`), and the Bourne Again shell (`bash`). This article will give an introduction to the shell, explain the benefits of it, and then walkthrough the installation and configuration procedure.
 
 ## Benefits of Zsh
 
@@ -39,7 +39,7 @@ Then simply make it your default shell by inputting the following command:
 chsh -s $(which zsh); reboot
 ```
 
-A little note: this command is a bit interesting because we're actually running three commands here, `$(which zsh)` stores the output of the `which zsh` command in a variable, on which the chsh -s command is run, immediately followed by a semicolon, the symbol for separated commands in most languages (including bash script), and then `reboot`. Interesting stuff! (at least to me, a nerd lol)
+A little note: this command is a bit interesting because we're actually running three commands here, `$(which zsh)` stores the output of the `which zsh` command in a variable, on which the `chsh -s` command is run, immediately followed by a semicolon, the symbol for separated commands in most languages (including bash script), and then `reboot`. Interesting stuff! (at least to me, a nerd lol)
 
 ## Base Configuration
 
@@ -57,7 +57,7 @@ First we come to the history configuration menu. Another feature of Zsh is the h
 
 ![History Configuration menu](../media/HacksocWiki/zsh-3.png)
 
-Next, the completion system config page. This system, as the page says, "allows you to complete commands, arguments, and special shell syntax such as variables". the compsys, as it's called, is one of the main attractions of zsh in my view, and as a result is worth the slight increase in startup time that it affords upon opening.
+Next, the completion system config page. This system, as the page says, "allows you to complete commands, arguments, and special shell syntax such as variables". The `compsys`, as it's called, is one of the main attractions of zsh in my view, and as a result is worth the slight increase in startup time that it affords upon opening.
 
 ![The compsys config page that allows you to choose whether to turn on completion or not](../media/HacksocWiki/zsh-4.png)
 
@@ -65,7 +65,7 @@ After this comes the Default editing configuration, wherein we can choose betwee
 
 ![Default editing config menu](../media/HacksocWiki/zsh-5.png)
 
-And then that's it! You've officially switched to Zsh! you can stop here, if you wish, however a downside (if you can call it that) of zsh is that in its stock, out-of-the-box state, it's pretty ugly and relatively featureless, you *can* do whatever you like on here... bu tit's a matter of whether you *want* to. Because of this, the next section will be on customisation, making the Z shell look pretty.
+And then that's it! You've officially switched to Zsh! You can stop here, if you wish, however a downside (if you can call it that) of zsh is that in its stock, out-of-the-box state, it's pretty ugly and relatively featureless, you *can* do whatever you like on here... But it's a matter of whether you *want* to. Because of this, the next section will be on customisation, making the Z shell look pretty.
 
 ![Zsh base configuration complete! Although it feels a little empty in here, doesn't it?](../media/HacksocWiki/zsh-6.png)
 
@@ -89,7 +89,7 @@ In order to add plugins to zsh through here, all we have to do is open the `.zsh
 
 ![.zshrc file in vim, with a bunch of plugins added (excuse the stock vim config, I hadn't gotten around to editing my .vimrc yet on this vm)](../media/HacksocWiki/zsh-8.png)
 
-Now we move on to the theme, and really there's only one choice of zsh theme, and that is [powerlevel10k](https://github.com/romkatv/powerlevel10k), take one look at the screenshots from the github repo and tell me that that isn't the best looking, most customisable option out there for shells. I bet you won't be able to. In particular I like the full `pwd` style file path display and the timer that shows how long it took for a program to execute. 
+Now we move on to the theme, and really there's only one choice of zsh theme, and that is [powerlevel10k](https://github.com/romkatv/powerlevel10k), take one look at the screenshots from the GitHub repo and tell me that that isn't the best looking, most customisable option out there for shells. I bet you won't be able to. In particular I like the full `pwd` style file path display and the timer that shows how long it took for a program to execute. 
 
 We can install p10k using the oh my zsh manager and the following command:
 
@@ -97,7 +97,7 @@ We can install p10k using the oh my zsh manager and the following command:
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 ```
 
-after acquiring it we change the theme from "robbyrussell" to "powerlevel10k/powerlevel10k" in the .zshrc, then reboot, and then we'll be taken into the configuration menu on next terminal startup, like so:
+After acquiring it we change the theme from "robbyrussell" to "powerlevel10k/powerlevel10k" in the .zshrc, then reboot, and then we'll be taken into the configuration menu on next terminal startup, like so:
 
 ![First page of the config wizard](../media/HacksocWiki/zsh-9.png)
 
@@ -135,7 +135,7 @@ Next we come to instant prompt, this feature allows for plugins to be quietly lo
 
 ![Choose prompt mode](../media/HacksocWiki/zsh-17.png)
 
-Finally comes the option to save to the .zshrc file, which will permanently save your options (intil you come along and edit them agian of course). Once you're happy with everything you've dobe, hit y, and you'll be thrown into the final form of the shell.
+Finally comes the option to save to the .zshrc file, which will permanently save your options (until you come along and edit them again of course). Once you're happy with everything you've done, hit y, and you'll be thrown into the final form of the shell.
 
 ![Apply the changes to the .zshrc](../media/HacksocWiki/zsh-18.png)
 

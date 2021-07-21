@@ -5,38 +5,38 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 ## Checklist
 
 - [x] Gain remote access to the system
-  - cracked wifi password to access the network
+  - cracked Wi-Fi password to access the network
 - [x] Gain command line access
-  - cracked ssh password for default user to gain root shell
+  - cracked SSH password for default user to gain root shell
 - [x] Set clock to correct time
-  - Turned off auto time syncronisation and set the time manually
+  - Turned off auto time synchronisation and set the time manually
 - [x] Access services through web browser
   - once connected to the network, connected to the http web servers using the ports on which there was a server being hosted, found 3 sites, one of which is an admin page
-- [ ] Crack password for site and login to lorawan admin page
-- [ ] Find out how the network server converts lorawan messages to json
+- [ ] Crack password for site and login to LoRaWAN admin page
+- [ ] Find out how the network server converts LoRaWAN messages to JSON
 - [ ] Find out how the messages are being routed and perform a MITM attack
 - [x] Obtain source code running on the sensors
-  - dound `developer` account with directory `monitoring`, which contained code for the site
+  - found `developer` account with directory `monitoring`, which contained code for the site
 - [ ] Infer info about the office outwith the scope of the project
 - [x] Exploit default credentials
   - `pi` was the username for the raspberry pi, which is the default username
 
 ## Begin
 
-- Discovered WiFi signal
+- Discovered Wi-Fi signal
   - SSID: IoT-Demo-06
   - Security: WPA2-PSK
   - MAC Address (BSSID): B8:27:EB:B8:BB:F1
 
 ## Capturing Handshake
 
-- ran `iwconfig` and found adapter name `wlp0s20f0u3` (using usb wifi adapter)
-- `sudo airmon-ng check kill; sudo airmon-ng start wlp0s20f0u3` which killed processes, disconnected me, then started the interface `wlp0s20f0u3mon` in monnitor mode
+- ran `iwconfig` and found adapter name `wlp0s20f0u3` (using USB Wi-Fi adapter)
+- `sudo airmon-ng check kill; sudo airmon-ng start wlp0s20f0u3` which killed processes, disconnected me, then started the interface `wlp0s20f0u3mon` in monitor mode
 - ran `sudo airodump-sg wlp2s0mon` to capture BSSID for IoT-Demo-06 (B8:27:EB:B8:BB:F1)
 - ran the command `sudo airodump-ng -c 7 --bssid B8:27:EB:B8:BB:F1 -w WPAcrack wlp0s20f0u3mon --ignore-negative-one`
   - `-c` determines the channel for the wireless network
   - `--bssid` is the MAC address for the access point
-  - `-w` is the file name prefix for the file which will contain the auth handshake
+  - `-w` is the file name prefix for the file which will contain the authorisation handshake
   - `wlp0s20f0u3mon` is the wireless interface
   - `--ignore-negative-one` fixes an error message
 - captured handshake `WPA2crack-01.cap`
@@ -80,7 +80,7 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 - Turned on Wireshark Monitoring for 5 minutes on the network to see what I could find
   - saved to `kit5min.pcapng`
 - Found 2 devices at `192.168.66.1` and `192.168.66.146`
-- packet 41 tells us that the sender (`192.168.66.1`) is the raspbery pi device, the other device is my laptop
+- packet 41 tells us that the sender (`192.168.66.1`) is the Raspberry Pi device, the other device is my laptop
 
 ### Nmap
 
@@ -92,7 +92,7 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
   - 1883, mqtt
   - 4369, epmd
   - Also showed 5 additional unknown ports open
-- finally ran `nmap -sT -p- -vv -A 192.168.66.1` to gather OS information, versions, scripts, and traceroute for the afforementioned ports
+- finally ran `nmap -sT -p- -vv -A 192.168.66.1` to gather OS information, versions, scripts, and traceroute for the aforementioned ports
   - OS: Raspbian
   - Port 22:
     - OpenSSH 7.9p1 Raspbian 10+deb10u2+rpt1 (protocol 2.0)
@@ -104,14 +104,14 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
   - Port 4369:
     - epmd
     - Erlang Port Mapper Daemon
-    - lorawan node 41199
+    - LoRaWAN node 41199
   - Port 7245:
     - http
     - Werkzeug httpd 0.14.1 (Python 2.7.16)
     - Temperature web server
   - Port 8080
     - Cowboy httpd
-    - lorawan server
+    - LoRaWAN server
     - Cowboy server header
   - port 8245:
     - Werkzeug httpd 0.14.1 (Python 2.7.16)
@@ -122,14 +122,14 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 - Determined the IP address of the target
 - Presumed default credentials
 - ran `hydra -l pi -P words_small.txt ssh://192.168.66.1`
-  - pi is the default username on raspbian
-  - presuming the password is in the afforementioned words_small.txt wordlist
+  - pi is the default username on Raspbian
+  - presuming the password is in the aforementioned `words_small.txt` wordlist
   - valid credentials found
     - host: 192.168.66.1
     - login: pi
     - password: sourcetec
 - found another user, `developer`, repeated process
-  - not necessarily required because pi is a root user, makes gui file browsing/exfil easier tho
+  - not necessarily required because pi is a root user, makes GUI file browsing/exfiltration easier though
   - no valid password discovered
 
 ## Enumeration
@@ -139,7 +139,7 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 - ran `curl "https://github.com/diego-treitos/linux-smart-enumeration/raw/master/lse.sh" -Lo lse.sh;chmod 700 lse.sh` to get an enumeration tool called lse
 - Intent of using lse is to get a basic overview for further analysis
 - ran `scp -r ~/Downloads/lse pi@192.168.66.1:~/Downloads/lse` to get the lse script to the remote device
-- ran the script and outputted the contents to a txt file which i scp'd back to the host devce for analysis
+- ran the script and outputted the contents to a .txt file which I SCP'd back to the host device for analysis
 
 ### Dirbuster
 
@@ -237,7 +237,7 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 
 ### Nikto
 
-- Nikto is a tool to scan web sservers for known vulnerabilities
+- Nikto is a tool to scan web servers for known vulnerabilities
 - Pointed it at port 8080 to check for possible methods of entry for the admin page
 - Vulnerabilities found:
   - The anti-clickjacking X-Frame-Options header is not present.
@@ -246,8 +246,8 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 
 ### Simple Search and Exfiltration
 
-- ran `tree -a` command in the root dir to get an overview of all files on the device, outputted to text file for review.
-  - Found lorawan server in tree, hosted using cowboy (erlang OTP web server)
+- ran `tree -a` command in the root directory to get an overview of all files on the device, outputted to text file for review.
+  - Found LoRaWAN server in tree, hosted using cowboy (erlang OTP web server)
 - collected interesting files into a directory called `Exfil`
   - cache and config files for chromium from `pi` user, as well as other misc files
   - directory called monitoring in `developer`
@@ -256,5 +256,5 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 
 ## Misc
 
-- **NOTE**, exploitstage was not practical to reach in the short time available, restructure report given the work done
+- **NOTE**, exploit stage was not practical to reach in the short time available, restructure report given the work done
 
