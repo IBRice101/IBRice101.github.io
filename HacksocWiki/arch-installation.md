@@ -1,6 +1,6 @@
 # Installing Arch Linux
 
-_By_ [_Isaac_](../../../members/members/isaac.md)
+_By_ _Isaac_
 
 Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design. 
 

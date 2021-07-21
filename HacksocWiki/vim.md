@@ -7,7 +7,7 @@ description: >-
 
 # Vim
 
-*By [Isaac](../../../members/isaac.md)*
+*By Isaac*
 
 ![Vim with the Gruvbox Dark Theme installed](../media/HacksocWiki/vim-gruvbox.png)
 

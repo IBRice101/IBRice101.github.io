@@ -5,7 +5,7 @@ description: >-
 
 # Zsh
 
-*By [Isaac](../../../members/isaac.md)*
+*By Isaac*
 
 ![Z Shell Logo](../media/HacksocWiki/zsh-logo.jpg)
 
