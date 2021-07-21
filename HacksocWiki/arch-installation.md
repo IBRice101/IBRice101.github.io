@@ -4,7 +4,7 @@ _By_ _Isaac_
 
 Arch Linux is a "lightweight and flexible" Linux distribution that adheres to the KISS (keep it simple, stupid) principle of design. 
 
- ## Why Arch?
+## Why Arch?
 
 Arch's inherent customisability and lightweight design means it's the distro of choice for many users who like to have a lot of control over their operating system, the ability to choose exactly what packages you want, what desktop environment, services, and components, it's all up to you in Arch.
 
@@ -185,7 +185,7 @@ Create and edit a file located at `/etc/systemd/network/20-wired.network` and ad
 [Network] DHCP=yes
 ```
 
-The network configuration is now complete. 
+The network configuration is now complete.
 
 Change your password using the `passwd` command
 
@@ -216,4 +216,3 @@ After this you can follow the Arch Wiki's [General Recommendations](https://wiki
 Happy Arch-ing! :)
 
 ![](../media/HacksocWiki/arch-logo.png)
-
