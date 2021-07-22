@@ -148,7 +148,7 @@ To specify time zone, enter
 ln -sf /usr/share/zoneinfo/Europe/London /etc/localtime
 ```
 
-Next, you should install a text editor of your choice ([I use vim](../tools/vim.md)) by running
+Next, you should install a text editor of your choice ([I use vim](https://ibrice101.github.io/HacksocWiki/vim)) by running
 
 ```sh
 pacman -S [editor] # generic
