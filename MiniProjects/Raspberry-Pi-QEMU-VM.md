@@ -1,4 +1,4 @@
-# Linux From Scratch: Raspberry Pi style - Part 0: Prerequisites
+# Downloading Raspberry Pi OS in a QEMU VM
 
 ## Intro
 
