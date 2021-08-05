@@ -47,7 +47,7 @@ A walkthrough I wrote for the first CTF I did back in October 2019, go easy on m
 
 My [twitter](https://twitter.com/IBRice101/)
 
-My [linkedin](https://www.linkedin.com/in/isaac-b-5b6149138/)
+My [linkedin](www.linkedin.com/in/izbr)
 
 My email: izbr [at] protonmail [dot] com
 
