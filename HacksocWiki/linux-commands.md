@@ -5,7 +5,7 @@ description: >-
 
 # Linux Commands for Beginners
 
-*By Isaac)*
+*By Isaac*
 
 This article will describe some basic commands that you may use on a regular basis in Linux.
 

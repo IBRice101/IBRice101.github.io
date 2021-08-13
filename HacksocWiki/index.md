@@ -2,6 +2,20 @@
 
 Here's a list of all of the articles I wrote for the [hacksoc wiki](https://wiki.hacksoc.co.uk), enjoy!
 
+---
+
+## [Subnetting](subnetting.md)
+
+Using a very good video tutorial ([available here](https://www.youtube.com/watch?v=ecCuyq-Wprc)) to learn the process of Subnetting
+
+---
+
+## [Installing Arch](arch-installation.md)
+
+Installing Arch Linux, a How-To guide (not as hard as people make it out to be)
+
+---
+
 ## [ZSH](zsh.md)
 
 A look into the Z Shell, Bash's quicker, richer cousin who's just a bit less recognisable
