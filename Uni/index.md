@@ -2,7 +2,7 @@
 
 As you may have seen on my home page, I'm currently an Ethical Hacking student at Abertay Uni in Dundee. This page here is the home page for any and all big uni projects I've done :).
 
-DISCLAIMER: All work shown in this directory and subdirectories is mine and mine only, and is published purely for educational, guidance, and display purposes. Please do not copy or reproduce the work found in this section of the website, as you **WILL** be guilty of plagiarism and may be forced to resit a module or even expelled. You have been warned.
+DISCLAIMER: All work shown in this directory is mine and mine only, and is published purely for educational, guidance, and display purposes. Please do not copy or reproduce the work found in this section of the website.
 
 ---
 
