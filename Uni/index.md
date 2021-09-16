@@ -6,7 +6,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 1 - CMP101: Computer Hardware Architecture and Operating Systems (CHAOS)](CMP101.md)
+## Year 1 Semester 1 - CMP101: Computer Hardware Architecture and Operating Systems (CHAOS)
 
 - Grade: A
 - Description: Introduction to the core ideas of computer architecture for students studying the subject of computing, building a mental model of the functioning of a typical computer system that can be used to reason about system (hardware/software) behaviour.  
@@ -16,7 +16,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 1 - CMP104: Programming with C++](CMP104.md)
+## Year 1 Semester 1 - CMP104: Programming with C++
 
 - Grade: A
 - Description: Software development through learning to design and implement applications in C++. The fundamentals of classes and objects, including key features such as class descriptions, constructors, methods and field, together with method implementation through assignment, selection and iterative control structures. 
@@ -24,7 +24,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 1 - CMP109: Computer Networking 1](CMP109.md)
+## Year 1 Semester 1 - CMP109: Computer Networking 1
 
 - Grade: B+
 - Description: A basic understanding of computer networking.  
@@ -39,7 +39,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 2 - CMP102: Software Design](CMP102.md)
+## Year 1 Semester 2 - CMP102: Software Design
 
 - Grade: B 
 - Description: Some of the fundamental ideas of software engineering. Learn to develop and communicate designs for small and large-scale software systems.  
@@ -52,7 +52,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 2 - CMP110: Introduction To Security](CMP110.md)
+## Year 1 Semester 2 - CMP110: Introduction To Security
 
 - Grade: B
 - Description: Introduction to the broad area of computer security within the context of current legal frameworks.  
@@ -62,7 +62,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 1 Semester 2 - ELE007: Cities of The Future \[ELECTIVE\]](ELE007.md)
+## Year 1 Semester 2 - ELE007: Cities of The Future ELECTIVE
 
 - Grade: A
 - Description: This module will introduce the concept of smart cities, which brings together hard infrastructure, social capital including local skills and community institutions, and (digital) technologies to fuel sustainable economic development and provide an attractive environment for all (Department for Business Innovation Skills October 2013)
@@ -70,7 +70,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 1 - CMP201: Data Structures and Algorithms 1](CMP201.md)
+## Year 2 Semester 1 - CMP201: Data Structures and Algorithms 1
 
 - Grade: A
 - Description: Introduction to the standard data structures and algorithms that form the core of algorithmic thought in computer science that familiarises students with the idea of reasoning about the behaviour and performance of a computer programme.  
@@ -78,7 +78,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 1 - CMP204: Dynamic Web Development 1 ](CMP204.md)
+## Year 2 Semester 1 - CMP204: Dynamic Web Development 1 
 
 - Grade: A+
 - Description: Dynamic web applications, through client-side and server side internet development. 
@@ -88,7 +88,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 1 - CMP210: Ethical Hacking 1](CMP210.md)
+## Year 2 Semester 1 - CMP210: Ethical Hacking 1
 
 - Grade: A+
 - Description: This module develops a critical understanding of the tools used by Ethical Hackers to examine the security of a device or network. Students will systematically investigate a computer network for possible vulnerabilities.
@@ -96,15 +96,14 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 2 - CMP202: Data Structures and Algorithms 2](CMP202.md)
-
+## Year 2 Semester 2 - CMP202: Data Structures and Algorithms 2
 - Grade: B+
 - Description: Introduction to some of the practical performance concerns in the selection and implementation of algorithms, using a range of case studies drawn from typical real-world applications. 
 - Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a Mandelbrot Set Generator based on code provided to me 
 
 ---
 
-## [Year 2 Semester 2 - CMP209: Digital Forensics 1](CMP209.md)
+## Year 2 Semester 2 - CMP209: Digital Forensics 1
 
 - Grade: A
 - Description: The basic technology and techniques used to investigate cybercrime. A systematic approach to planning and implementing a comprehensive computer forensic investigation, particularly evidence collection and the reconstruction of events therefrom. 
@@ -112,7 +111,7 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
 
 ---
 
-## [Year 2 Semester 2 - ELE012: Film and Game Genres \[ELECTIVE\]](ELE012.md)
+## Year 2 Semester 2 - ELE012: Film and Game Genres ELECTIVE
 
 - Grade: A
 - Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
@@ -121,5 +120,4 @@ DISCLAIMER: All work shown in this directory and subdirectories is mine and mine
     - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men
 
 ---
-
 
