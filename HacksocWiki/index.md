@@ -1,6 +1,18 @@
 # My Hacksoc Wiki Contributions
 
-Here's a list of all of the articles I wrote for the [hacksoc wiki](https://wiki.hacksoc.co.uk), enjoy!
+Here's a list of all of the articles I wrote for the [hacksoc wiki](https://wiki.hacksoc.co.uk), enjoy! 
+
+---
+
+## [Google-Fu](google-fu.md)
+
+Learning how to properly google is (I would say) one of if not the most important things any budding techie should know how to do, here's my article on it
+
+---
+
+## [Vimium](vimium.md)
+
+Quick walkthrough of Vimium, the browser extension that allows you to navigate the internet using your keyboard only
 
 ---
 
