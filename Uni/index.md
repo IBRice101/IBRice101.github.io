@@ -1,6 +1,6 @@
 # My Uni Work
 
-As you may have seen on my home page, I'm currently an Ethical Hacking student at Abertay Uni in Dundee. This page here is the home page for any and all big uni projects I've done :).
+As you may have seen on my home page, I'm currently an Ethical Hacking student at Abertay Uni in Dundee. This page here is the home page for any and all big uni coursework projects I've done :).
 
 DISCLAIMER: All work shown in this directory is mine and mine only, and is published purely for educational, guidance, and display purposes. Please do not copy or reproduce the work found in this section of the website.
 
@@ -130,7 +130,7 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 - Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
 - Coursework:
     - Unit 1 (50%): Arrival An Analysis Through The Lens Of Sci-Fi Convention 
-            - Coursework can be found [here](media/ELE0012Assessment1.pdf)
+        - Coursework can be found [here](media/ELE0012Assessment1.pdf)
     - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men 
         - Coursework can be found [here](media/ELE0012Assessment2.pdf)
 
