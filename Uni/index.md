@@ -20,7 +20,7 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 
 - Grade: A
 - Description: Software development through learning to design and implement applications in C++. The fundamentals of classes and objects, including key features such as class descriptions, constructors, methods and field, together with method implementation through assignment, selection and iterative control structures. 
-- Coursework: A program that emulated a fruit machine Coursework can be found [here](https://github.com/IBRice101/CMP104-FruitMachine)
+- Coursework: A program that emulated a fruit machine - Coursework can be found [here](https://github.com/IBRice101/CMP104-FruitMachine)
 
 ---
 
@@ -57,8 +57,8 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 - Grade: B
 - Description: Introduction to the broad area of computer security within the context of current legal frameworks.  
 - Coursework: 
-    - Law Presentation (25%): A presentation on the computer misuse act and their equivalent in another country (we chose Russia, done in groups) - Coursework can be found [here](media/CompCrimeLaws.pdf)
-    - Investigation (75%): An investigation into an aspect of security of my own choosing. For this project I did a deep dive into Buffer Overflows, the history, what they are, how they're used, and ultimately, how one can be triggered. - Coursework can be found [here](media/BufferOverflowsTheWhatandHow.pdf)
+    - Law Presentation (25%): A presentation on the computer misuse act and their equivalent in another country (we chose Russia, done in groups) - Coursework can be downloaded [here](media/CompCrimeLaws.pdf)
+    - Investigation (75%): An investigation into an aspect of security of my own choosing. For this project I did a deep dive into Buffer Overflows, the history, what they are, how they're used, and ultimately, how one can be triggered. - Coursework can be downloaded [here](media/BufferOverflowsTheWhatandHow.pdf)
 
 ---
 
@@ -74,7 +74,7 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 
 - Grade: A
 - Description: Introduction to the standard data structures and algorithms that form the core of algorithmic thought in computer science that familiarises students with the idea of reasoning about the behaviour and performance of a computer programme.  
-- Coursework: Comparing the speed of two algorithms that perform the same task - I compared the Boyer-Moore and Rabin-Karp string searching algorithms - Coursework code can be found [here](https://github.com/IBRice101/CMP201Coursework) and presentation can be found [here](media/CMP201PresentationFINAL.pdf)
+- Coursework: Comparing the speed of two algorithms that perform the same task - I compared the Boyer-Moore and Rabin-Karp string searching algorithms - Coursework code can be found [here](https://github.com/IBRice101/CMP201Coursework) and presentation can be downloaded [here](media/CMP201PresentationFINAL.pdf)
 
 ---
 
@@ -92,14 +92,14 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 
 - Grade: A+
 - Description: This module develops a critical understanding of the tools used by Ethical Hackers to examine the security of a device or network. Students will systematically investigate a computer network for possible vulnerabilities.
-- Coursework: performing a security assessment on a small company network - I was given three VMs, a Kali one and two Windows Server ones that were vulnerable and was told to hack it following a specific methodology - Coursework can be found [here](media/1901124-EthicalHacking1Whitepaper.pdf)  
+- Coursework: performing a security assessment on a small company network - I was given three VMs, a Kali one and two Windows Server ones that were vulnerable and was told to hack it following a specific methodology - Coursework can be downloaded [here](media/1901124-EthicalHacking1Whitepaper.pdf)  
 
 ---
 
 ## Year 2 Semester 2 - CMP202: Data Structures and Algorithms 2
 - Grade: B+
 - Description: Introduction to some of the practical performance concerns in the selection and implementation of algorithms, using a range of case studies drawn from typical real-world applications. 
-- Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a Mandelbrot Set Generator based on code provided to me - Coursework code can be found [here](https://github.com/IBRice101/CMP202Coursework) and presentation can be found [here](media/MandelbrotPresentation_IsaacBR.pdf)
+- Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a Mandelbrot Set Generator based on code provided to me - Coursework code can be found [here](https://github.com/IBRice101/CMP202Coursework) and presentation can be downloaded [here](media/MandelbrotPresentation_IsaacBR.pdf)
 
 ---
 
@@ -107,7 +107,7 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 
 - Grade: A
 - Description: The basic technology and techniques used to investigate cybercrime. A systematic approach to planning and implementing a comprehensive computer forensic investigation, particularly evidence collection and the reconstruction of events therefrom. 
-- Coursework: To perform a digital forensic analysis on a hard drive discovered at the scene of arrest of an alleged criminal, the target was illicit images of birds and other ornithological material such as PDFs, audio files, and videos. - Coursework can be found [here](media/DigitalForensicsReport.pdf)
+- Coursework: To perform a digital forensic analysis on a hard drive discovered at the scene of arrest of an alleged criminal, the target was illicit images of birds and other ornithological material such as PDFs, audio files, and videos. - Coursework can be downloaded [here](media/DigitalForensicsReport.pdf)
 
 ---
 
@@ -116,8 +116,8 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 - Grade: A
 - Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
 - Coursework:
-    - Unit 1 (50%): Arrival An Analysis Through The Lens Of Sci-Fi Convention - Coursework can be found [here](media/ELE0012Assessment1.pdf)
-    - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men - Coursework can be found [here](media/ELE0012Assessment2.pdf)
+    - Unit 1 (50%): Arrival An Analysis Through The Lens Of Sci-Fi Convention - Coursework can be downloaded [here](media/ELE0012Assessment1.pdf)
+    - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men - Coursework can be downloaded [here](media/ELE0012Assessment2.pdf)
 
 ---
 
