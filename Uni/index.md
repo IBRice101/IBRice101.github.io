@@ -109,7 +109,7 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 ## Year 2 Semester 2 - CMP202: Data Structures and Algorithms 2
 - Grade: B+
 - Description: Introduction to some of the practical performance concerns in the selection and implementation of algorithms, using a range of case studies drawn from typical real-world applications. 
-- Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a Mandelbrot Set Generator based on code provided to me 
+- Coursework: To develop a program that makes use of either CPU or GPU multithreading - I made a CPU multithreaded Mandelbrot Set Generator based on code provided to me 
     - Coursework code can be found [here](https://github.com/IBRice101/CMP202Coursework) 
     - Presentation can be found [here](media/MandelbrotPresentation_IsaacBR.pdf)
 
@@ -136,3 +136,38 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 
 ---
 
+## Year 3 Semester 1 - CMP308: Professional Project Planning and Prototyping
+
+- Grade: A+ 
+- Description: Working within a team, students will learn about project management concepts that enable them to create a project proposal in a professional manner and present their work in a client pitch to a stakeholder. Project briefs are provided by industry/or research based problems. Students work within their team and interact with project stakeholders and gain an understanding of the principles of project management.
+- Coursework: The creation of a Graphical User Interface for the MOSS Code Plagiarism Checker for Dr Suzanne Prior, the Client, I was the project leader during the course of this module. This module is comprised of two parts, this one being the planning stage, as a result this coursework is extremely documentation-heavy
+  - Unit 1 (30%): A Presentation on the proposed product and end goal
+    - Coursework can be found [here](media/EH5-ClientPitch.pdf)
+  - Unit 2 (70%): The final proposal document, outlining the project, how it will be implemented, the processes therein, and so on.
+    - Coursework can be found [here](media/EH5GroupProjectProposal2021-2.pdf)
+
+---
+
+## Year 3 Semester 1 - CMP314: Computer Networking 2
+
+- Grade: B+
+- Description: Introduction to the ideas and concepts of how computers, mobile devices and gadgets communicate via a wide range of communications technologies with each other, and other devices. Module content: VLANS; STP; Static Routing; Subnetting and Variable Length Subnet Masks; Network Application protocols; Firewalls; Intrusion Detection Systems; Network Management.
+- Coursework: A network assessment and penetration test against a fictional company's computer network, wherein I fully mapped out a computer network's topology, addresses, routing, and subnets, as well as performed an in-depth security assessment, providing workable feedback on security vulnerabilities found within the network
+  - Coursework can be found [here](media/CMP314-Report.pdf)
+  
+---
+
+## Year 3 Semester 1 - CMP319 - Ethical Hacking 2 (Web App Hacking)
+
+- Grade: A+
+- Description: Advanced techniques used by Ethical Hackers to examine the security of web applications and mobile devices. Module content: Web Application Security; Web Application Technologies; Injecting Code; Bypassing Client Side Controls; Attacking Authentication; Reflected XSS Vulnerabilities, Stored XSS Vulnerabilities, DOM-Based XSS Vulnerabilities, HTTP Header Injection. Countermeasures to XSS; Web Server Security; Basics of mobile application security.
+- Coursework: A security assessment of a fake, semi-randomly generated vulnerable web application, in my case for "Astley Jewellers", following (as closely as possible) a web app testing methodology of my choice. In this case I chose the OWASP web app testing methodology. This assessment was in two equally weighted parts but one document, part 2 is differentiated from part 1 by being in purple.
+  - Unit 1 (50%): The penetration test (black box), following the OWASP web app testing methodology
+  - Unit 2 (50%): A source code analysis (white box), and overview of vulnerabilities present on the machine with countermeasures
+  - Courseowk can be found [here](media/1901124-WebAppTestingReport.pdf)
+
+---
+
+## At the end of Year 3 Semester 1 my GPA was: 4.0 (1st Class)
+
+---
