@@ -164,10 +164,10 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 - Coursework: A security assessment of a fake, semi-randomly generated vulnerable web application, in my case for "Astley Jewellers", following (as closely as possible) a web app testing methodology of my choice. In this case I chose the OWASP web app testing methodology. This assessment was in two equally weighted parts but one document, part 2 is differentiated from part 1 by being in purple.
   - Unit 1 (50%): The penetration test (black box), following the OWASP web app testing methodology
   - Unit 2 (50%): A source code analysis (white box), and overview of vulnerabilities present on the machine with countermeasures
-  - Courseowk can be found [here](media/1901124-WebAppTestingReport.pdf)
+  - Coursework can be found [here](media/1901124-WebAppTestingReport.pdf)
 
 ---
 
-## At the end of Year 3 Semester 1 my GPA was: 4.0 (1st Class)
+## At the end of Year 3 Semester 1 my GPA was: 4.167 (1st Class)
 
 ---
