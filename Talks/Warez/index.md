@@ -334,7 +334,7 @@ Okay... Breathe... We're coming to the end of the talk now, so I thought I'd lea
 
 So often .nfo files are created in software like PabloDraw (example below), which is a text editor that uses special ANSI characters to colour and shade specific areas of a text files for nice effects. A specific draw of PabloDraw as that it was the first ANSI/ASCII editor to allow for multi-user simultaneous editing, naturally a good thing for warez groups (through integration with pre-existing IRC channels). If you are of an artistic persuasion I really recommend giving it a go!!!
 
-![A sceenshot of the ANSI art editor, PabloDraw](media/PabloDrawScreenshot.png)
+![A sceenshot of the ANSI art editor, PabloDraw](WarezMedia/PabloDrawScreenshot.png)
 
 Anyway, onto the actual art
 
