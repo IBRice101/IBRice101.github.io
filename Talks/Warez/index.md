@@ -336,11 +336,11 @@ So often .nfo files are created in software like PabloDraw (example below), whic
 
 Anyway, onto the actual art
 
-![An NFO file from the group CONSPIR4CY](media/Conspiracy.png)
-![This is the hearder from the group Fairlight](media/fairlight.png)
-![Another from ACID](media/ACID.png)
-![A metal as fuck one from the group SATAN](media/SATAN.png)
-![And finally, one from the EXTREMELY recently defunct CODEX (RIP I guess)](media/codex.png)
+![An NFO file from the group CONSPIR4CY](WarezMedia/Conspiracy.png)
+![This is the hearder from the group Fairlight](WarezMedia/fairlight.png)
+![Another from ACID](WarezMedia/ACID.png)
+![A metal as fuck one from the group SATAN](WarezMedia/SATAN.png)
+![And finally, one from the EXTREMELY recently defunct CODEX (RIP I guess)](WarezMedia/codex.png)
 
 ## The End
 
