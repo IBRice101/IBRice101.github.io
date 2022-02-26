@@ -4,6 +4,14 @@ Hi there! I'm Isaac! I'm in my 2nd year of BSc (Hons.) Ethical Hacking at Aberta
 
 ---
 
+## [My talk on the Warez Scene](http://IBRice101.github.io/Talks/Warez/)
+
+On the 9th of March 2022 I gave (or am going to give depending on when you're reading this) a talk on Piracy and the Warez Scene at the Abertay Ethical Hacking Society, as is my way of going about things I first wrote an article fleshing out roughly what I was planning on saying, Please enjoy!
+
+Note: As I published this before I gave the talk, the information in this section is subject to change, including but not limited to the addition of new content and the slide deck for the talk.
+
+---
+
 ## [University Work](https://IBRice101.github.io/Uni/)
 
 The home of all of my uni work, what to expect for future students, how I saw the modules themselves, and how I did the coursework
