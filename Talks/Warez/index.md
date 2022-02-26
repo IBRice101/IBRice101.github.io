@@ -32,7 +32,7 @@ So... Lets get into this shit shall we?
 
 ## The Hierarchy
 
-![The Warez Scene Hierarchy simplified](media/WarezHierarchy.png)
+![The Warez Scene Hierarchy simplified](WarezMedia/WarezHierarchy.png)
 
 The scene operates using a fairly strict hierarchy of users and systems. At the top are Release Groups, the people who do the cracking and who release the cracks to the next group down, the Topsites. Topsites are private FTP Servers that operate as a series of centralised areas for the sharing of pirated media, these things are very strictly scene members only and operate to a series of rules that we can go over in just a moment. After them there are Couriers/Racers who move files between sites (and occasionally to P2P sites), under them are P2P sites, and finally, at the very bottom, (likely) you and I... Dirty Leechers.
 
