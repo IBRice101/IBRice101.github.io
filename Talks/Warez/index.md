@@ -16,15 +16,21 @@ Have you ever heard of or seen something that's been pirated, a piece of softwar
 
 The answer to this is... Or was... The Warez Scene. (Note: I'll be using present tense for this presentation as it is still around somewhat, but its nowhere near what it used to be, also getting very conflicting reports during my research about how active the scene still is at the moment, I suppose there's good reason for that lol, someone's gotta be cracking games tho)
 
+![The logo of BeatMastersInternational](WarezMedia/beatmastersinternational.png)
+
 ## The Scene
 
 The Warez Scene is an underground, extremely secretive, highly organised, worldwide network of pirate groups whose sole purpose is to obtain copyrighted materials (Warez) and break copy protection on them in order to distribute them freely.
+
+![THE INFINITE DARKNESS](WarezMedia/InfiniteDarkness.png)
 
 Lets start with a bit of an overview. 
 
 The Scene has been around for essentially as long as the Internet has, the first scene groups popped up on Bulletin Board Systems in the 70s and 80s. A lot of info I found during my research on textfiles.com (excellent resource by the way) was scene members complaining about how far the scene had fallen and how much better the good old days were... In 1995. As long as a community exists there will always be someone saying how much better it was in the past.
 
 Because the Scene has been around for so long, naturally, these guys have gotten REALLY good at what they do. The speed at which their activities go from initial access to a piece of software to full release on peer to peer sites like the pirate bay is astonishing, a couple of days maximum for reversing (unless there's a new piece of DRM, but we'll get back to that), followed by release to internal groups for validation, and then p2p access within maybe a few hours. This will be much more impressive to you at the end, I guarantee it.
+
+![the logo of Valhalla](WarezMedia/Valhalla.png)
 
 And don't get me wrong, this isn't some kind of dull distribution network, like someone sending the latest episode of a TV show to a group chat a day after release (not that I know anyone who'd do that). Scene rules guarantee quality releases almost 100% of the time. The concept of not trusting a download for fear of a bitcoin miner hidden in the crackfile is non-existent in the Scene. The rules also mean its pretty difficult to catch them, an agreed upon set of security measures actioned by a self-selecting group of highly technical people is, it turns out, EXTREMELY good for security. 
 
@@ -38,7 +44,11 @@ The scene operates using a fairly strict hierarchy of users and systems. At the 
 
 ### Release groups
 
+![Camelot](WarezMedia/camelot.png)
+
 Release groups, also known as Warez groups, are groups of individuals who are responsible both for the cracking of DRM protected video games and software, and the unauthorised publication of films, music, TV shows, books, and so on. Scene release groups follow a strict set of rules to ensure quality, which can be found [here](https://scenerules.org/) (I really recommend going through some of these, not because you want to learn to crack because the files in here don't really concern that, more to gain a good understanding of how tightly controlled things are, and also learn a thing or two about media, DAISY audiobooks are a good example). If these rules aren't followed tightly, the release is subject to being "nuked" or removed from topsites. Release Groups are known for publishing statements and information in text files with the extension .NFO (info), many of these contain excellent ASCII/ANSI art, which we'll go over later in the talk. Interesting and well-known examples of Release groups are:
+
+![Conspiracy's logo](WarezMedia/Conspiracy.jpg)
 
 - 3DM
 - CODEX
@@ -48,9 +58,13 @@ Release groups, also known as Warez groups, are groups of individuals who are re
 - Steam Underground
 - STEAMPUNKS
 
+![](WarezMedia/SteamPunks.jpg)
+
 ### Topsites
 
 Topsites are typically extremely secretive FTP servers with high storage capacity (typically in the tens of terabytes) and equally high transfer speeds (thousands of megabits per second, enough to transfer a BluRay in a few seconds) that store the cracked media for distribution amongst the scene groups and other explicitly authorised users. From what we've seen from topsites that have been taken down by the authorities, due to the high demand placed on these sites it's actually not terribly uncommon for them to be hosted in universities and other legitimate organisations, under the noses of administrators. 
+
+![a screenshot of a topsite's interface](WarezMedia/Topsite.png)
 
 Topsites often have two staff roles, Site Operators (SiteOps) who have root access to the server and associated IRC channel (an IRC Channel being an online stand-alone messaging server, kind of like Discord but without voice channels, they've been around longer than mos of us here lol) and determine who is allowed in and who isn't, like a discord server owner essentially. And Group Administrators, Gadmins, who as the name suggests have admin rights of certain groups. Other users include Affiliates, who are normally members of scene groups, and Couriers, who we'll go over in a moment.
 
@@ -62,11 +76,15 @@ Topsites often make use of a "credit system" that credits people data they're al
 
 ### Couriers/Racers
 
+![a lady in ansi art](WarezMedia/lady.png)
+
 Couriers are individuals or groups who's sole purpose is to take a release from a group and distribute it amongst various topsites. Couriering has more people within it than crackers, suppliers, and sites combined due to the relatively simple nature of the process.
 
 Due to the high volume of couriers, when a courier gains access to a topsite they're often expected to pass a "trial" so to speak, upload X amount of files within a typically short amount of time. Once access is granted couriers compete, or race, against one another to upload fresh media to topsites, these groups and individuals are then subsequently rewarded with credit for topsite downloads.
 
 ### P2P and Leechers
+
+![We're taking it to Defcon IV](WarezMedia/DefConIV.png)
 
 This is likely the stage that you are most familiar with, at some point after files are spread around the topsites, some couriers sometimes (read: almost always) decide to upload the cracks/miscellaneous files to peer to peer filesharing services, well known examples include The Pirate Bay, Kickass Torrents, and RARBG. These services (as I'm sure you know) aren't actually centralised servers that you can simply grab files from, like topsites (or most other websites that allow you to download content) are, they're more like an index of magnet links. On a high level, these sites allow you to access the files you want through a magnet link which opens a torrent client and downloads the file from a network of other connected users which already have the files themselves, known as "seeders", this is in contrast to "leechers", who gain access to the torrent but do not allow others to use the files they downloaded later on for their own torrent (v rude, but also understandable if you have data caps or don't want to get served with a copyright notice lol).
 
@@ -110,6 +128,8 @@ A more advanced measure many game developers in particular are taking is known a
 ## The Releases
 
 A "release" is simply a piece of cracked software that has been released onto a topsite, Release groups must follow a specific procedure which includes first ensuring the scene rules are followed with regards to encoding (see next section for more detail on the rules), after this they upload the release to a topsite, then issue a command to the topsite's IRC channel which announces the release. This initial release is known as a "pre", all other releases after this pre are nuked as duplicates, "dupes", however if there is a technical error or the file breaks the rules the pre is nuked, wherein other groups swoop in and attempt to publish a "PROPER" or "REPACK" release. 
+
+![The logo of the Nuke Council](WarezMedia/theNukeCouncil.png)
 
 From Wikipedia: 
 
