@@ -171,3 +171,38 @@ DISCLAIMER: All work shown in this directory is mine and mine only, and is publi
 ## At the end of Year 3 Semester 1 my GPA was: 4.167 (1st Class)
 
 ---
+
+## Year 3 Semester 2 - CMP309 - Software Development for Mobile Devices
+
+- Grade: TBA
+- Description: Software development practices to develop applications for a range of smart and mainly mobile devices. Learn to develop and evaluate the techniques used to implement mobile applications. Modules content: Background to Smart and Mobile Development; User Interfaces; Storage; Location awareness; Telephony SMS; Communication Networks; Security; Performance; Mobile Web Application Development.
+- Coursework: An Android Application that fulfils specific criteria. My app is "Moodr", a mood tracking and improvement application. More information available in the README.md of the github repo
+  - Coursework can be found [here](https://github.com/IBRice101/CMP309-Moodr)
+
+---
+
+## Year 3 Semester 2 - CMP311 - Professional Project Development and Delivery
+
+- Grade: TBA
+- Description: This module involves completing a team based development project or other technical investigation project, which was planned and initially developed in CMP308 (Professional Project Planning and Prototyping).
+- Coursework: Developing and delivering a Graphical User Interface fro the Moss Plagiarism Checking software.
+  - Unit 1 (30%): A presentation about the application
+    - Coursework can be found [here](media/EH5-ClientPitch2.pdf)
+  - Unit 2 (70%): A whitepaper describing the project
+    - Coursework can be found [here](media/Team_EH5_RNG_IBasque-Rice.pdf)
+
+---
+
+## Year 3 Semester 2 - CMP320 - Ethical Hacking 2
+
+- Grate: TBA
+- Description: This module develops a critical understanding analysis techniques used by Ethical Hackers to examine binary files and to provide the student with the opportunity to undertake the practical and development of an individual project.
+- Coursework:
+  - Unit 1 (50%): Developing a tutorial to illustrate a buffer overflow exploit on a vulnerable media player application
+    - Coursework can be found [here](media/1901124-VulnerableMediaPlayerExploit.pdf)
+  - Unit 2 (50%): A personal project in advanced ethical hacking. I selected APT malware reversing and static analysis.
+    - Coursework can be found [here](media/1901124-MiniProject.pdf)
+  
+---
+
+## At the end of Year 3 my GPA was: TBA (TBA Class)
