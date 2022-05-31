@@ -4,7 +4,7 @@ As you may have seen on my home page, I'm currently an Ethical Hacking student a
 
 DISCLAIMER: All work shown in this directory is mine and mine only, and is published purely for educational, guidance, and display purposes. Please do not copy or reproduce the work found in this section of the website.
 
-In the event that my work has provided guidance for you, however, a little tip by way of thatnks would be greatly appreciated :)
+However in the event that my work has provided guidance for you, a little tip by way of thanks would be greatly appreciated :)
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)
 
