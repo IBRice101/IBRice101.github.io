@@ -4,6 +4,12 @@ Here's a list of all of the articles I wrote for the [hacksoc wiki](https://wiki
 
 ---
 
+## [Radare2](radare2.md)
+
+A quick primer on Radare2, the free and open source reverse engineering framework with the world's biggest learning curve™
+
+---
+
 ## [Google-Fu](google-fu.md)
 
 Learning how to properly google is (I would say) one of if not the most important things any budding techie should know how to do, here's my article on it
