@@ -59,4 +59,6 @@ My [linkedin](www.linkedin.com/in/izbr)
 
 My email: izbr [at] protonmail [dot] com
 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)
+
 they/them :)
