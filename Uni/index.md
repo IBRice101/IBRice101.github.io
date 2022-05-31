@@ -1,6 +1,6 @@
 # My Uni Work
 
-As you may have seen on my home page, I'm currently an Ethical Hacking student at Abertay Uni in Dundee. This page here is the home page for any and all big uni coursework projects I've done :).
+As you may have seen on my home page, I'm currently an Ethical Hacking student at Abertay Uni in Dundee. This page here is the home page for any and all big uni coursework projects I've done.
 
 DISCLAIMER: All work shown in this directory is mine and mine only, and is published purely for educational, guidance, and display purposes. Please do not copy or reproduce the work found in this section of the website.
 
