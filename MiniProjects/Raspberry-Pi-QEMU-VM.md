@@ -50,3 +50,9 @@ qemu-system-arm -M versatilepb -cpu arm1176 -m 256 -kernel qemu-rpi-kernel/kerne
 ```
 
 If all of the steps in this guide are followed correctly (and I've followed them correctly because I wrote the bloody thing) then you should be in Raspberry Pi OS! Have a nice play around in there and have fun! 
+
+## Thank you for reading
+
+If you learned something from this, why not send me over a little tip by way of thanks? No pressure but it would be much appreciated :)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)

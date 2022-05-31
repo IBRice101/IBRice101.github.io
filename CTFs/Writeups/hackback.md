@@ -2,7 +2,7 @@
 
 (originally published Oct 27 2019)
 
-![tryhackme logo](../media/hackback/THMLogo.png)
+![tryhackme logo](media/THMLogo.png)
 
 This past weekend me and a few friends of mine competed in a UK-wide university CTF challenge called [HackBack2](https://tryhackme.com/room/hackback2), it was challenging beyond belief to even some fairly seasoned people, and as I’m only a first year Ethical Hacking student (as of the time of writing) I wasn't exactly blowing anyone away with my 1337-h4x0r skillz.
 
@@ -16,9 +16,9 @@ Well anyway, I thought I might as well do a bit of a write-up for this part of t
 
 Anyway, let’s just start.
 
-## [OSINT] Sometimes a little is a lot]
+## \[OSINT\] Sometimes a little is a lot
 
-![At symbol](../media/hackback/AtSymbol.png)
+![At symbol](media/AtSymbol.png)
 
 *johnson.lola1992@gmail.com*
 
@@ -40,7 +40,7 @@ After that, though things were a bit tougher. Because I tend to overthink things
 
 After about half an hour of this I did what I should have done in the first place, ran her details through the two main social medias I could access in the browser that I feel like most people have, Facebook and Twitter. Facebook didn't return much but Twitter returned a few, including one that immediately caught my eye. A picture of a galaxy as the profile image and… BINGO, the handle was @JLola1992, same initials, same order, same birth year, and when I found her profile the only person following er was an account that said it belonged to one of the founders of TryHackMe… That’s her alright.
 
-![Her twitter page with one, lonely tweet](../media/hackback/JLola1992Twitter.png)
+![Her twitter page with one, lonely tweet](media/JLola1992Twitter.png)
 
 Just from here we can already answer three questions, she’s a Professional **Photographer (Question 3)**, she has an **iPhone X (Question 4)**, and the capture was taken on **Oct 23rd (Question 6)**. Anything beyond this was going to be a touch more difficult, but not especially.
 

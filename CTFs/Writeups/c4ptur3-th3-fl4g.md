@@ -2,7 +2,7 @@
 
 (originally published Oct 17 2019)
 
-![The chart at the beginning of the CTF](../media/c4ptur3-th3-fl4g/THMgraph.png)
+![The chart at the beginning of the CTF](media/THMgraph.png)
 
 This is the first in my series of “Capture The Flag” walkthroughs for [tryhackme](https://www.tryhackme.com/), and as such I feel as if It’s probably best to start with a fairly easy CTF, that is [c4ptur3-th3-fl4g: A beginner level CTF challenge](https://tryhackme.com/room/c4ptur3th3fl4g), by dcdavidlee. This CTF Covers a few of the basics of what to expect in a CTF and is an excellent foundation for someone to build their skills over time.
 
@@ -24,7 +24,7 @@ Does the series of 1’s and 0’s give it away? This is binary, the “language
 
 I made use of [RapidTables’s Binary to Text Translator](https://www.rapidtables.com/convert/number/binary-to-ascii.html) for this question, which worked a treat.
 
-![Binary Translator](../media/c4ptur3-th3-fl4g/BinaryToText.png)
+![Binary Translator](media/BinaryToText.png)
 
 **Flag: lets try some binary out!**
 
@@ -36,7 +36,7 @@ There are several ways you’re able to tell apart Base32 from other bases, it�
 
 I used [Base32 Decode Online](https://emn178.github.io/online-tools/base32_decode.html).
 
-![Base 32 Decoder](../media/c4ptur3-th3-fl4g/Base32Decode.png)
+![Base 32 Decoder](media/Base32Decode.png)
 
 **Flag: base32 is super common in CTF’s**
 
@@ -46,7 +46,7 @@ This is in Base64, you can tell because lower case characters are included this 
 
 I used [Base64 Decode and Encode](https://www.base64decode.org/).
 
-![Base 64 Decoder](../media/c4ptur3-th3-fl4g/Base64Decode.png)
+![Base 64 Decoder](media/Base64Decode.png)
 
 **Flag: Each Base64 digit represents exactly 6 bits of data**
 
@@ -58,7 +58,7 @@ The way you can tell it’s in hex is the spacing between each couplet and the c
 
 I used [RapidTables](https://www.rapidtables.com/convert/number/hex-to-ascii.html) again for this conversion.
 
-![Hex to ASCII converter](../media/c4ptur3-th3-fl4g/HexToAscii.png)
+![Hex to ASCII converter](media/HexToAscii.png)
 
 **Flag: hexadecimal or base16?**
 
@@ -68,7 +68,7 @@ ROT13 is an extremely simple cipher where each letter in a phrase is “rotated�
 
 To speed things up, I used [rot13.com](https://rot13.com/).
 
-![Rot 13 Cipher](../media/c4ptur3-th3-fl4g/Rot13.png)
+![Rot 13 Cipher](media/Rot13.png)
 
 **Flag: Rotate me 13 places!**
 
@@ -78,7 +78,7 @@ This is a Rot47 cipher, it’s the same basic principle as the Rot13 but instead
 
 I used [dcode’s decoder](https://www.dcode.fr/rot-47-cipher) for this cipher
 
-![Rot 47 Cipher](../media/c4ptur3-th3-fl4g/Rot47Cipher.png)
+![Rot 47 Cipher](media/Rot47Cipher.png)
 
 **Flag: You spin me right round baby right round (47 times)**
 
@@ -88,7 +88,7 @@ It’s Morse code, Dots and dashes, you know? Just obvious I suppose, not much m
 
 I used [browserling’s Morse code decoder](https://www.browserling.com/tools/morse-to-text)
 
-![Morse Code to Text Converter](../media/c4ptur3-th3-fl4g/MorseToText.png)
+![Morse Code to Text Converter](media/MorseToText.png)
 
 **Flag: telecommunication encoding**
 
@@ -178,7 +178,7 @@ sudo apt-get install audacity
 
 Once installed, open the file given to you (called secretaudio.wav) and change the view from waveform to spectrogram in the menu with the downwards facing black triangle off to the side, like so:
 
-![Steganographic output in Audacity](../media/c4ptur3-th3-fl4g/Audacity.png)
+![Steganographic output in Audacity](media/Audacity.png)
 
 As you can see, it now displays the flag
 
@@ -192,8 +192,8 @@ Steganography is “The process of hiding a message or file within another messa
 
 I used [futureboy.us’s steganography decoder](https://futureboy.us/stegano/decinput.html) on the image, as you can see below:
 
-![The original image (stegosteg.jpg)](../media/c4ptur3-th3-fl4g/Stegosteg.png)
-![The steg decoder](../media/c4ptur3-th3-fl4g/StegDecoder.png)
+![The original image (stegosteg.jpg)](media/Stegosteg.png)
+![The steg decoder](media/StegDecoder.png)
 
 **Flag: SpaghettiSteg**
 
@@ -210,3 +210,7 @@ I opened up the file in a text editor, scrolled to the bottom, and found the two
 ## Conclusion
 
 This CTF Is pretty good, and works an absolute treat for beginners, I’d recommend it to my nan, if she ever wanted to become a 1337 h4x0r.
+
+If you learned something from this, why not send me over a little tip by way of thanks? No pressure but it would be much appreciated :)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)

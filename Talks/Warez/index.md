@@ -366,3 +366,7 @@ Anyway, onto the actual art
 ## The End
 
 If you have any questions or just want to chat, my twitter is probably the best place to reach out to me, [@IBRice101](https://twitter.com/IBRice101), otherwise, catch me at the pub!
+
+If you learned something from this, why not send me over a little tip by way of thanks? No pressure but it would be much appreciated :)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)

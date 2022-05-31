@@ -6,7 +6,7 @@ description: >-
 
 # Vimium
 
-_By_ [_Isaac_](../../../members/members/isaac.md)
+_By_ _Isaac_
 
 [Vimium](https://vimium.github.io/) is a web browser extension available for Chrome-based browsers and Firefox that allows users to make use of Vim-like keybindings for navigating the internet.
 
@@ -25,19 +25,19 @@ Important note: enabling Vimium does not disable mouse input, at any time you ca
 
 After installation, users can press `?` when in normal mode to bring up a list of default commands at any point, like so:
 
-![the advanced list of commands for Vimium](../../../.gitbook/assets/vimiumHelp.png)
+![the advanced list of commands for Vimium](media/vimiumHelp.png)
 
 ### Link Navigation
 
 By far the most common keypress you're likely to use is `f`, this button brings up a series of further keypresses over links in order for you to click them, like so:
 
-![the Vimium f menu](../../../.gitbook/assets/vimiumf.png)
+![the Vimium f menu](media/vimiumf.png)
 
 Users can also navigate to other sites in Vimium using what's called the "Vomnibar", this is done by typing either `o` for a generic search \(using either your default browser or a url\), and `b` to access certain bookmarks.
 
-![using the &quot;Vomnibar&quot; for a generic search using o](../../../.gitbook/assets/vimiumVomnibar.png)
+![using the &quot;Vomnibar&quot; for a generic search using o](media/vimiumVomnibar.png)
 
-![doing the same with a bookmark search](../../../.gitbook/assets/vimiumVomnibarBookmark.png)
+![doing the same with a bookmark search](media/vimiumVomnibarBookmark.png)
 
 As with all commands that allow users to navigate to another link, combining this command with `shift` will open the selected link in a new tab.
 

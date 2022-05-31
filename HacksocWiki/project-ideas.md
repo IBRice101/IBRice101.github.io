@@ -2,6 +2,8 @@
 
 ## Description
 
+_By_ _Isaac_
+
 This article is a selection of project ideas and concepts, initially posted by the user [LacViet](https://www.cplusplus.com/user/LacViet/) on the C++ forums (Post [here](https://www.cplusplus.com/forum/beginner/3473/)) designed to get a user from knowing absolutely nothing about a programming language (C++ in this example but it works for any) to relative competency.
 
 ## Beginner

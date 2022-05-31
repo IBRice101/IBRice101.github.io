@@ -258,3 +258,8 @@ From the 2st to the 28th of June 2021 I took part in an IoT device hackathon pro
 
 - **NOTE**, exploit stage was not practical to reach in the short time available, restructure report given the work done
 
+## Thank you for reading!
+
+If you learned something from this, why not send me over a little tip by way of thanks? No pressure but it would be much appreciated :)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)

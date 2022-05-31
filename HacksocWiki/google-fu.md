@@ -1,6 +1,6 @@
 # Google-Fu
 
-_By_ [_Isaac_](/members/members/isaac.md)
+_By_ _Isaac_
 
 As a technical person, as funny as it might sound, there is one skill that is as essential as any other to know if you're to be as successful as possible, and that is being able to google well (or DuckDuckGo well, or... bing well? lol).
 

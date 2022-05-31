@@ -7,7 +7,7 @@ description: >-
 
 *By Isaac*
 
-![Vim with the Gruvbox Dark Theme installed](../media/HacksocWiki/vim-gruvbox.png)
+![Vim with the Gruvbox Dark Theme installed](media/vim-gruvbox.png)
 
 Vim is an open-source, terminal based text editor originally released in 1991 by Dutch programmer Bram Molenaar. It is an improvement on Bill Joy's original vi text editor (hence the name vim, standing for vi iMproved), which was originally published in 1976 for some essentially prehistoric computer systems.
 
@@ -319,5 +319,5 @@ Commands are case sensitive:
 
 
 
-![:wq!](../media/HacksocWiki/vim-logo.png)
+![:wq!](media/vim-logo.png)
 

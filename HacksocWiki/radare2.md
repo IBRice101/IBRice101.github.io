@@ -4,9 +4,9 @@ description: a walkthrough and usage guide for the Radare2 reverse engineering f
 
 # Radare2
 
-_By_ [_Isaac_](../../../members/members/isaac.md)
+_By_ _Isaac_
 
-![The Radare2 Logo](.gitbook\assets\r2logo.png)
+![The Radare2 Logo](media/r2logo.png)
 
 ## What is it?
 

@@ -32,11 +32,11 @@ A note: **DO NOT** skip anything in here, missing one thing early on can have ba
 
 On booting for the first time, you should see this screen:
 
-![Arch initial boot screen](../media/HacksocWiki/arch-1.png)
+![Arch initial boot screen](media/arch-1.png)
 
 hit enter or wait 15 seconds, you should then be presented with this screen (a bash shell):
 
-![Arch installer shell](../media/HacksocWiki/arch-2.png)
+![Arch installer shell](media/arch-2.png)
 
 Now we can begin entering commands!
 
@@ -72,7 +72,7 @@ cfdisk /dev/sda
 
 When the following window shows up, select GPT
 
-![](../media/HacksocWiki/arch-3.png)
+![](media/arch-3.png)
 
 You should now see a window containing a menu with single line containing the word `Free space`. This is the partition menu, we will be creating three partitions here:
 
@@ -209,10 +209,10 @@ umount -R /mnt
 reboot
 ```
 
-![Grub bootloader on successful installation](../media/HacksocWiki/arch-4.png)
+![Grub bootloader on successful installation](media/arch-4.png)
 
 After this you can follow the Arch Wiki's [General Recommendations](https://wiki.archlinux.org/title/General_recommendations) page with regards to what do to with a fresh install, or take a look at the [List of Applications](https://wiki.archlinux.org/title/List_of_applications) on there, too
 
 Happy Arch-ing! :)
 
-![](../media/HacksocWiki/arch-logo.png)
+![](media/arch-logo.png)
