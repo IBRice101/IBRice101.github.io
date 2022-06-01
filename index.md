@@ -4,6 +4,12 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [Tower CTF](CTFs/Creations/tower.md)
+
+My first foray into the world of CTFs, a little reverse engineering task. **NOTE**: This article contains spoilers for the CTF, if you would like to try your hand at the CTF before reading the article, the executable can be found [here](CTFs/Creations/media/tower.out).
+
+---
+
 ## [My talk on the Warez Scene](http://IBRice101.github.io/Talks/Warez/)
 
 On the 9th of March 2022 I gave a talk on Piracy and the Warez Scene at the Abertay Ethical Hacking Society, as is my way of going about things I first wrote an article fleshing out roughly what I was planning on saying, Please enjoy!
