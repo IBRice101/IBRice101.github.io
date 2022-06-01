@@ -40,6 +40,12 @@ The flag itself is stored as a stack string in the binary. In the `stackString()
 
 Once the code was written it was compiled with GCC and the -O0 flag (no optimisations), and its symbol table was removed, ensuring no meaningful variables or function names could slip though. 
 
+### Iteration
+
+Thanks to Praeceps on Discord for the suggestion, removed the obfuscation function that gets optimised away by GCC and replaced it with a second XOR (like the flag) for the password
+
+May also hash/checksum the flag decrypt output then check that
+
 ## Walkthrough
 
 [COMING SOON!]
