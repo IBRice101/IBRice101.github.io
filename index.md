@@ -24,7 +24,7 @@ When it was free for a little while in July 2021 I took a .5 hour course on auto
 
 ---
 
-## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/censis-iot-hackathon)
+## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/Writeups/censis-iot-hackathon)
 
 I did a little IoT Hacking this past week, here are my notes!
 
@@ -41,12 +41,12 @@ A Guide to installing and running Raspberry Pi OS under an x86 Linux environment
 
 ---
 
-## [HackBack2 — great fun, VERY challenging (Also OSINT)](https://IBRice101.github.io/CTFs/hackback)
+## [HackBack2 — great fun, VERY challenging (Also OSINT)](https://IBRice101.github.io/CTFs/Writeups/hackback)
 Another CTF walkthrough I wrote for a single section of the Hackback2 competition in 2019, I came first in the OSINT Section which I was pretty chuffed about
 
 ---
 
-## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](https://IBRice101.github.io/CTFs/c4ptur3-th3-fl4g)
+## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](https://IBRice101.github.io/CTFs/Writeups/c4ptur3-th3-fl4g)
 A walkthrough I wrote for the first CTF I did back in October 2019, go easy on me I was only a babby hacker then lol
 
 ---
