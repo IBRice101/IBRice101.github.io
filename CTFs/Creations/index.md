@@ -4,7 +4,7 @@ This section of the site is filled with my notes from CTF development, extremely
 
 ---
 
-[Tower](tower.md)
+## [Tower](tower.md)
 
 My first foray into the world of CTFs, a reverse engineering challenge... (anything else would be giving the game away ;))
 
