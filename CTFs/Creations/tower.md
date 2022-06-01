@@ -38,6 +38,14 @@ User input is a command prompt-like concept with `input> ` as the prompt itself.
 
 The flag itself is stored as a stack string in the binary. In the `stackString()` function is a regular c string with the contents "nothing", that eventually gets converted into "Babylon" on the stack (the genuine password). When the user enters this, the `encryptedPassword` gets decrypted. This password is encrypted with some basic XOR encryption because just having the flag on the stack like that was a little too trivial in my opinion.  
 
+Once the code was written it was compiled with GCC and the -O0 flag (no optimisations), and its symbol table was removed, ensuring no meaningful variables or function names could slip though. 
+
+### Iteration
+
+Thanks to Praeceps on Discord for the suggestion, removed the obfuscation function that gets optimised away by GCC and replaced it with a second XOR (like the flag) for the password
+
+May also hash/checksum the flag decrypt output then check that
+
 ## Walkthrough
 
 [COMING SOON!]
