@@ -187,7 +187,7 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ## Year 3 Semester 2 - CMP311 - Professional Project Development and Delivery
 
-- Grade: TBA
+- Grade: A+ 
 - Description: This module involves completing a team based development project or other technical investigation project, which was planned and initially developed in CMP308 (Professional Project Planning and Prototyping).
 - Coursework: Developing and delivering a Graphical User Interface fro the Moss Plagiarism Checking software.
   - Unit 1 (30%): A presentation about the application
