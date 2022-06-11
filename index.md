@@ -4,6 +4,12 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [LaTeX Template](https://github.com/IBRice101/Whitepaper-Template)
+
+Forked an excellent LaTex Whitepaper template made by [Mairi](https://twitter.com/super_mairio) to add stuff around code listing and other minor changes that I implemented whilst writing my own LaTeX document. For help with LaTeX consult Mairi's [wonderful guide on her website](https://supermairio.github.io/2020-06-09-latex-guide/)
+
+---
+
 ## [Tower CTF](CTFs/Creations/tower.md)
 
 My first foray into the world of CTFs, a little reverse engineering task. **NOTE**: This article contains spoilers for the CTF, if you would like to try your hand at the CTF before reading the article, the executable can be found [here](CTFs/Creations/media/tower.out).
