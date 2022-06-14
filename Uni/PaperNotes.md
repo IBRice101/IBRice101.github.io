@@ -10,6 +10,7 @@ If you find this helpful, please consider getting me a meal deal :)
 
 Notes taken from [this video by Prof. Pete Carr](https://youtu.be/IeaD0ZaUJ3Y) of the University of Minnesota.
 
+- **DO NOT READ THE PAPER IN ORDER**
 - Structure of a Scientific Article:
   - (1) Title
   - (2) Keywords
@@ -19,7 +20,6 @@ Notes taken from [this video by Prof. Pete Carr](https://youtu.be/IeaD0ZaUJ3Y) o
   - (6) Results and Discussion
   - (4) Summary/Conclusions
   - (8) References
-- **DO NOT READ IN ORDER**
 - An algorithm for reading a paper
   - Feel free to stop reading at any point if there is no interest in the paper
   - Three-Phase algorithm (he says two but its really three lmao)
