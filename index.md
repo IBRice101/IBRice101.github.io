@@ -4,6 +4,12 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [Notes on Reading a Scientific Paper for a Literature Review](./Uni/PaperNotes.md)
+
+My notes form a selection of online resources pertaining to the reading of scientific papers, something that isn't especially easy for me, but that is made easier by a sort of algorithm for these things.
+
+---
+
 ## [LaTeX Template](https://github.com/IBRice101/Whitepaper-Template)
 
 Forked an excellent LaTex Whitepaper template made by [Mairi](https://twitter.com/super_mairio) to add stuff around code listing and other minor changes that I implemented whilst writing my own LaTeX document. For help with LaTeX consult Mairi's [wonderful guide on her website](https://supermairio.github.io/2020-06-09-latex-guide/)
@@ -59,7 +65,7 @@ Another CTF walkthrough I wrote for a single section of the Hackback2 competitio
 ---
 
 ## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](https://IBRice101.github.io/CTFs/Writeups/c4ptur3-th3-fl4g)
-A walkthrough I wrote for the first CTF I did back in October 2019, go easy on me I was only a babby hacker then lol
+A walkthrough I wrote for the first CTF I did back in October 2019, go easy on me I was only a skid then lol
 
 ---
 
