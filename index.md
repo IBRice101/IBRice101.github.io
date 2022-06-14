@@ -26,8 +26,6 @@ My first foray into the world of CTFs, a little reverse engineering task. **NOTE
 
 On the 9th of March 2022 I gave a talk on Piracy and the Warez Scene at the Abertay Ethical Hacking Society, as is my way of going about things I first wrote an article fleshing out roughly what I was planning on saying, Please enjoy!
 
-Note: As I published this before I gave the talk, the information in this section is subject to change, including but not limited to the addition of new content and the slide deck for the talk.
-
 ---
 
 ## [University Work](https://IBRice101.github.io/Uni/)
