@@ -178,7 +178,7 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ## Year 3 Semester 2 - CMP309 - Software Development for Mobile Devices
 
-- Grade: TBA
+- Grade: A+
 - Description: Software development practices to develop applications for a range of smart and mainly mobile devices. Learn to develop and evaluate the techniques used to implement mobile applications. Modules content: Background to Smart and Mobile Development; User Interfaces; Storage; Location awareness; Telephony SMS; Communication Networks; Security; Performance; Mobile Web Application Development.
 - Coursework: An Android Application that fulfils specific criteria. My app is "Moodr", a mood tracking and improvement application. More information available in the README.md of the github repo
   - Coursework can be found [here](https://github.com/IBRice101/CMP309-Moodr)
@@ -199,14 +199,14 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ## Year 3 Semester 2 - CMP320 - Ethical Hacking 2
 
-- Grate: TBA
+- Grate: A+
 - Description: This module develops a critical understanding analysis techniques used by Ethical Hackers to examine binary files and to provide the student with the opportunity to undertake the practical and development of an individual project.
 - Coursework:
   - Unit 1 (50%): Developing a tutorial to illustrate a buffer overflow exploit on a vulnerable media player application
     - Coursework can be found [here](media/1901124-VulnerableMediaPlayerExploit.pdf)
-  - Unit 2 (50%): A personal project in advanced ethical hacking. I selected APT malware reversing and static analysis.
+  - Unit 2 (50%): A personal project in advanced ethical hacking. I selected APT malware reversing and static analysis
     - Coursework can be found [here](media/1901124-MiniProject.pdf)
   
 ---
 
-## At the end of Year 3 my GPA was: TBA (TBA Class)
+## At the end of Year 3 my GPA was: 4.33 (1st Class)
