@@ -1,6 +1,6 @@
 # My Hacksoc Wiki Contributions
 
-Here's a list of all of the articles I wrote for the [hacksoc wiki](https://wiki.hacksoc.co.uk), enjoy! 
+Here's a list of all of the walkthrough and help/guide articles I have written, most of which were originally for the [hacksoc wiki](https://wiki.hacksoc.co.uk), enjoy! 
 
 If you learned something from this, why not send me over a little tip by way of thanks? No pressure but it would be much appreciated :)
 

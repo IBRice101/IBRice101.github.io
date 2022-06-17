@@ -27,7 +27,7 @@ Our first step is to create a subnetting table, this table is always the same, a
 
 After this it's a simple case of determining how many subnets we need and then subsequently creating a table representing the IP addresses available to each subnet.
 
-We have been tasked in the original example to create **three** subnets, however according to the reference table, we cannot create *just* three subnets, as a result of this we have to choose the lowest number of subnets that is still higher than three (in order to maximse space/efficiency). The number required for this is *four*, which is why the column with the number 4 at the top is bolded.
+We have been tasked in the original example to create **three** subnets, however according to the reference table, we cannot create *just* three subnets, as a result of this we have to choose the lowest number of subnets that is still higher than three (in order to maximise space/efficiency). The number required for this is *four*, which is why the column with the number 4 at the top is bolded.
 
 This is our table:
 

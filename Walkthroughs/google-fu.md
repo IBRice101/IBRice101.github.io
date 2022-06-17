@@ -14,13 +14,13 @@ Note: Many, but not all of these tips will apply to other browsers (most popular
 
 ## Standard Advanced Search Operators
 
-Google has an "[Advanced Search](https://www.google.co.uk/advanced_search)" functionality, where a user can input more precised, advanced search terms into a form, and the corresponding search string is spat out and the user is redirected to that search, this section will cover these operators.
+Google has an "[Advanced Search](https://www.google.co.uk/advanced_search)" functionality, where a user can input more precise, advanced search terms into a form, and the corresponding search string is spat out and the user is redirected to that search, this section will cover these operators.
 
 - Standard Search: search a link for any instance of any word in the search field, what one would typically imagine a google search to be, for example, `frog and toad` would return all results with the words "frog" "and" and "toad" in, with the most relevant towards the top
 - Exact phrase: use `"` operator to find an exact phrase in a google search, e.g `"frog and toad"` would return results with the literal string "frog and toad"
 - Any of these words: use the `|` or `OR` operators to return a result including either `term x` or `term y`, e.g `frog | toad` or `frog OR toad`
 - None of these words: use the `-` operator *directly* before a term to exclude that term from results, e.g. `frog -toad` will return results containing the word "frog" but explicitly *not* "toad"
-- Number range: use `..` between two numerical values to find search results with numbers in that range, e.g. `"born in" 1981..1996` would find results for people who are in the generally accepted range "Milennial"
+- Number range: use `..` between two numerical values to find search results with numbers in that range, e.g. `"born in" 1981..1996` would find results for people who are in the generally accepted range "Millennial"
 
 ## Dorking
 

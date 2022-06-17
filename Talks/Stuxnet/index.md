@@ -67,7 +67,7 @@ Bearing in mind that this talk was delivered at the very beginning of the academ
 - Also two different ways of PrivEsc, both 0days (one is MS10-073)
 - Realtek signatures were used to digitally sign a Rootkit and silently install it in order for the worm to have a comfy place to hide inside the system whilst retaining root privileges. 
   - The worm does this so well that even if an individual with root privileges were to look for the worm where they know it should be, they couldn’t find it, and the malware happily went around the internet for over a year without anyone realising it even existed.
-- Two websites, mypremierfutbol.com and todaysfutbol.com were configured as command and control points, this allows the malware to be updated and for espionage to be conducted if the system is not adequately airgapped
+- Two websites, mypremierfutbol.com and todaysfutbol.com were configured as command and control points, this allows the malware to be updated and for espionage to be conducted if the system is not adequately air-gapped
 
 ### This Is Where The Fun Begins
 
@@ -127,7 +127,7 @@ Bearing in mind that this talk was delivered at the very beginning of the academ
 
 - Loads of child malware
   - Duqu: Keystroke logger and data miner for industrial facilities
-  - Flame: Recorded skype convos, keystroke logger, screenshot gatherer, etc. Targeted middle eastern govt. facilities
+  - Flame: Recorded skype conversations, keystroke logger, screenshot gatherer, etc. Targeted middle eastern govt. facilities
   - Havex: Information gather from private energy, aviation, defence, pharma companies, mainly US, EU, and Canadian companies
   - Industroyer: Caused a power outage in Ukraine in 2016 (**NOTE**: This was written months before the war)
   - Triton: Targeted safety systems of a petrochemical plant in the middle east, which could have lead to serious injury or death for workers

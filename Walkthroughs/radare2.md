@@ -109,7 +109,7 @@ As mentioned previously, Radare2's standard usage on the command line is `r2 /pa
 - `itj`: get command outputs as JSON, `it` command gets hashes
 - `itj~{}`: pretty print formatted JSON 
 - `itj~{}md5`: access JSON elements you want to parse out 
-- `(in python) imprt r2pipe`: script analysis via r2pipe 
+- `(in python) import r2pipe`: script analysis via r2pipe 
 - `ii`: gets list of imported functions 
 - `afl?`: print help for a command with `?`
 - `afl[TAB]`: or just hit tab for same effect 
@@ -122,7 +122,7 @@ As mentioned previously, Radare2's standard usage on the command line is `r2 /pa
 - `afn [new function name] @ [old function name]`: rename things to make it easier to understand
 - `pdga`: print disassembly and ghidra decompile side by side to help understand assembly
 - `/R`: list ROP gadgets available in the program
-- `(in cli) r2 -i example.r2s -e scr.interctive=false -e cfg.slides.heading.colour=yellow`: write and present slides in r2, write in markdown
+- `(in cli) r2 -i example.r2s -e scr.interactive=false -e cfg.slides.heading.colour=yellow`: write and present slides in r2, write in markdown
 - `[backticks in slides]`: write r2 commands in slides and run them live
 - `(in cli) r2 -d [program]`: debug programs 
 - `db, dc, dr`: set breakpoint, continue program, print registers
@@ -137,7 +137,7 @@ As mentioned previously, Radare2's standard usage on the command line is `r2 /pa
 - `ic`: list objective c classes and methods
 - `~...`: interactive filter (real time) a command output with `...` after the `~` operator
 - `randiff2`: use one of many cli tools that come with Radare2 to diff two binaries
-- `r2 apk://[app loaction]`: analyse an android app using `apk://` prefix 
+- `r2 apk://[app location]`: analyse an android app using `apk://` prefix 
 - `ic`: list android java classes and methods
 - `i`: check compiler security features are used 
 - `emulate`: emulate code (bunch of different commands)

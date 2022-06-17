@@ -46,7 +46,7 @@ I did a little IoT Hacking this past week, here are my notes!
 
 ---
 
-## [The Walkthroughs I've Created](https://IBRice101.github.io/Walkthroughs)
+## [Walkthroughs](https://IBRice101.github.io/Walkthroughs)
 
 THis is a repository of all of the walkthroughs and help guides I've created for various technologies over the years, most, but not all, were for the Abertay Ethical Hacking Society Wiki originally
 

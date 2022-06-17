@@ -137,13 +137,13 @@ From Wikipedia:
 
 ## The Rules
 
-As mentioned previously there is a pretty extensive ruleset for what is an is not allowed in the warez scene. These rules, naturally, change depending on the nature of the media that is being cracked. What follows is a showcase of some of the rules for a selection of well known forms of media. Naturally I couldn't fit everything in there so if you'd like to know about the rules for Nintendo DSes, WiiUs, and TV shows, please visit https://scenerules.org.
+As mentioned previously there is a pretty extensive rule set for what is an is not allowed in the warez scene. These rules, naturally, change depending on the nature of the media that is being cracked. What follows is a showcase of some of the rules for a selection of well known forms of media. Naturally I couldn't fit everything in there so if you'd like to know about the rules for Nintendo DSes, WiiUs, and TV shows, please visit https://scenerules.org.
 
 The rules herein are generally separated into multiple categories which can change depending on the type of media being cracked, often the name and packaging info for the crack will be included, as well as restrictions on file sizes and so on. There is also a distinction between "recommended" implementations and "must haves", whereby if you do not include the former you open yourself up to being "propered", edited, but nobody is compelled to do so, however for "musts" "there is no compromise, you either follow the rule or you get nuked.". The "." character is most often used as a delimiter to prevent whitespace in filenames.
 
 Here I'll be going first into the basic rules for almost all releases and then following that with a small selection of special cases where the rules differ and/or where there is extra information I found interesting, maybe you will too (hopefully), if not, its my talk, oh well!
 
-The scenerules.org site has currently active rulesets for the following formats:
+The scenerules.org site has currently active rule sets for the following formats:
 
 - 0DAY
 - AUDiOBOOK
@@ -226,7 +226,7 @@ These rules were published in 2010 so as a result they may be out of date.
 
 ### C. 2008 consoles
 
-Due to the nature of the console scene at the time these consoles are remarkably similar in their rules. This list comprises the three main consoles available in 2008 when this ruleset came out, i.e. PS2, Xbox360, and Wii.
+Due to the nature of the console scene at the time these consoles are remarkably similar in their rules. This list comprises the three main consoles available in 2008 when this rule set came out, i.e. PS2, Xbox360, and Wii.
 
 1. Releases must be packed in RAR. SFV and NFO must be included.
    1. RAR because of compression rate
@@ -263,7 +263,7 @@ For Wii
 
 ### Audiobooks
 
-Something of note here, the author of the ruleset for Audiobooks makes the distinction between DAISY and Non-DAISY versions of audiobooks, this wasn't something I was aware of before but DAISY (Digital Accessible Information System) audiobooks are for those with visual impairments and other disabilities that prevent them from reading books, whereas non-DAISY audiobooks are more traditional, you know, your Audible books etc. Due to their separate standard, DAISY audiobooks have additional rules a cracker must follow. Sure they may be pirates but they would never break the Disability Discrimination Act!!! (Accessibility does actually seem to be very important for these guys)
+Something of note here, the author of the rule set for Audiobooks makes the distinction between DAISY and Non-DAISY versions of audiobooks, this wasn't something I was aware of before but DAISY (Digital Accessible Information System) audiobooks are for those with visual impairments and other disabilities that prevent them from reading books, whereas non-DAISY audiobooks are more traditional, you know, your Audible books etc. Due to their separate standard, DAISY audiobooks have additional rules a cracker must follow. Sure they may be pirates but they would never break the Disability Discrimination Act!!! (Accessibility does actually seem to be very important for these guys)
 
 The normal MP3 releasing rules apply here except for the following:
 
@@ -353,12 +353,12 @@ Okay... Breathe... We're coming to the end of the talk now, so I thought I'd lea
 
 So often .nfo files are created in software like PabloDraw (example below), which is a text editor that uses special ANSI characters to colour and shade specific areas of a text files for nice effects. A specific draw of PabloDraw as that it was the first ANSI/ASCII editor to allow for multi-user simultaneous editing, naturally a good thing for warez groups (through integration with pre-existing IRC channels). If you are of an artistic persuasion I really recommend giving it a go!!!
 
-![A sceenshot of the ANSI art editor, PabloDraw](WarezMedia/PabloDrawScreenshot.png)
+![A screenshot of the ANSI art editor, PabloDraw](WarezMedia/PabloDrawScreenshot.png)
 
 Anyway, onto the actual art
 
 ![An NFO file from the group CONSPIR4CY](WarezMedia/Conspiracy.png)
-![This is the hearder from the group Fairlight](WarezMedia/fairlight.png)
+![This is the header from the group Fairlight](WarezMedia/fairlight.png)
 ![Another from ACID](WarezMedia/ACID.png)
 ![A metal as fuck one from the group SATAN](WarezMedia/SATAN.png)
 ![And finally, one from the EXTREMELY recently defunct CODEX (RIP I guess)](WarezMedia/codex.png)

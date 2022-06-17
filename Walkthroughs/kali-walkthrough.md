@@ -102,7 +102,7 @@ Now comes the part where you get to choose software that comes pre-installed on 
 
 After this is the tools. I'd recommend keeping default settings here as well and installing extra programs as and when you require them, this keeps the size of the VM to a reasonable level whilst also ensuring you have most of the tools you'll need.
 
-![Software selection - desktop environment and preinstalled software](media/image-20210516203420303.png)
+![Software selection - desktop environment and pre-installed software](media/image-20210516203420303.png)
 
 Select "yes" when prompted to install the GRUB bootloader to your primary drive, this program runs as soon as you start the VM up and allows you to select what operating system you would like to boot. Install it to `/dev/sda`, which should be the only option other than "enter device manually"
 

@@ -21,7 +21,7 @@ In addition to this, Vimium can also massively improve Vim competency, before be
 
 Important note: enabling Vimium does not disable mouse input, at any time you can return to standard browser navigation without having to uninstall the extension, handy!
 
-## Quickstart Guide
+## Quick Start Guide
 
 After installation, users can press `?` when in normal mode to bring up a list of default commands at any point, like so:
 

@@ -39,7 +39,7 @@ However in the event that my work has provided guidance for you, a little tip by
         - Wireshark HTTP Analysis
         - Wireshark FTP Analysis
         - IP Address Calculation
-        - A Network Exercise: Working in Cisco Packe Tracer to emulate a computer network for a small-to-medium sized organisation with four distinct departments
+        - A Network Exercise: Working in Cisco Packet Tracer to emulate a computer network for a small-to-medium sized organisation with four distinct departments
         - Python Networking: A calculator that functions over UDP and TCP, where a client sends two digits and an operand to a server, the server works it out, and then returns the result to the client
     - An exam (50%)
 
@@ -67,7 +67,7 @@ However in the event that my work has provided guidance for you, a little tip by
     - Law Presentation (25%): A presentation on the computer misuse act and their equivalent in another country (we chose Russia, done in groups) 
         - Coursework can be found [here](media/CompCrimeLaws.pdf)
     - Investigation (75%): An investigation into an aspect of security of my own choosing. For this project I did a deep dive into Buffer Overflows, the history, what they are, how they're used, and ultimately, how one can be triggered. 
-        - Coursework can be found [here](media/BufferOverflowsTheWhatandHow.pdf)
+        - Coursework can be found [here](media/BufferOverflowsTheWhatAndHow.pdf)
 
 ---
 

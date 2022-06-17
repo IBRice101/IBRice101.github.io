@@ -2,7 +2,7 @@
 
 On July 1st, 2021 the Udemy course for [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/) became free with a coupon, so I decided to have a little crack at it
 
-A lot of the earlier stuff is (as you can imagine) sorta dull for someone who's been programming for... However long I've been doing it now, but still it seems like a pretty invaluable resource as the course goes on, especially for someone who hates boring stuff lol.
+A lot of the earlier stuff is (as you can imagine) sort of dull for someone who's been programming for... However long I've been doing it now, but still it seems like a pretty invaluable resource as the course goes on, especially for someone who hates boring stuff lol.
 
 In particular, the later sections that make use of third party modules such as pyautogui for i/o interaction and openpyxl for xlsx interaction really had my mind racing with regards to ways I could apply this kind of stuff in the field. Not to mention email interaction and the ability to pull and sort data through an imported PDF module and the use of RegEx (which, to my shame and even though I have been taught it in uni, I still don't exactly have down)
 
