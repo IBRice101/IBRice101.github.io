@@ -8,6 +8,12 @@ If you learned something from this, why not send me over a little tip by way of 
 
 ---
 
+## [Assembly Language](asm.md)
+
+A guide to assembly language I've written based on some summer research into reverse engineering and low level computing!
+
+---
+
 ## [Radare2](radare2.md)
 
 A quick primer on Radare2, the free and open source reverse engineering framework with the world's biggest learning curve™
