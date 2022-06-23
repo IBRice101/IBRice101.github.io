@@ -34,13 +34,13 @@ The home of all of my uni work, what to expect for future students, how I saw th
 
 ---
 
-## [Automate the Boring Stuff with Python](https://IBRice101.github.io/MiniProjects/ATBSWP)
+## [Automate the Boring Stuff with Python](https://IBRice101.github.io/Projects/ATBSWP)
 
 When it was free for a little while in July 2021 I took a 5 hour course on automation in Python!
 
 ---
 
-## [Censis IoT Hackathon notes](https://IBRice101.github.io/CTFs/Writeups/censis-iot-hackathon)
+## [Censis IoT Hackathon notes](https://IBRice101.github.io/Projects/IoT/censis-iot-hackathon)
 
 I did a little IoT Hacking this past week, here are my notes!
 
@@ -52,7 +52,7 @@ THis is a repository of all of the walkthroughs and help guides I've created for
 
 ---
 
-## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice101.github.io/MiniProjects/Raspberry-Pi-QEMU-VM)
+## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice101.github.io/Projects/Raspberry-Pi-QEMU-VM)
 A Guide to installing and running Raspberry Pi OS under an x86 Linux environment, pretty exciting stuff, eh?
 
 ---

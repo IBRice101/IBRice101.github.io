@@ -1,6 +1,6 @@
 # Censis IoT Hackathon notes
 
-From the 2st to the 28th of June 2021 I took part in an IoT device hackathon provided by CENSIS in collaboration with Abertay Uni. The following are my notes from the week or so that I had to do the project, I hope you enjoy reading this as much as I did doing it :).
+From the 2nd to the 28th of June 2021 I took part in an IoT device hackathon provided by CENSIS in collaboration with Abertay Uni. The following are my notes from the week or so that I had to do the project, I hope you enjoy reading this as much as I did doing it :).
 
 ## Checklist
 

@@ -53,14 +53,35 @@ What do these mean?
 
 ### Sections
 
-<!-- TODO: Continue the guide along these lines: https://www.tutorialspoint.com/assembly_programming/assembly_basic_syntax.htm
-        specifically about data sections and stuff -->
+Assembly files can be separated into numerous "sections" depending on the architecture and operating system on which the code is running. For standalone assembly files these sections are as follows:
+
+- Data: declared as `section .data`, this is where data and constants that do not need to be changed at runtime are stored. Strings, file names, size of buffers, and so on are stored in here.
+- BSS: declared as `section .bss`, for variables that are changed at runtime.
+- Text: declared as `section .text`, this is where the logic of the code is stored, this section must also begin with `global _start` followed by `_start:` so the kernel knows where to begin execution of the program. 
+
+ELF, or Linux Executable files, also have the following user sections:
+
+- `.comment.`: holds version control information and other comments such as compiler information
+- `.data` and `.data1`: initialised read/write data 
+- `.debug`: for debugging info
+- `.fini`: runtime finalisation instructions
+- `.init`: runtime initialisation instructions
+- `.line`: line number info for symbolic debugging
+- `.note`: various notes for a whole slew of things (consult the elf(5) man page for further information)
+- `.rodata` and `.rodata1`: read only data for non-writeable segments
+
+PE files, executables in Windows, contain the following sections:
+
+- `.edata`: export directory for an app or DLL
+- `.idata`: stores data for imported functions
+- `.rdata`: read only version of `.data`
+- `.rsrc`: resources such as strings, icons, and so on
 
 ## Code Example (Hello World)
 
-The following is a Hello World code example using what we have learnt so far
+The following is a Hello World code example using what we have learnt so far, this is intended for Linux
 
-```asm
+```assembly
 section	.text
    global _start    ;must be declared for linker (ld)
 	
@@ -79,6 +100,8 @@ msg db 'Hello, world!', 0xa     ;string to be printed
 len equ $ - msg                 ;length of the string
 ```
 
+### Compiling This Code
+
 In Linux, this hello world program (`hello.asm`) can be ran on x86 architecture using the following commands:
 
 ```sh
@@ -91,33 +114,33 @@ The first command uses the Netwide Assembler to assemble the code into an ELF (`
 
 ## Mnemonic Table
 
-Below is a non-exhaustive list of mnemonics that may be worth remembering, their syntax, what they do, and a couple of notes if they are so needed.
+Below is a non-exhaustive list of mnemonics that may be worth remembering in x86 assembly, their syntax, what they do, and a couple of notes if they are so needed.
 
-| Mnemonic | Description                   | Example           | Further Notes                                                                                   |
-|----------|-------------------------------|-------------------|-------------------------------------------------------------------------------------------------|
-| ADD      | Add                           | `ADD eax, ebx`    | dest = dest + src                                                                               |
-| AND      | Logical and                   | `AND eax, 0Fh`    | consult logical and truth table to know what this does precisely                                |
-| CALL     | Call subroutine               | `CALL func`       | transfers control of the program to another function                                            |
-| DEC      | Decrement                     | `DEC ecx`         | synonymous with x-- or x-=1                                                                     |
-| DIV      | Divide                        | `DIV ecx`         | always divides the 64 bits value across EDX:EAX by a value. <br/> the second operand is implied |
-| IDIV     | Signed integer divide         | `IDIV ecx`        | same as DIV but signed                                                                          |
-| IMUL     | Signed integer multiply       | `IMUL eax, ebx`   | dest = dest * src (the operands are signed)                                                     |
-| INC      | Increment                     |
-| INT      | Interrupt                     |
-| JA       | Jump if above                 |
-| JAE      | Jump if above or equal        |
-| JB       | Jump if below                 |
-| JBE      | Jump if below or equal        |
-| JC       | Jump if carry                 |
-| JCXZ     | Jump if cx zero               |
-| JE       | Jump if equal                 |
-| JECXZ    | Jump if ECX zero              |
-| JG       | Jump if greater               |
-| JGE      | Jump if greater or equal      |
-| JL       | Jump if less                  |
-| JLE      | Jump if less or equal         |
-| JMP      | Jump                          |
-| JNA      | Jump if not above             |
+| Mnemonic | Description                   | Further Notes                                                                                   |
+|----------|-------------------------------|-------------------------------------------------------------------------------------------------|
+| ADD      | Add                           | dest = dest + src                                                                               |
+| AND      | Logical and                   | consult logical and truth table to know what this does precisely                                |
+| CALL     | Call subroutine               | transfers control of the program to another function                                            |
+| DEC      | Decrement                     | synonymous with x-- or x-=1                                                                     |
+| DIV      | Divide                        | always divides the 64 bits value across EDX:EAX by a value. the second operand is implied       |
+| IDIV     | Signed integer divide         | same as DIV but signed                                                                          |
+| IMUL     | Signed integer multiply       | dest = dest * src (the operands are signed)                                                     |
+| INC      | Increment                     | synonymous with x++ or x+=1                                                                     |
+| INT      | Interrupt                     | generates a software interrupt, takes one operator representing said interrupt (i.e. `INT 03h`) |
+| JA       | Jump if above                 | conditional jump if dest > src (unsigned)                                                       |          
+| JAE      | Jump if above or equal        | conditional jump if dest >= src (unsigned)                                                      |
+| JB       | Jump if below                 | conditional jump if dest < src (unsigned)                                                       |
+| JBE      | Jump if below or equal        | conditional jump if dest <= src (unsigned)                                                      |
+| JC       | Jump if carry                 | conditional jump to operand if carry flag value == 0                                            |
+| JCXZ     | Jump if cx zero               | conditional jump if the contents of the cx register is zero                                     |
+| JE       | Jump if equal                 | conditional jump if dest == src                                                                 |
+| JECXZ    | Jump if ECX zero              | conditional jump if the contents of the ecx register is zero                                    |
+| JG       | Jump if greater               | conditional jump if dest > src (signed)                                                         |          
+| JGE      | Jump if greater or equal      | conditional jump if dest >= src (signed)                                                        |
+| JL       | Jump if less                  | conditional jump if dest < src (signed)                                                         |
+| JLE      | Jump if less or equal         | conditional jump if dest <= src (signed)                                                        |
+| JMP      | Jump                          | unconditional jump to location specified in operand                                             |
+| JNA      | Jump if not above             | 
 | JNAE     | Jump if not above or equal    |
 | JNB      | Jump if not below             |
 | JNBE     | Jump if not below or equal    |
@@ -137,7 +160,7 @@ Below is a non-exhaustive list of mnemonics that may be worth remembering, their
 | MUL      | Multiply                      |
 | NOP      | No operation (Ox90)           |
 | NOT      | Invert each bit               |
-| OR       | Logical or                    |
+| OR       | Logical or                    | consult logical and truth table to know what this does precisely                                |
 | POP      | Pop from stack                |
 | PUSH     | Push onto stack               |
 | RET      | Return from subroutine        |
@@ -149,4 +172,5 @@ Below is a non-exhaustive list of mnemonics that may be worth remembering, their
 | SHR      | Shift logical right           |
 | SUB      | Subtract                      |
 | XCHG     | Exchange                      |
-| XOR      | Logical exclusive or          |
+| XOR      | Logical exclusive or          | consult logical and truth table to know what this does precisely                                |
+
