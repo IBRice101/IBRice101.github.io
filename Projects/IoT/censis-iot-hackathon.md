@@ -257,6 +257,7 @@ From the 21st to the 28th of June 2021 I took part in an IoT device hackathon pr
 ## Misc
 
 - **NOTE**, exploit stage was not practical to reach in the short time available, restructure report given the work done
+- This write-up came top 3 in the competition, thank you so much to CENSIS and Abertay University for making this happen.
 
 ## Thank you for reading!
 
