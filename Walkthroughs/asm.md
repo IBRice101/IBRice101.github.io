@@ -127,50 +127,50 @@ Below is a non-exhaustive list of mnemonics that may be worth remembering in x86
 | IMUL     | Signed integer multiply       | dest = dest * src (the operands are signed)                                                     |
 | INC      | Increment                     | synonymous with x++ or x+=1                                                                     |
 | INT      | Interrupt                     | generates a software interrupt, takes one operator representing said interrupt (i.e. `INT 03h`) |
-| JA       | Jump if above                 | conditional jump if dest > src (unsigned)                                                       |          
-| JAE      | Jump if above or equal        | conditional jump if dest >= src (unsigned)                                                      |
-| JB       | Jump if below                 | conditional jump if dest < src (unsigned)                                                       |
-| JBE      | Jump if below or equal        | conditional jump if dest <= src (unsigned)                                                      |
-| JC       | Jump if carry                 | conditional jump to operand if carry flag value == 0                                            |
-| JCXZ     | Jump if cx zero               | conditional jump if the contents of the cx register is zero                                     |
-| JE       | Jump if equal                 | conditional jump if dest == src                                                                 |
-| JECXZ    | Jump if ECX zero              | conditional jump if the contents of the ecx register is zero                                    |
-| JG       | Jump if greater               | conditional jump if dest > src (signed)                                                         |          
-| JGE      | Jump if greater or equal      | conditional jump if dest >= src (signed)                                                        |
-| JL       | Jump if less                  | conditional jump if dest < src (signed)                                                         |
-| JLE      | Jump if less or equal         | conditional jump if dest <= src (signed)                                                        |
-| JMP      | Jump                          | unconditional jump to location specified in operand                                             |
-| JNA      | Jump if not above             | 
-| JNAE     | Jump if not above or equal    |
-| JNB      | Jump if not below             |
-| JNBE     | Jump if not below or equal    |
-| JNC      | Jump if no carry              |
-| JNE      | Jump if not equal             |
-| JNG      | Jump if not greater           |
-| JNGE     | Jump if not greater or equal  |
-| JNL      | Jump if not less              |
-| JNLE     | Jump if not less or equal     |
-| JNO      | Jump if no overflow           |
-| JNS      | Jump if no sign (= positive)  |
-| JNZ      | Jump if not zero              |
-| JO       | Jump if overflow              |
-| JS       | Jump if sign (= negative)     |
-| JZ       | Jump if zero                  |
-| MOV      | Move (copy)                   |
-| MUL      | Multiply                      |
-| NOP      | No operation (Ox90)           |
-| NOT      | Invert each bit               |
+| JA       | Jump if above                 |                                                                                                 |
+| JAE      | Jump if above or equal        |                                                                                                 |
+| JB       | Jump if below                 |                                                                                                 |
+| JBE      | Jump if below or equal        |                                                                                                 |
+| JC       | Jump if carry                 |                                                                                                 |
+| JCXZ     | Jump if cx zero               |                                                                                                 |
+| JE       | Jump if equal                 |                                                                                                 |
+| JECXZ    | Jump if ECX zero              |                                                                                                 |
+| JG       | Jump if greater               |                                                                                                 |       
+| JGE      | Jump if greater or equal      |                                                                                                 |
+| JL       | Jump if less                  |                                                                                                 |
+| JLE      | Jump if less or equal         |                                                                                                 |
+| JMP      | Jump                          |                                                                                                 |
+| JNA      | Jump if not above             |                                                                                                 |
+| JNAE     | Jump if not above or equal    |                                                                                                 |
+| JNB      | Jump if not below             |                                                                                                 |
+| JNBE     | Jump if not below or equal    |                                                                                                 |
+| JNC      | Jump if no carry              |                                                                                                 |
+| JNE      | Jump if not equal             |                                                                                                 |
+| JNG      | Jump if not greater           |                                                                                                 |
+| JNGE     | Jump if not greater or equal  |                                                                                                 |
+| JNL      | Jump if not less              |                                                                                                 |
+| JNLE     | Jump if not less or equal     |                                                                                                 |
+| JNO      | Jump if no overflow           |                                                                                                 |
+| JNS      | Jump if no sign (= positive)  |                                                                                                 |
+| JNZ      | Jump if not zero              |                                                                                                 |
+| JO       | Jump if overflow              |                                                                                                 |
+| JS       | Jump if sign (= negative)     |                                                                                                 |
+| JZ       | Jump if zero                  |                                                                                                 |
+| MOV      | Move (copy)                   | used to read and write data into memory                                                         |
+| MUL      | Multiply                      | synonymous with x * y                                                                           |
+| NOP      | No operation (Ox90)           | do nothing                                                                                      |
+| NOT      | Invert each bit               | 1 becomes 0 and vice versa                                                                      |
 | OR       | Logical or                    | consult logical and truth table to know what this does precisely                                |
-| POP      | Pop from stack                |
-| PUSH     | Push onto stack               |
-| RET      | Return from subroutine        |
-| ROL      | Rotate left                   |
-| ROR      | Rotate right                  |
-| SAL      | Shift left                    |
-| SAR      | Shift right                   |
-| SHL      | Shift logical left            |
-| SHR      | Shift logical right           |
-| SUB      | Subtract                      |
-| XCHG     | Exchange                      |
+| POP      | Pop from stack                | remove contents from top of memory stack                                                        |
+| PUSH     | Push onto stack               | add contents to top of memory stack                                                             |
+| RET      | Return from subroutine        | pops the return address off the stack and returns control to that location                      |
+| ROL      | Rotate left                   | like shl but shifted bits are rotated to the other end                                          |
+| ROR      | Rotate right                  | like shr but shifted bits are rotated to the other end                                          |
+| SAL      | Shift left                    | shift bits of the operand destination to the left by the number of bits in the count operand    |
+| SAR      | Shift right                   | shift bits of the operand destination to the right by the number of bits in the count operand   |
+| SHL      | Shift logical left            | same as SAL                                                                                     |
+| SHR      | Shift logical right           | same as SAR                                                                                     |
+| SUB      | Subtract                      | synonymous with x - y                                                                           |
+| XCHG     | Exchange                      | swaps the value of two registers                                                                |
 | XOR      | Logical exclusive or          | consult logical and truth table to know what this does precisely                                |
 
