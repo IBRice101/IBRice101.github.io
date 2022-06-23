@@ -1,6 +1,6 @@
 # Censis IoT Hackathon notes
 
-From the 2nd to the 28th of June 2021 I took part in an IoT device hackathon provided by CENSIS in collaboration with Abertay Uni. The following are my notes from the week or so that I had to do the project, I hope you enjoy reading this as much as I did doing it :).
+From the 21st to the 28th of June 2021 I took part in an IoT device hackathon provided by CENSIS in collaboration with Abertay Uni. The following are my notes from the week or so that I had to do the project, I hope you enjoy reading this as much as I did doing it :).
 
 ## Checklist
 
@@ -136,7 +136,7 @@ From the 2nd to the 28th of June 2021 I took part in an IoT device hackathon pro
 
 ### Opening Enumeration
 
-- ran `curl "https://github.com/diego-treitos/linux-smart-enumeration/raw/master/lse.sh" -Lo lse.sh;chmod 700 lse.sh` to get an enumeration tool called lse
+- ran `curl "https://github.com/diego-treitos/linux-smart-enumeration/raw/master/lse.sh" -Lo lse.sh; chmod 700 lse.sh` to get an enumeration tool called lse
 - Intent of using lse is to get a basic overview for further analysis
 - ran `scp -r ~/Downloads/lse pi@192.168.66.1:~/Downloads/lse` to get the lse script to the remote device
 - ran the script and outputted the contents to a .txt file which I SCP'd back to the host device for analysis
