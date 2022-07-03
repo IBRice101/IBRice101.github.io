@@ -318,5 +318,7 @@ Congratulations, Hacker :)
 This workshop brought to you by Isaac Basque-Rice
 
 [Twitter](https://twitter.com/IBRice101)
+
 [GitHub](https://github.com/IBRice101/)
+
 [LinkedIn](https://www.linkedin.com/in/izbr)
