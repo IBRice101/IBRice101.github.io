@@ -16,3 +16,13 @@ In this article I'll be going over the process of getting onto the board of the 
 ## Preparation
 
 I'm following [this walkthrough](https://graspingtech.com/install-openwrt-plusnet-router/) until I get a terminal, installing OpenWRT isn't really my goal here as I already have a router but if you wanna do that then this is an excellent guide, too
+
+## Soldering
+
+As you can see from the image below, the relevant pads are located just around the chip, with ground just to the right, txjust below, rx just below that, and BOOT_SEL a little further below that still
+
+[Insert first image here]
+
+This is after it has been soldered on and connected to the USB Dongle 
+
+[Insert second image here]
