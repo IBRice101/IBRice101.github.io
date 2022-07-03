@@ -2,6 +2,13 @@
 
 Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical Hacking at Abertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
 
+
+---
+
+## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/) (Work In Progress)
+
+My upcoming workshop for the Abertay Ethical Hacking Society, aiming to teach people how to Reverse Engineer, use Ghidra and OllyDbg, think outside of the box about common things, and have fun, all through the medium of one of the greatest games ever made, Minesweeper!
+
 ---
 
 ## [Notes on Reading a Scientific Paper for a Literature Review](./Uni/PaperNotes.md)
