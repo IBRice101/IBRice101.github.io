@@ -5,6 +5,12 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [Esperanto](Projects/Esperanto/index.md)
+
+I'm learning Esperanto Check out this article to learn why and how!
+
+---
+
 ## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/) (Work In Progress)
 
 My upcoming workshop for the Abertay Ethical Hacking Society, aiming to teach people how to Reverse Engineer, use Ghidra and OllyDbg, think outside of the box about common things, and have fun, all through the medium of one of the greatest games ever made, Minesweeper!
