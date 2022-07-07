@@ -14,7 +14,7 @@ Another reason I'm doing this, really, is to show you my favourite methodology f
 2. Familiarise yourself with the basics through repetition
 3. Slowly build on your knowledge by getting more and more bold with what you want to do
 
-This incremental model of learning is absolutely brilliant and has helped me learn all kinds of tools, including this one, even without knowing it. It allows you to be able to get started on anything with at least some degree of confidence (the first and often hardest step for any procrastinating brain) ad absolutely crucially, it also gives you a repertoire of words you can use to google anything you need should a problem arise. Google is the most powerful tool in your arsenal by a long shot, use it (or any other search engine, ofc).
+This incremental model of learning is brilliant and has helped me learn all kinds of tools, including this one, even without knowing it. It allows you to be able to get started on anything with at least some degree of confidence (the first and often hardest step for any procrastinating brain) and absolutely crucially, it also gives you a repertoire of words you can use to google anything you need should a problem arise. Google is the most powerful tool in your arsenal by a long shot, use it (or any other search engine, ofc).
 
 ## What?
 
@@ -99,7 +99,7 @@ As soon as this is dismissed you'll be nearly ready to analyse. To get into the 
 
 ![The Code Browser option highlighted in Ghidra](media/Ghidra-5.png)
 
-This will take you to an empty code browser view. Use `Ctrl+O` or `File > Open...` to open winmine.exe in the code browser itself. Following this you will be prompted to analyse the executable. Click Yes followed immediately by "Analyze". THere are unticked options available to you but they are in beta and/or will likely not be helpful to you. If you like you can read through each of these and try to work out what each of them do, or don't, I'm not your mum.
+This will take you to an empty code browser view. Use `Ctrl+O` or `File > Open...` to open winmine.exe in the code browser itself. Following this you will be prompted to analyse the executable. Click Yes followed immediately by "Analyze". There are unticked options available to you but they are in beta and/or will likely not be helpful to you. If you like you can read through each of these and try to work out what each of them do, or don't, I'm not your mum.
 
 ### Getting To The Minefield
 
@@ -134,7 +134,7 @@ So what does `rand_caller` actually do?
 
 Well, often instead of relying purely on the decompiler as our only source of information, it's better to try to read some assembly! Don't worry, it's not as daunting as it seems.
 
-Something you will need to know here is what a register is. A register is a small memory location on the CPU that allows it to access data much quicker than pulling from RAM. There are four 32 bit registers, `EAX`, `EBX`, `ECX`, and `EDX`, which can be subdivided into the 16 bit data registers `AX`, `BX`, `CX`, and `DX`, and further subdivided into 8 bit data registers `AH`, `AL`, `BH`, `BL`, `CH`, `CL`, `DH`, and `DL`.
+Something you will need to know here is what a register is. A register (at least on a 32-bit platform) is a small memory location on the CPU that allows it to access data much quicker than pulling from RAM. There are four 32 bit registers, `EAX`, `EBX`, `ECX`, and `EDX`, which can be subdivided into the 16 bit data registers `AX`, `BX`, `CX`, and `DX`, and further subdivided into 8 bit data registers `AH`, `AL`, `BH`, `BL`, `CH`, `CL`, `DH`, and `DL`.
 
 The full disassembly of the `rand_caller` function can be seen below.
 
@@ -204,7 +204,7 @@ In the next block we do the following:
 So this loop does the following:
 
 1. Randomises two values
-2. Reference a single byte in memory sung the sum of these values as an index
+2. Reference a single byte in memory using the sum of these values as an index
    - Like fetching an element from an array using an index (i.e., `board[x]`)
 3. If 8th LSB set 
    1. randomise an offset again
