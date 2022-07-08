@@ -80,14 +80,6 @@ A walkthrough I wrote for the first CTF I did back in October 2019, go easy on m
 
 ---
 
-## Contact Me:
-
-My [twitter](https://twitter.com/IBRice101/)
-
-My [linkedin](www.linkedin.com/in/izbr)
-
-My email: izbr [at] protonmail [dot] com
-
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)
 
 they/them :)
