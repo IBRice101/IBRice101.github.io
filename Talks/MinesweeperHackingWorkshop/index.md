@@ -107,7 +107,7 @@ At this stage you should be greeted with the New Project wizard. The first optio
 
 ![Ghidra New Project Wizard Sharing Options](media/Ghidra-1.png)
 
-Next specify where you want to save the project files. I recommend creating a new subdirectory wherever your Minesweeper application is called `Ghidra` and saving it in there, as you can see in the image below. THis is more for consistency and neat file structure's sake than anything else.
+Next specify where you want to save the project files. I recommend creating a new subdirectory wherever your Minesweeper application is called `Ghidra` and saving it in there, as you can see in the image below. This is more for consistency and neat file structure's sake than anything else.
 
 ![Creating the project itself with the file path and project name](media/Ghidra-2.png)
 
