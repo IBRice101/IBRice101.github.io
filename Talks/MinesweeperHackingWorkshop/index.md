@@ -1,6 +1,8 @@
 # Minesweeper Reverse Engineering Workshop
 
-This is a guided workshop session based on [this](https://www.begin.re/hacking-minesweeper) challenge. This page specifically is supposed to serve as a walkthrough for beginners to RE. Use this guide as a sort of last resort if you need help with certain sections.
+This is a guided workshop session based on [this](https://www.begin.re/hacking-minesweeper) challenge. This page specifically is supposed to serve as a walkthrough for beginners to RE. Use this guide as a sort of last resort if you need help with certain sections. 
+
+**NOTE** The winmine application is solely Windows-based so we'll have to use Windows here, as opposed to Linux.
 
 If any of this doesn't make sense of you need any help whatsoever, I'll be around to help, either in real life if we're in hacksoc, or on discord as `EyeSack#5624`
 
@@ -24,9 +26,9 @@ Today we'll be reverse engineering Minesweeper. I *adore* Minesweeper, I've lost
 
 If you're unfamiliar with the game, lets go over a few of the basics.
 
-Minesweeper is a point and click game developed by Microsoft for Windows 98 to get people used to using the mouse (that's how old this is lmao). Clicking on the field will reveal some numbers, these numbers represent how many mines that number is touching, so for example a number 2 is touching 2 mines, 1 is touching 1 mine, and so on. The object of the game is to place flags on mines by right clicking the space where you expect them to be, you win when you have flagged every mine on the board. 
+Minesweeper is a point and click game developed by Microsoft originally for Windows 98 to get people used to using the mouse (that's how old this is lmao). Clicking on the field will reveal some numbers, these numbers represent how many mines that number is touching, so for example a number 1 is touching 1 mine, 2 is touching 2 mines, and so on. The object of the game is to place flags on mines by right clicking the space where you expect them to be, you win when you have flagged every mine on the board. 
 
-Let's say, though, that you're lazy and can't be bothered actually playing the game, you just want to win immediately and have every mine flagged automatically. That can't be done without some scripting stuff, or some AI programming video you watch at 1AM instead of doing your miniproject, right?
+Let's say, though, that you're lazy and can't be bothered actually playing the game, you just want to win immediately and have every mine flagged automatically. That can't be done without some scripting stuff, or some AI programming video you watch at 1AM instead of doing your coursework, right?
 
 WRONG! Using some Reverse Engineering wizardry you can do just this in no time at all.
 
@@ -34,25 +36,25 @@ We'll be using an old version of Minesweeper today, available [here](winmine.exe
 
 ## How?
 
-We'll be using Ghidra for this. Ghidra is a reverse engineering tool developed by the NSA and released under... dubious circumstances back in 2018. This tool is super powerful, it has a debugger for dynamic analysis (although its a little difficult to set up, we won't be using it or reasons I'll explain later on), a decompiler that displays code retrieved from the binary in a more readable (C-like) format, and automatic PE Header analysis (PE headers are also expanded upon a bit further down). If I'm being honest, this workshop is mostly to show off Ghidra and make you aware of how to use it, because I love it (and Radare2 but that's for another day).
+We'll be using *Ghidra* for this. Ghidra is a reverse engineering tool developed by the NSA and released under... dubious circumstances back in 2018. This tool is super powerful, it has a debugger for dynamic analysis (although its a little difficult to set up, we won't be using it or reasons I'll explain later on), a decompiler that displays code retrieved from the binary in a more readable (C-like) format, and automatic PE Header analysis (PE headers are also expanded upon a bit further down). If I'm being honest, this workshop is mostly to show off Ghidra and make you aware of how to use it, because I love it (and Radare2 but that's for another day).
 
 ### Why Ghidra?
 
 There are plenty of other reversing tools available, IDA and Radare2 are both excellent frameworks for reverse engineering, however we won't be using them in this workshop for a few reasons.
 
-Regarding IDA, whilst it is arguably the gold-standard, so to speak, of the reverse engineering world, the free version is very limited, it doesn't even have a decompiler, whereas Ghidra is free and open source, meaning you get 100% of the software at the low low cost of £0. (plus the uni doesn't have an IDA license lol)
+Regarding IDA, whilst it is arguably the gold-standard, so to speak, of the reverse engineering world, the free version is very limited, it doesn't even have a decompiler, whereas Ghidra is free and open source, meaning you get 100% of the software at the low low cost of £0 (plus the uni doesn't have an IDA license lol).
 
 Radare2, on the other hand, is also free and some would say more powerful, quicker, and better to automate using the r2 API. Where it fails, however, is in usability. Its learning curve is immense (see graph below) and it would be, frankly, cruel to drop it on anyone without the proper knowledge of basic RE, this is a beginner workshop, after all. If, after this, you wanna have a go at it, check out their [Git Repo](https://github.com/radareorg/radare2) and [this handy guide](https://www.megabeets.net/a-journey-into-radare-2-part-1/).
 
 ![Radare2's learning curve, handily graphed by Megabeets](media/r2-learning-curve.png)
 
-[Here](https://rehex.ninja/posts/comparision-of-re-tools/) is an article comparing all the main RE tools (Cutter is a GUI version of r2)
+[Here](https://rehex.ninja/posts/comparision-of-re-tools/) is an article comparing all the main RE tools (Cutter is a GUI version of r2).
 
 ### Decompiler and Assembly Windows
 
 In Ghidra the two main windows you'll be working from are the Assembly (Listing) and Decompiler windows. The former of these shows the assembly code (touched on later) taken directly from the program, it does this by reading the file you've chosen character by character looking for specific symbols it knows relate to instructions. If you've ever opened an executable in a text editor you know that it just appears like a jumbled mess of random garbage data. Of course, it's not really random, it's just your text editor doing its best to translate the numbers that actually form the instructions for the computer into ASCII or Unicode format. An assembler is much like a text editor in this way, but instead of displaying it in ASCII, it has a database of what these numbers mean and, hence, can translate them into human readable format.
 
-A disassembler, however, is somewhat more complex. The idea behind it is to take the aforementioned assembly and convert that back into code that looks human written, often in a C-like syntax. This means it's easier for us to read and understand, but often at the cost of losing some context. For applications that use the Common Language Runtime (.NET apps like C# and Visual Basic) or the Java Virtual Machine (Java, Kotlin, etc.) this is relatively straightforward, as these languages have a closer relationship between byte-code (like assembly) and the actual human-written code for reasons outwith the scope of this workshop. Truly compiled languages, however, are much trickier because that close relationship isn't there necessarily. A decompiler relies on artefacts left in the code to recreate the structure of the original program as written, which is often scrubbed away so-to-speak. The full way by which a decompiler works is a talk unto itself, but man is it complex. [Here](https://en.wikipedia.org/wiki/Decompiler#Design) is a section of a Wikipedia article going into more depth if you're interested.
+A disassembler, however, is somewhat more complex. The idea behind it is to take the aforementioned assembly and convert that back into code that looks human written, often in a C-like syntax. This means it's easier for us to read and understand, but often at the cost of losing some context. For applications that use the Common Language Runtime (.NET apps like C# and Visual Basic) or the Java Virtual Machine (Java, Kotlin, etc.) this is relatively straightforward, as these languages have a closer relationship between byte-code (like assembly) and the actual human-written code for reasons outwith the scope of this workshop. Truly compiled languages, however, are much trickier because that close relationship isn't there necessarily. A decompiler relies on artefacts left in the code to recreate the structure of the original program as written, which is often scrubbed away so to speak. The full way by which a decompiler works is a talk unto itself, but man is it complex. [Here](https://en.wikipedia.org/wiki/Decompiler#Design) is a section of a Wikipedia article going into more depth if you're interested.
 
 So under what circumstances would you use one over the other? In short, a decompiler's code is easier to understand at a glance, you have variables and loops and conditionals and all this wonderful stuff we're all used to as developers, it's for the same reason we aren't all writing every program we make in Assembly (other than that wonderful loon who made Rollercoaster Tycoon (I'm a poet and I wasn't even aware of that fact)). So surely you should always use the decompiler, no?
 
@@ -64,7 +66,7 @@ NO! The decompiler has many wonderful benefits, but really sometimes we *do* nee
 
 You have two methods of tackling this, really, either as a programmer, or as a ***GAMER***, both are equally valid options, of course, although we will only be going over one.
 
-To understand the two options it is necessary to know that Minesweeper is both a GUI application and also a data structure, that being a 2D array of randomised values where 2, for example, is "is flagged" (this is after a user has interacted with it, of course), 1 is "has bomb", and 0 is "does not have bomb".
+To understand the two options it is necessary to know that Minesweeper is both a GUI application and also a data structure, that being a 2D array of randomised values where 2, for example, is "is flagged" (this is after a user has interacted with it, of course), 1 is "has bomb", and 0 is "does not have bomb". Note that these aren't the real values found in the code, but they're just used for illustrative purposes.
 
 The ***GAMER*** option is to treat Minesweeper as a primarily GUI application and have the patched version draw a flag everywhere where there is a mine, changing the printing function. In Oversimplified C++™ this would look like this:
 
@@ -97,17 +99,17 @@ for (i = 0; i < sizeof(board); i++) {
 }
 ```
 
-This was chosen because it can be represented entirely in code, and also, tbh, its a little more of a challenge so I though it'd be fun, feel free to do it either way yourself, though.
+This was chosen because it can be represented entirely in code, and also, to be honest, it's a little more of a challenge so I though it'd be fun. Feel free to do it either way yourself, though.
 
 ### Setup
 
-On the computer in front of you should have a copy of *Ghidra*, this is the primary reverse engineering tool we will be using for this walkthrough. Ghidra is started by locating and running the `ghidraRun` binary. Once Ghidra is opened, you can either press `Ctrl+N` or go to `File > New Project` to open up a new project. 
+On the computer in front of you should have a copy of Ghidra, as mentioned previously this is the primary reverse engineering tool we will be using for this walkthrough. Ghidra is started by locating and running the `ghidraRun` binary, like you would any other application. Once Ghidra is opened, you can either press `Ctrl+N` or go to `File > New Project` to open up a new project. 
 
 At this stage you should be greeted with the New Project wizard. The first option you will have is to create either a "shared" or "non-shared" project. You want "non-shared" at the minute. Shared projects are great for working in teams on one specific piece of software, but as this is supposed to be an individual task, and for simplicity's sake, it's best to just go for non-shared
 
 ![Ghidra New Project Wizard Sharing Options](media/Ghidra-1.png)
 
-Next specify where you want to save the project files. I recommend creating a new subdirectory wherever your Minesweeper application is called `Ghidra` and saving it in there, as you can see in the image below. This is more for consistency and neat file structure's sake than anything else.
+Next specify where you want to save the project files. I recommend creating a new subdirectory, wherever your Minesweeper application is, called `Ghidra` and saving it in there, as you can see in the image below. This is more for consistency and neat file structure's sake than anything else.
 
 ![Creating the project itself with the file path and project name](media/Ghidra-2.png)
 
@@ -131,7 +133,7 @@ This will take you to an empty code browser view. Use `Ctrl+O` or `File > Open..
 
 Assembly language makes use of so-called "mnemonics", which can be thought of as keywords or operands on a set of data. In Intel syntax (one of two kinds of syntax for assembly language along with AT&T), when performing an operation on two values, the second operand always moves to the first. For example in `MOV eax, ebx`, the contents of the `ebx` register are moved into `eax`. Most everything else about Assembly language at this point is simply knowing what specific mnemonics do (look at the non-exhaustive cheat sheet below), and being able to think on a micro scale about each of the operations being performed when a program is run.
 
-But what is a register?. A register (at least on a 32-bit platform) is a small memory location on the CPU that allows it to access data much quicker than pulling from RAM. There are four 32 bit registers, `EAX`, `EBX`, `ECX`, and `EDX`, which can be subdivided into the 16 bit data registers `AX`, `BX`, `CX`, and `DX`, and further subdivided into 8 bit data registers `AH`, `AL`, `BH`, `BL`, `CH`, `CL`, `DH`, and `DL`.
+But what is a register?. A register (at least on a 32-bit platform) is a small memory location on the CPU that allows it to access data much quicker than pulling from RAM. There are four general-purpose 32 bit registers (`EAX`, `EBX`, `ECX`, and `EDX`), which can be subdivided into 16 bit data registers (`AX`, `BX`, `CX`, and `DX`), and further subdivided into 8 bit data registers `AH`, `AL`, `BH`, `BL`, `CH`, `CL`, `DH`, and `DL`. There are also two more 32 bit registers (`ESI` and `EDI`) which can be divided into 16 bit registers (`SI` and `DI`), and pointer registers (`EBP` and `ESP`) which are responsible for telling the computer where the stack is.
 
 Another important register in reverse engineering is the status register. This register is a collection of status bits that each represent a specific aspect of the system as it exists at a specific point in time. In x86 architecture, what Minesweeper (and most programs you interact with on a daily basis on a PC) runs on, this register is called FLAGS, and contains 16 bits of note (there are 32 and 64 bit additions to this register but to prevent confusion I will stick to the 16-bit version for now). The purpose of each of the flags can be seen in the image below.
 
@@ -139,7 +141,7 @@ Another important register in reverse engineering is the status register. This r
 
 Of particular note here is the `ZF`, or Zero Flag. This flag is crucial to a number of arithmetic and code expressions, as it checks whether the value most recently operated on is equal to zero or not. This is checked using the `JNZ` (Jump if Not Zero) operation which instructs the program to jump to a specified location if `ZF == 0`, i.e., the `ZF` is **NOT** set. It can get confusing sometimes in Assembly land lol. 
 
-Anyway, this instruction is so important because it forms the core of *both* conditional statements and loops. let's take a for loop as an example, a common for loop looks like this
+Anyway, this instruction is so important because it forms the core of *both* conditional statements and loops. Let's take a for loop as an example, a common for loop looks like this
 
 ```c++
 for (int i = 0; i < 5; i++) {
@@ -165,7 +167,7 @@ Other shared libraries can also be used, such as networking libraries, file acce
 
 Now we're into the meat of the reversing process. Unfortunately, this executable has no "debug symbols", what you'll probably know as identifiers, or variable and function names. This isn't necessarily ideal from a reversing perspective, but from a learning perspective is pretty good, as it prompts you to really learn what each of the functions and variables actually do and how they actually work, as opposed to simply going off the identifier. I also get to teach you how to rename files!
 
-So... Remember how I said earlier that Minesweeper is "a 2D array of randomised values"? This is where that really comes into effect. **We need to find where the minefield is in code**. The first step to solving this challenge is to realise that the developers had to randomise this somehow, and the most likely way of doing that is by using `rand()`, a function inside the `MSVCRT.DLL` file, that has likely been imported. In the Symbol Tree, on the right of the screen, you will see a collection of directories that the program has kindly generated for us. To find `rand` go to `Imports > MSVCRT.DLL > rand`, as illustrated below
+So... Remember how I said earlier that Minesweeper is "a 2D array of randomised values"? This is where that really comes into effect. **We need to find where the minefield is in code**. The first step to solving this challenge is to realise that the developers had to randomise this somehow, and the most likely way of doing that is by using `rand()`, a function inside the `MSVCRT.DLL` file, that has likely been imported. This will be our anchor point. In the Symbol Tree, on the left of the screen, you will see a collection of directories that the program has kindly generated for us. To find `rand` go to `Imports > MSVCRT.DLL > rand`, as illustrated below.
 
 ![The symbol tree, with rand (inside imports) highlighted](media/Ghidra-6.png)
 

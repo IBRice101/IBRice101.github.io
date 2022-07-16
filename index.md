@@ -11,7 +11,7 @@ I'm learning Esperanto Check out this article to learn why and how!
 
 ---
 
-## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/) (Work In Progress)
+## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/)
 
 My upcoming workshop for the Abertay Ethical Hacking Society, aiming to teach people how to Reverse Engineer, use Ghidra and OllyDbg, think outside of the box about common things, and have fun, all through the medium of one of the greatest games ever made, Minesweeper!
 
