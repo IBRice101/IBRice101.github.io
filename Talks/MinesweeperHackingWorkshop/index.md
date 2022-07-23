@@ -70,14 +70,14 @@ The tools we need are unfortunately not available on the hacklab machines as def
 
 JDK 11 (or higher) is required for Ghidra to work properly, unfortunately it does not come on the hacklab machines so we will have to install it
 
-1. Go to this link: https://www.oracle.com/java/technologies/downloads/#jdk18-windows
+1. Go to [this link](https://www.oracle.com/java/technologies/downloads/#jdk18-windows)
 2. Click "x64 Installer"
 3. Download the JDK
 4. Go through the steps in the Wizard
 
 ### Installing Ghidra
 
-1. Visit https://ghidra-sre.org/
+1. Visit [the Ghidra website](https://ghidra-sre.org/)
 2. Click "Download from GitHub"
 3. Download the latest version, should look something like "ghidra_10.1.4_PUBLIC_20220519.zip"
 4. Once downloaded extract it to the desktop
