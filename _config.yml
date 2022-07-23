@@ -1,11 +1,12 @@
 title: IZBR's Infodump
 author: Isaac Basque-Rice
 
+description: >-
+  Hi! My name is Isaac Basque-Rice, and this website is a repository for all the cool stuff I've done, enjoy!
+
 theme: jekyll-theme-midnight
 
 email: izbr@protonmail.com
 github_username: IBRice101
 twitter_username: IBRice101
 linkedin_username: izbr
-
-# TODO: set up izbr.xyz here, use https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site
