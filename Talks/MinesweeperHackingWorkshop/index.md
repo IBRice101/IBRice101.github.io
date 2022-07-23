@@ -60,6 +60,33 @@ So under what circumstances would you use one over the other? In short, a decomp
 
 NO! The decompiler has many wonderful benefits, but really sometimes we *do* need to use a disassembler. Firstly, decompilers are never perfect, not really. To properly understand what's going on in specific sections of code we need to know what's happening at a really low level and use our wonderful human brains to figure it out ourselves, have a greater understanding and so on. It's also useful in cases regarding symbolic analysis, code similarity or maybe something like fuzzing where actual high level representation may not be needed.
 
+## How to Install Required Tools on Hacklab Machines
+
+The tools we need are unfortunately not available on the hacklab machines as default, this section wil go over how to install each of the things we need for this workshop.
+
+**NOTE**: I may also make a Dockerfile available if I can figure it out, lol
+
+### Installing JDK 11
+
+JDK 11 (or higher) is required for Ghidra to work properly, unfortunately it does not come on the hacklab machines so we will have to install it
+
+1. Go to this link: https://www.oracle.com/java/technologies/downloads/#jdk18-windows
+2. Click "x64 Installer"
+3. Download the JDK
+4. Go through the steps in the Wizard
+
+### Installing Ghidra
+
+1. Visit https://ghidra-sre.org/
+2. Click "Download from GitHub"
+3. Download the latest version, should look something like "ghidra_10.1.4_PUBLIC_20220519.zip"
+4. Once downloaded extract it to the desktop
+
+### Installing OllyDbg
+
+1. Click [this link](https://www.ollydbg.de/odbg200.zip)
+2. Extract to desktop
+
 ## The Challenge
 
 ### Approaches You Can Take
