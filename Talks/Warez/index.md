@@ -4,6 +4,8 @@ By Isaac Basque-Rice
 
 Talk given 2022-03-09
 
+This article was written as a sort of pseudo-script for my Warez Scene talk at the Abertay Ethical Hacking Society. The slides for this presentation can be found [here](WarezTalk.pdf).
+
 ## BIG FAT DISCLAIMER
 
 For legal reasons I have to say at the very top that I do not condone anything I'll be talking about over the next 40-50 minutes of your time, Any illegal activities herein should not be considered an endorsement, and you absolutely should not attempt to replicate anything I mention without the express permission of someone who's allowing you to do this. You know, basic white hat shit.

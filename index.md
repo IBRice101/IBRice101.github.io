@@ -2,7 +2,6 @@
 
 Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical Hacking at Abertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
 
-
 ---
 
 ## [Esperanto](Projects/Esperanto/index.md)
