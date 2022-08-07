@@ -4,19 +4,25 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [APT Talk (As Yet Untitled)](Talks/APTs/index.md)
+
+Another upcoming talk for the Abertay Ethical Hacking society, this time on APTs, or Advanced Persistent Threats.
+
+---
+
 ## [Esperanto](Projects/Esperanto/index.md)
 
 I'm learning Esperanto Check out this article to learn why and how!
 
 ---
 
-## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/)
+## [Minesweeper Reverse Engineering Workshop](Talks/MinesweeperHackingWorkshop/index.md)
 
 My upcoming workshop for the Abertay Ethical Hacking Society, aiming to teach people how to Reverse Engineer, use Ghidra and OllyDbg, think outside of the box about common things, and have fun, all through the medium of one of the greatest games ever made, Minesweeper!
 
 ---
 
-## [Notes on Reading a Scientific Paper for a Literature Review](./Uni/PaperNotes.md)
+## [Notes on Reading a Scientific Paper for a Literature Review](Uni/PaperNotes.md)
 
 My notes form a selection of online resources pertaining to the reading of scientific papers, something that isn't especially easy for me, but that is made easier by a sort of algorithm for these things.
 
@@ -34,47 +40,53 @@ My first foray into the world of CTFs, a little reverse engineering task. **NOTE
 
 ---
 
-## [My talk on the Warez Scene](http://IBRice101.github.io/Talks/Warez/)
+## [My talk on the Warez Scene](Talks/Warez/index.md)
 
 On the 9th of March 2022 I gave a talk on Piracy and the Warez Scene at the Abertay Ethical Hacking Society, as is my way of going about things I first wrote an article fleshing out roughly what I was planning on saying, Please enjoy!
 
 ---
 
-## [University Work](https://IBRice101.github.io/Uni/)
+## [Stuxnet](Talks/Stuxnet/index.md)
+
+My very first talk! This one was a 15 minute lightning talk for the Abertay Ethical Hacking Society on the Stuxnet malware, one of my faves :)
+
+---
+
+## [University Work](Uni/index.md)
 
 The home of all of my uni work, what to expect for future students, how I saw the modules themselves, and how I did the coursework
 
 ---
 
-## [Automate the Boring Stuff with Python](https://IBRice101.github.io/Projects/ATBSWP)
+## [Automate the Boring Stuff with Python](Projects/ATBSWP.md)
 
 When it was free for a little while in July 2021 I took a 5 hour course on automation in Python!
 
 ---
 
-## [Censis IoT Hackathon notes](https://IBRice101.github.io/Projects/IoT/censis-iot-hackathon)
+## [Censis IoT Hackathon notes](Projects/IoT/censis-iot-hackathon.md)
 
 I did a little IoT Hacking this past week, here are my notes!
 
 ---
 
-## [Walkthroughs](https://IBRice101.github.io/Walkthroughs)
+## [Walkthroughs](Walkthroughs/index.md)
 
-THis is a repository of all of the walkthroughs and help guides I've created for various technologies over the years, most, but not all, were for the Abertay Ethical Hacking Society Wiki originally
+This is a repository of all of the walkthroughs and help guides I've created for various technologies over the years, most, but not all, were for the Abertay Ethical Hacking Society Wiki originally
 
 ---
 
-## [Turns out, Raspberry Pi OS CAN Be emulated!](https://IBRice101.github.io/Projects/Raspberry-Pi-QEMU-VM)
+## [Turns out, Raspberry Pi OS CAN Be emulated!](Projects/IoT/Raspberry-Pi-QEMU-VM.md)
 A Guide to installing and running Raspberry Pi OS under an x86 Linux environment, pretty exciting stuff, eh?
 
 ---
 
-## [HackBack2 — great fun, VERY challenging (Also OSINT)](https://IBRice101.github.io/CTFs/Writeups/hackback)
+## [HackBack2 — great fun, VERY challenging (Also OSINT)](CTFs/Writeups/hackback.md)
 Another CTF walkthrough I wrote for a single section of the Hackback2 competition in 2019, I came first in the OSINT Section which I was pretty chuffed about
 
 ---
 
-## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](https://IBRice101.github.io/CTFs/Writeups/c4ptur3-th3-fl4g)
+## [CTF Walkthrough — c4ptur3-th3-fl4g — tryhackme.com](CTFs/Writeups/c4ptur3-th3-fl4g.md)
 A walkthrough I wrote for the first CTF I did back in October 2019, go easy on me I was only a skid then lol
 
 ---
