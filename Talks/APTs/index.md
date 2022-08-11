@@ -40,11 +40,14 @@ Let's go over the Tactics Techniques and Procedures outlined in the ATT&CK frame
 
 TTPs, or Tactics, Techniques, and Procedures, are a crucial concept in cyber security (and terrorism) education. They serve to outline sets of behaviours so a specific action can be mapped to a malicious actor or group. MITRE outlines a set of 14 tactics, which are divided into 222 techniques, many of which have several sub-techniques themselves. 
 
-In this section of the talk I won't go over literally *everything* because we'd be here all day and you'd be asleep in your chairs, but I will go over some of the interesting techniques, as well as the ones you may not have heard much of before.
+In this section of the talk I won't go over literally *everything* because we'd be here all day and you'd be asleep in your chairs, but I will go over one or two of the most interesting techniques that form part of each of the tactics.
 
 The 14 tactics are:
 
-1. Reconnaissance
+<!-- use https://attack.mitre.org/matrices/enterprise/ -->
+
+1. Reconnaissance: AKA Information gathering, used to plan future operations
+   1. Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
 2. Resource Development
 3. Initial Access
 4. Execution
@@ -52,7 +55,7 @@ The 14 tactics are:
 6. Privilege Escalation
 7. Defense [sic.] Evasion
 8. Credential Access
-9. Discovery
+9.  Discovery
 10. Lateral Movement
 11. Collection
 12. Command and Control
