@@ -2,7 +2,7 @@
 
 ## Info About The Talk
 
-These are the notes I wrote for a quick lightning talk on Stuxnet I delivered at the Abertay Ethical Hacking Society's weekly meeting back in late September 2021. THe full slide deck in pdf form can be found [here](Stuxnet.pdf).
+These are the notes I wrote for a quick lightning talk on Stuxnet I delivered at the Abertay Ethical Hacking Society's weekly meeting back in late September 2021. The full slide deck in pdf form can be found [here](Stuxnet.pdf).
 
 Bearing in mind that this talk was delivered at the very beginning of the academic year, I felt it was necessary to, in some cases, possibly over-explain myself. Hopefully if you yourself are a beginner you can get some help from this
 

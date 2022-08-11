@@ -312,6 +312,12 @@ The first reason is that it's actually used on the course, so those of you who'v
 
 It can be downloaded [here](http://www.ollydbg.de/) and may also be available on the computers in front of you already.
 
+Additionally, if you don't share my love of OllyDbg, other, equally useful debuggers are available below:
+
+- [WinDbg](https://docs.microsoft.com/en-us/windows-hardware/drivers/debugger/debugger-download-tools)
+- [x64Dbg](https://x64dbg.com/)
+- [Immunity Debugger](https://www.immunityinc.com/products/debugger/)
+
 As a reminder, we're looking for the contents of the variables `DAT_01005334` and `DAT_01005338`, which are the parameters passed to `rand_caller`, as well as the value of `DAT_01005340`, which is the base address to which the offsets (the indexes, or positions on the board) are added. To begin the process of performing dynamic analysis on winmine, do the following:
 
 1. Open OllyDbg
