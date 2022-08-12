@@ -46,21 +46,25 @@ The 14 tactics are:
 
 <!-- use https://attack.mitre.org/matrices/enterprise/ -->
 
-1. Reconnaissance: AKA Information gathering, used to plan future operations
+1. **Reconnaissance**: AKA Information gathering, used to plan future operations
    1. Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
-2. Resource Development
-3. Initial Access
-4. Execution
-5. Persistence
-6. Privilege Escalation
-7. Defense [sic.] Evasion
-8. Credential Access
-9.  Discovery
-10. Lateral Movement
-11. Collection
-12. Command and Control
-13. Exfiltration
-14. Impact
+2. **Resource Development**: Establishing resources they can use to support operations through the creation, purchasing, or theft of resources (such as tools, infrastructure, accounts)
+   1. Develop Capabilities: Includes malware, code signing certificates, digital certificates, and exploits. APTs do this quite often, Specifically in malware, which was the focus of my mini project (and possibly dissertation who knows). An APT can create malware, sign the code to make it look like a legitimate executable (ex. Microsoft DLLs), and also discover and exploit new 0day vulns, like EternalBlue
+3. **Initial Access**: When they're trying to get into the network
+   1. Phishing: Includes spear-phishing by attachment, link clicking, or third party services. Electronically delivered social engineering, classic email scams, but often *remarkably* effective
+4. **Execution**: AKA remote code execution (RCE), results in often malicious code developed by the attacker running on a target machine
+   1. User Execution: Getting the user to deploy code, often via phishing, using malicious files, links, and so on
+   2. Command and Scripting Interpreter: Such as Powershell on Windows or a Unix Shell on Linux. Using various scripts (possibly run immediately) to execute payloads and such
+5. **Persistence**:
+6. **Privilege Escalation**:
+7. **Defense [sic.] Evasion**:
+8. **Credential Access**:
+9.  **Discovery**:
+10. **Lateral Movement**:
+11. **Collection**:
+12. **Command and Control**:
+13. **Exfiltration**:
+14. **Impact**:
 
 ## Case Studies
 
