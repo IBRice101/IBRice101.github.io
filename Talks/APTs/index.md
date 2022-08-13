@@ -55,17 +55,38 @@ The 14 tactics are:
 4. **Execution**: AKA remote code execution (RCE), results in often malicious code developed by the attacker running on a target machine
    1. User Execution: Getting the user to deploy code, often via phishing, using malicious files, links, and so on
    2. Command and Scripting Interpreter: Such as Powershell on Windows or a Unix Shell on Linux. Using various scripts (possibly run immediately) to execute payloads and such
-5. **Persistence**:
-6. **Privilege Escalation**:
-7. **Defense [sic.] Evasion**:
+5. **Persistence**: The process of maintaining a foothold on a network
+   1. Boot or Logon Initialization Scripts/Autostart Execution: These are actually two separate things in the Matrix but I thought seen as how they're so similar I may as well bunch them together. Can configure an operating system to automatically run a script or executable on system start or reboot in order to maintain presence in a network, this can be done in many different ways including editing the registry (where info and settings for software, hardware, and the system itself is stored), injecting a module into the kernel itself, or editing various system or network wide logon scripts.  
+6. **Privilege Escalation**: Gaining higher level permissions, with the aim of admin or root
+   1. Access Token Manipulation: Access Tokens are granted to all running processes under Windows to inform the OS what level of privilege the user who began the process has. In many cases however these can be modified to make a process, such as a reverse shell, appear as if it is running under the admin level privilege. This can be performed by stealing or impersonating an existing token on the machine, creating a new token, or spoofing the Parent Process Identifier (PPID).
+   2. Boot or Logon Initialisation Scripts and Autostart Execution can also be used for PrivEsc
+7. **Defense [sic.] Evasion**: Avoiding being detected
+   1. Access Token Manipulation can also be used here
+   2. Process Injection: malware or other bad actors' code can be ran inside the process space of another program in a process called "injection", this allows the malicious code to piggyback off of the legitimate software, including privileges and all, without being detected as easily as it is attached to something legitimate. This can be done by injecting DLLs, PE (Portable Executable files, the category to which EXEs belong), hijacking thread executions, and many more methods
+   3. There are absolutely loads more of these, I encourage you to read up yourself
 8. **Credential Access**:
+   1. 
 9.  **Discovery**:
+   1. 
 10. **Lateral Movement**:
+   1. 
 11. **Collection**:
+   1. 
 12. **Command and Control**:
+   1. 
 13. **Exfiltration**:
+   1. 
 14. **Impact**:
+   1. 
 
 ## Case Studies
 
-<!-- Some Info Here -->
+### APT 28
+
+
+
+### APT 38
+
+
+
+### Equation Group
