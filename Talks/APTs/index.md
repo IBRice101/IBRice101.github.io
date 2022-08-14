@@ -42,9 +42,9 @@ TTPs, or Tactics, Techniques, and Procedures, are a crucial concept in cyber sec
 
 In this section of the talk I won't go over literally *everything* because we'd be here all day and you'd be asleep in your chairs, but I will go over one or two of the most interesting techniques that form part of each of the tactics.
 
-The 14 tactics are:
+To access the Matrix itself, visit https://attack.mitre.org/matrices/enterprise/
 
-<!-- use https://attack.mitre.org/matrices/enterprise/ -->
+The 14 tactics are:
 
 1. **Reconnaissance**: AKA Information gathering, used to plan future operations
    1. Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
@@ -64,9 +64,10 @@ The 14 tactics are:
    1. Access Token Manipulation can also be used here
    2. Process Injection: malware or other bad actors' code can be ran inside the process space of another program in a process called "injection", this allows the malicious code to piggyback off of the legitimate software, including privileges and all, without being detected as easily as it is attached to something legitimate. This can be done by injecting DLLs, PE (Portable Executable files, the category to which EXEs belong), hijacking thread executions, and many more methods
    3. There are absolutely loads more of these, I encourage you to read up yourself
-8. **Credential Access**:
-   1. 
-9.  **Discovery**:
+8. **Credential Access**: Stealing account names and passwords
+   1. Credentials from Password Stores: Often specific operating systems have certain places in which credentials are stored, in Windows this is the Credential Manager, and in Linux this is `/etc/passwd` and `/etc/shadow`. Many organisations also employ third party password managers, which may be simple to access given only one (often insecure) password stands between an attacker and total access. This technique often goes hand in hand with brute forcing, which is another valid, albeit slow approach.
+   2. Input Capture: Another method, possibly using keylogging, GUI or Web Portal capture, or other means. Can be very effective, also.
+9.  **Discovery**: 
    1. 
 10. **Lateral Movement**:
    1. 
