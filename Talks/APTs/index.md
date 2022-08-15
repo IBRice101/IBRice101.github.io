@@ -47,39 +47,39 @@ To access the Matrix itself, visit https://attack.mitre.org/matrices/enterprise/
 The 14 tactics are:
 
 1. **Reconnaissance**: AKA Information gathering, used to plan future operations
-   1. Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
+   - Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
 2. **Resource Development**: Establishing resources they can use to support operations through the creation, purchasing, or theft of resources (such as tools, infrastructure, accounts)
-   1. Develop Capabilities: Includes malware, code signing certificates, digital certificates, and exploits. APTs do this quite often, Specifically in malware, which was the focus of my mini project (and possibly dissertation who knows). An APT can create malware, sign the code to make it look like a legitimate executable (ex. Microsoft DLLs), and also discover and exploit new 0day vulns, like EternalBlue
+   - Develop Capabilities: Includes malware, code signing certificates, digital certificates, and exploits. APTs do this quite often, Specifically in malware, which was the focus of my mini project (and possibly dissertation who knows). An APT can create malware, sign the code to make it look like a legitimate executable (ex. Microsoft DLLs), and also discover and exploit new 0day vulns, like EternalBlue
 3. **Initial Access**: When they're trying to get into the network
-   1. Phishing: Includes spear-phishing by attachment, link clicking, or third party services. Electronically delivered social engineering, classic email scams, but often *remarkably* effective
+   - Phishing: Includes spear-phishing by attachment, link clicking, or third party services. Electronically delivered social engineering, classic email scams, but often *remarkably* effective
 4. **Execution**: AKA remote code execution (RCE), results in often malicious code developed by the attacker running on a target machine
-   1. User Execution: Getting the user to deploy code, often via phishing, using malicious files, links, and so on
-   2. Command and Scripting Interpreter: Such as Powershell on Windows or a Unix Shell on Linux. Using various scripts (possibly run immediately) to execute payloads and such
+   - User Execution: Getting the user to deploy code, often via phishing, using malicious files, links, and so on
+   - Command and Scripting Interpreter: Such as Powershell on Windows or a Unix Shell on Linux. Using various scripts (possibly run immediately) to execute payloads and such
 5. **Persistence**: The process of maintaining a foothold on a network
-   1. Boot or Logon Initialization Scripts/Autostart Execution: These are actually two separate things in the Matrix but I thought seen as how they're so similar I may as well bunch them together. Can configure an operating system to automatically run a script or executable on system start or reboot in order to maintain presence in a network, this can be done in many different ways including editing the registry (where info and settings for software, hardware, and the system itself is stored), injecting a module into the kernel itself, or editing various system or network wide logon scripts.  
+   - Boot or Logon Initialization Scripts/Autostart Execution: These are actually two separate things in the Matrix but I thought seen as how they're so similar I may as well bunch them together. Can configure an operating system to automatically run a script or executable on system start or reboot in order to maintain presence in a network, this can be done in many different ways including editing the registry (where info and settings for software, hardware, and the system itself is stored), injecting a module into the kernel itself, or editing various system or network wide logon scripts.  
 6. **Privilege Escalation**: Gaining higher level permissions, with the aim of admin or root
-   1. Access Token Manipulation: Access Tokens are granted to all running processes under Windows to inform the OS what level of privilege the user who began the process has. In many cases however these can be modified to make a process, such as a reverse shell, appear as if it is running under the admin level privilege. This can be performed by stealing or impersonating an existing token on the machine, creating a new token, or spoofing the Parent Process Identifier (PPID).
-   2. Boot or Logon Initialisation Scripts and Autostart Execution can also be used for PrivEsc
+   - Access Token Manipulation: Access Tokens are granted to all running processes under Windows to inform the OS what level of privilege the user who began the process has. In many cases however these can be modified to make a process, such as a reverse shell, appear as if it is running under the admin level privilege. This can be performed by stealing or impersonating an existing token on the machine, creating a new token, or spoofing the Parent Process Identifier (PPID).
+   - Boot or Logon Initialisation Scripts and Autostart Execution can also be used for PrivEsc
 7. **Defense [sic.] Evasion**: Avoiding being detected
-   1. Access Token Manipulation can also be used here
-   2. Process Injection: malware or other bad actors' code can be ran inside the process space of another program in a process called "injection", this allows the malicious code to piggyback off of the legitimate software, including privileges and all, without being detected as easily as it is attached to something legitimate. This can be done by injecting DLLs, PE (Portable Executable files, the category to which EXEs belong), hijacking thread executions, and many more methods
-   3. There are absolutely loads more of these, I encourage you to read up yourself
+   - Access Token Manipulation can also be used here
+   - Process Injection: malware or other bad actors' code can be ran inside the process space of another program in a process called "injection", this allows the malicious code to piggyback off of the legitimate software, including privileges and all, without being detected as easily as it is attached to something legitimate. This can be done by injecting DLLs, PE (Portable Executable files, the category to which EXEs belong), hijacking thread executions, and many more methods
+   - There are absolutely loads more of these, I encourage you to read up yourself
 8. **Credential Access**: Stealing account names and passwords
-   1. Credentials from Password Stores: Often specific operating systems have certain places in which credentials are stored, in Windows this is the Credential Manager, and in Linux this is `/etc/passwd` and `/etc/shadow`. Many organisations also employ third party password managers, which may be simple to access given only one (often insecure) password stands between an attacker and total access. This technique often goes hand in hand with brute forcing, which is another valid, albeit slow approach.
-   2. Input Capture: Another method, possibly using keylogging, GUI or Web Portal capture, or other means. Can be very effective, also.
+   - Credentials from Password Stores: Often specific operating systems have certain places in which credentials are stored, in Windows this is the Credential Manager, and in Linux this is `/etc/passwd` and `/etc/shadow`. Many organisations also employ third party password managers, which may be simple to access given only one (often insecure) password stands between an attacker and total access. This technique often goes hand in hand with brute forcing, which is another valid, albeit slow approach.
+   - Input Capture: Another method, possibly using keylogging, GUI or Web Portal capture, or other means. Can be very effective, also.
 9.  **Discovery**: Figuring out the environment
-   1. Account Discovery: Including Local, Domain, Email, and Cloud accounts. This can be used to see what accounts can be utilised to aid in their next steps
-   2. Most of this section is using slightly varying techniques to discover as much information as possible, these include browser bookmarks, cloud infrastructure, debugger info (for evasion), file, directory, permissions, group policy, network services, and much more. Most of it, though, kind of speaks for itself
+   - Account Discovery: Including Local, Domain, Email, and Cloud accounts. This can be used to see what accounts can be utilised to aid in their next steps
+   - Most of this section is using slightly varying techniques to discover as much information as possible, these include browser bookmarks, cloud infrastructure, debugger info (for evasion), file, directory, permissions, group policy, network services, and much more. Most of it, though, kind of speaks for itself
 10. **Lateral Movement**: Moving through an environment
-   1. Remote Services: including Remote Desktop Protocol (RDP), Server Message Block (SMB), Secure Shell (SSH), and so on. This can result in malicious actors gaining access further into, or around, the network.
+   - Remote Services: including Remote Desktop Protocol (RDP), Server Message Block (SMB), Secure Shell (SSH), and so on. This can result in malicious actors gaining access further into, or around, the network.
 11. **Collection**: Gathering information of interest
-   1. Can collect date through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
+   - Can collect date through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
 12. **Command and Control**: Attempting to communicate with compromised systems in order to control them
-   1. 
+   - Application Layer Protocol: Malicious Actors can communicate using application layer protocols to avoid suspicion. Many C2 servers are configured with web pages to make use of web protocols. Chinese APTs have been observed recently with websites on the Uyghur genocide being hosted on their C2s. FTP, DNS, or Email servers also function for this purpose too.  
 13. **Exfiltration**:
-   1. 
+   - 
 14. **Impact**:
-   1. 
+   - 
 
 ## Case Studies
 
