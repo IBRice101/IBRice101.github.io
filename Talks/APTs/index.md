@@ -67,13 +67,14 @@ The 14 tactics are:
 8. **Credential Access**: Stealing account names and passwords
    1. Credentials from Password Stores: Often specific operating systems have certain places in which credentials are stored, in Windows this is the Credential Manager, and in Linux this is `/etc/passwd` and `/etc/shadow`. Many organisations also employ third party password managers, which may be simple to access given only one (often insecure) password stands between an attacker and total access. This technique often goes hand in hand with brute forcing, which is another valid, albeit slow approach.
    2. Input Capture: Another method, possibly using keylogging, GUI or Web Portal capture, or other means. Can be very effective, also.
-9.  **Discovery**: 
-   1. 
-10. **Lateral Movement**:
-   1. 
-11. **Collection**:
-   1. 
-12. **Command and Control**:
+9.  **Discovery**: Figuring out the environment
+   1. Account Discovery: Including Local, Domain, Email, and Cloud accounts. This can be used to see what accounts can be utilised to aid in their next steps
+   2. Most of this section is using slightly varying techniques to discover as much information as possible, these include browser bookmarks, cloud infrastructure, debugger info (for evasion), file, directory, permissions, group policy, network services, and much more. Most of it, though, kind of speaks for itself
+10. **Lateral Movement**: Moving through an environment
+   1. Remote Services: including Remote Desktop Protocol (RDP), Server Message Block (SMB), Secure Shell (SSH), and so on. This can result in malicious actors gaining access further into, or around, the network.
+11. **Collection**: Gathering information of interest
+   1. Can collect date through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
+12. **Command and Control**: Attempting to communicate with compromised systems in order to control them
    1. 
 13. **Exfiltration**:
    1. 
