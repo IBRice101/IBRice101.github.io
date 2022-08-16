@@ -75,14 +75,18 @@ The 14 tactics are:
 11. **Collection**: Gathering information of interest
    - Can collect date through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
 12. **Command and Control**: Attempting to communicate with compromised systems in order to control them
-   - Application Layer Protocol: Malicious Actors can communicate using application layer protocols to avoid suspicion. Many C2 servers are configured with web pages to make use of web protocols. Chinese APTs have been observed recently with websites on the Uyghur genocide being hosted on their C2s. FTP, DNS, or Email servers also function for this purpose too.  
+   - Application Layer Protocol: Malicious Actors can communicate using application layer protocols to avoid suspicion. Many C2 servers are configured with web pages to make use of web protocols. Chinese APTs have been observed recently with websites on the Uygur genocide being hosted on their C2s. FTP, DNS, or Email servers also function for this purpose too.  
 13. **Exfiltration**: Getting data out, stealing it from a target
    - Automated Exfiltration: Write an automated process to exfiltrate data, likely to the C2 server, after being gathered during collection. 
    - Exfiltration can be performed a number of ways, through both C2 and Non-C2 channels, to code repositories or cloud storage, or through physical medium such as a USB if the malicious actor has physical access to your internal network.
 14. **Impact**: Attempting to manipulate, interrupt, or delete systems and data
-   - 
+   - Data Manipulation/Destruction: Inserting, deleting, corrupting, manipulating, and otherwise tampering with data stored on a network. THis can be done to interrupt normal operation, ransom them, and so on
 
 ## Case Studies
+
+This is the real meat of the talk, what have these groups actually *done*, who *are* they, and *why*?
+
+At this stage in the talk it is important to note that all of this is merely *alleged*, 
 
 ### APT 28
 
