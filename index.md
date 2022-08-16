@@ -4,6 +4,12 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [Practical Malware Analysis & Triage](Projects/PMAT/index.md)
+
+On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt Kiely (HuskyHacks) for £0.99, an absolute bargain. This repository serves as my notes for the course.
+
+---
+
 ## [APT Talk (As Yet Untitled)](Talks/APTs/index.md)
 
 Another upcoming talk for the Abertay Ethical Hacking society, this time on APTs, or Advanced Persistent Threats.
