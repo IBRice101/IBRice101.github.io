@@ -23,10 +23,10 @@ On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt
 ## Topics
 
 - Introduction
-- [Safety Always! Setting Up A Lab & Malware Handling](Safety/index.md)
+- [Safety Always! Setting Up A Lab & Malware Handling](1-Safety/index.md)
 - Four Phases of Analysis
   - [Basic Static Analysis](2-BasicStaticAnalysis/index.md)
-  - Basic Dynamic Analysis
+  - [Basic Dynamic Analysis](3-BasicDynamicAnalysis/index.md)
   - Challenge 1
   - Advanced Static ANalysis
   - Advanced Dynamic Analysis
@@ -43,3 +43,12 @@ On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt
 - Report! Organising Your Notes for a Triage Report
 - Course Final
 - Conclusion/Further Readings
+
+
+## Programs I needed to install myself
+
+FlareVM's installation process is... not perfect, and so it became necessary for me to install certain tools manually after FlareVM got up and running, here is a full list for my own record keeping 
+
+- PE Studio
+- Procmon
+- The SysInternals Suite
