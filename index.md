@@ -16,7 +16,7 @@ Another upcoming talk for the Abertay Ethical Hacking society, this time on APTs
 
 ---
 
-## [Esperanto](Projects/Esperanto/index.md)
+## [Esperanto](Non-Technical/Esperanto/index.md)
 
 I'm learning Esperanto Check out this article to learn why and how!
 
