@@ -9,13 +9,13 @@
 
 README contents as follows:
 
-```
-Analyst,
 
-We do not have the file hashes for this sample yet. Please pull the hashes and submit.
+> Analyst,
 
--RE Team
-```
+> We do not have the file hashes for this sample yet. Please pull the hashes and submit.
+
+> -RE Team
+
 
 - Collect 2 file hashes
   - SHA256:

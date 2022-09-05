@@ -87,6 +87,30 @@ Right now, as I see it, we've just transitioned into that last step.  We fundame
 
 There is still urgency -- every 0.1C of warming will cause more suffering and death -- but that's exactly why it's important to not allow our motivation to get sapped by wallowing in doom and despair.
 
+### Comment by u/theskyisnotthelimit
+
+I think you're overlooking some things here, so I'll try my best to give you a tiny bit of hope:
+
+1) Economics.  [This video](https://www.youtube.com/watch?v=UUySXZ6y2fk) reviews a relatively optimistic report released recently by a  climate group who also have a good track record of predicting things.  In short, your assumption that it takes decades to transition to sustainability is false. New, industry-disrupting technologies are adopted incredibly quickly, from 0-99% penetration within 20 years.  Just think of how quickly smartphones were adopted around the world.  75% of GHG emissions come from producing power; green energy and EVs are already exploding in popularity and being adopted much more quickly than anyone anticipated.  
+
+Carbon neutral steel and concrete are already hitting the market, and the financial effects of climate change are hitting hard, encouraging [trillions in divestment](https://www.theguardian.com/environment/2016/dec/12/fossil-fuel-divestment-funds-double-5tn-in-a-year) from the fossil fuel industry and increasingly green investment strategies.(anecdotally, my bank's sustainable mutual funds have been breaking records for growth)
+
+2) Human Ingenuity.  Humans don't just lay down and die, a statement which is terrifying or encouraging depending on how you look at it.  "Experts" have been predicting food shortages  and societal collapse for centuries now due to population growth, but it has never materialized.  This is because of unforeseen innovations that completely change the way things are done, again in a relatively short space of time.  
+
+Food systems can change in the blink of an eye.  For example, commercial bananas went extinct in the 1950's but were replaced by a different breed of banana without consumers even noticing. Research is already ongoing into new crops that can be grown, as well as new methods (such as hydroponics and vertical farms), and even ways to manipulate the weather (it's already been done in places like China, Dubai, and Texas to induce rain).
+
+3) Biology. Fighting climate change is not 100% lowering GHG emissions. [This video](https://www.youtube.com/watch?v=vpTHi7O66pI&list=LL&index=6) shows a different side of climate change caused by human-induced desertification.  The scientist speaking also shows how quickly, easily, and affordably desertification can be reversed.  Bringing back these green areas helps sequester more carbon, lower local temperatures, and even reduce the impact of flooding and storms.
+
+Also:
+
+That study about aerosols raising temperatures admits that the effects were highly localized to industrialized nations. The [IPCC itself](https://www.carbonbrief.org/cutting-air-pollution-would-not-cause-near-term-spike-in-global-warming) found that removing aerosols would only raise temperatures by "a few tenths of a degree", and is unlikely to cause a spike in temperature.
+
+It's easy to be pessimistic about politicians and financial structures, but you only hear about the stupid things they do.  But on the other hand, most [European countries](https://www.greenmatch.co.uk/blog/2019/10/greenhouse-gas-emissions-by-country)(scroll down in that link), and many [Canadian provinces](https://www.canada.ca/en/environment-climate-change/services/environmental-indicators/greenhouse-gas-emissions.html)(go to regional tab) have managed to reduce CO2 emissions to below 1990 levels. [Latin American](https://data.worldbank.org/indicator/EN.ATM.CO2E.KT?locations=ZJ) and [Chinese](https://www.worldometers.info/co2-emissions/china-co2-emissions/) emissions are decreasing since 2015, and the [US's](https://www.worldometers.info/co2-emissions/us-co2-emissions/) is declining as well.  China also recently instituted a carbon tax.  None of this is working fast enough right now, but it will accelerate due to the economic factors I indicated earlier.
+
+Right now, we are investing in the future.  Investing in solutions that will mitigate climate change and prevent large-scale death and devastation.  These investments will take time to pay off, but once they do it will have an exponential effect on CO2 emissions.  
+
+Just like the effects of GHG emissions are delayed, the effects of our mitigation actions now will also be delayed, but once in place they will work much faster than our natural systems do. I mean, I wouldn't buy oceanfront property and there will certainly be a lot of struggles, but there have always been struggles, and we usually survive in spite of ourselves.
+
 ### Videos and Articles that Help
 
 - [Three Arguments to Avert Climate Despair by Dr Simon Clark](https://youtu.be/CqLukXm7nAc)
@@ -94,8 +118,10 @@ There is still urgency -- every 0.1C of warming will cause more suffering and de
 - [The Biggest Climate Bill of Your Life - But What does it DO!? by Hank Green](https://youtu.be/qw5zzrOpo2s)
 - [How We Fix the Climate by Hank Green](https://youtu.be/wcMLFMsIVis)
 - [We WILL Fix Climate Change! by Kurzgesagt](https://youtu.be/LxgMdjyw8uw)
+  - [Sources](https://sites.google.com/view/sources-can-we-fix-climate/)
 - [Don’t listen to the climate doomists: Jonathan Franzen’s “end times” narrative only benefits fossil fuel interests. By Philippa Nuttall](https://www.newstatesman.com/environment/climate/2022/08/climate-doomism-dont-listen-toxic-narrative)
 - [How to avoid climate doomerism by Future](https://www.future.green/futureblog/how-to-avoid-climate-doomerism)
 - [Ok Doomers: Why you don't need to lose faith in fighting the climate crisis: *Climate doomism helps absolutely no one. Here two experts respond to common arguments put forward by those with a fatalistic outlook of the future. Yes you should be outraged, but there's hope too.* by Eilidh Duffy](https://i-d.vice.com/en/article/epdgwk/climate-doomism-is-on-the-rise-but-heres-why-to-still-hope)
 - [Climatologist Michael E Mann: 'Good people fall victim to doomism. I do too sometimes' by Jonathan Watts](https://www.theguardian.com/environment/2021/feb/27/climatologist-michael-e-mann-doomism-climate-crisis-interview)
 - [The world’s biggest offshore wind farm is now fully operational by Anmar Frangoul](https://www.cnbc.com/2022/09/01/huge-offshore-wind-farm-hornsea-2-is-fully-operational-orsted-says.html)
+- [Stop Being a Climate Change Doomer by BritMonkey](https://youtu.be/TBYDgJ9Wf0E)

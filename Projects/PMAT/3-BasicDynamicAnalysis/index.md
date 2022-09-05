@@ -104,19 +104,18 @@
 - `Rat.Unknown.exe` 
 - Contents of the README.txt:
 
-```
-Analyst,
+> Analyst,
 
-Excellent work with the last sample. Please take a look at the one in this directory. Our IR team said it might have command execution capabilities, but we're not sure.
+> Excellent work with the last sample. Please take a look at the one in this directory. Our IR team said it might have command execution capabilities, but we're not sure.
 
-Please proceed directly with Basic Dynamic Analysis and determine:
-- Network signatures
-- Hist-based signatures
-- Command execution capabilities, if any
-- Any other findings
+> Please proceed directly with Basic Dynamic Analysis and determine:
+> - Network signatures
+> - Hist-based signatures
+> - Command execution capabilities, if any
+> - Any other findings
 
 RE Team
-```
+
 
 - Strings first
   - Useful to write output to a file to search through later
@@ -233,18 +232,75 @@ RE Team
 ![Command injection capable terminal encoded in base64](../../media/PMAT_RAT_Unknown_CommandInjectionCapability.png)
 
 - We now have lots of info to go off of
-- Process is now ~~`RAT.Unknown.exe.malz`~~ `RAT.CmdSocket.exe.malz
+- Process is now ~~`RAT.Unknown.exe`~~ `RAT.CmdSocket.exe`
 - To cross-correlate using procmon
   - Filter for `Operation contains TCP`
   - Issue a command on Remnux to the reverse shell
   - See what happens in procmon (successful TCP receive and send)
   - Can use procmon in lieu of TCP View
+- This is a **Bind Shell** with command injection capabilities
+  - It opened up a listening socket on the host that it infected
+  - For remote command injection capability
+  - It's a bind shell because we had to connect to it first
 
 ## Analysing a Reverse Shell
 
 ### Part 1: Correlating IOCs
 
+- We will be working on `RAT.Unknown2.exe`
+- `README.txt` reads as follows:
 
+> Analyst!
+> Excellent work with the previous samples. You are reallly coming along with your skillset.
+> We found another sample on an endpoint that looks similar to the last one. Give it the triage treatment and let us know what you find
+> RE Team
+
+- Start with a limited amount of Static Analysis
+  - Pull the strings and look at the IOCs of the binary
+  - Run FLOSS
+    - Lot of refs to nim, this is probably a nim compiled binary
+    - reference to `cmd.exe \c`, can run a command
+    - Not much in here really at this stage
+  - Checking PEStudio
+    - Broken installation, so I can't do much in here, but from the video
+    - Imports
+      - Couple in here but none really stand out as much
+      - VirtualProtect, for example, is used in a lot of legitimate cases
+    - Strings
+      - some strings associated with opening sockets etc
+- Dynamic Analysis
+  - The video says I'm supposed to be having DNS queries but I'm not
+  - Not much is going well for me now is it lol
+  - Will continue here without the VM and troubleshoot later
+  - DNS query `aaaa[...]aaaa.kadusus.local`
+    - This string is created at runtime as opposed to being hardcoded
+    - It is concatenated at runtime, this is a stack string
+  - We now have a domain record, what now?
+    - [ADD IMAGE HERE]
+    - Just a DNS callout and *nothing else*
+    - New technique for when I'm getting DNS or HTTP request
+      - Send it to myself
+      - Binary has a value in it that points to the aaa...aaa.kadusus.local
+      - Nothing is stopping us from saying the FlareVM box is that domain
+      - Use the hosts file
+        - Open `cmder` as administrator
+        - `nano C:\Windows\System32\drivers\etc\hosts`
+        - add `127.0.0.1`
+        - Then add the `aaa[...]aaa.kadusus.local` so its in line with `localhost`
+        - Save
+      - Binary will now attempt to call out to the host it's on
+      - Now we're tricking the binary into thinking its talking to its homebase server, really talking to the host we control
+    - Once that's don we can now open up procmon to have a further look
+      - `Process Name is RAT.Unknown2.exe` and `Operation contains TCP`
+      - Run again
+      - Should see some callouts
+      - [ADD IMAGE HERE]
+    - Open up netcat
+      - `ncat -nvip 443`
+      - Now have an open socket to the homebase server
+      - Because it's a RAT it probably has some command injection possibility
+      - Send a `whoami` to check and make sure
+      - [ADD IMAGE HERE]
 
 ### Part 2: Parent-Child Process Analysis
 
