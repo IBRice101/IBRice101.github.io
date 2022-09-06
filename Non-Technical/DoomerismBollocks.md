@@ -121,7 +121,12 @@ Just like the effects of GHG emissions are delayed, the effects of our mitigatio
   - [Sources](https://sites.google.com/view/sources-can-we-fix-climate/)
 - [Don’t listen to the climate doomists: Jonathan Franzen’s “end times” narrative only benefits fossil fuel interests. By Philippa Nuttall](https://www.newstatesman.com/environment/climate/2022/08/climate-doomism-dont-listen-toxic-narrative)
 - [How to avoid climate doomerism by Future](https://www.future.green/futureblog/how-to-avoid-climate-doomerism)
-- [Ok Doomers: Why you don't need to lose faith in fighting the climate crisis: *Climate doomism helps absolutely no one. Here two experts respond to common arguments put forward by those with a fatalistic outlook of the future. Yes you should be outraged, but there's hope too.* by Eilidh Duffy](https://i-d.vice.com/en/article/epdgwk/climate-doomism-is-on-the-rise-but-heres-why-to-still-hope)
+- [Ok Doomers: Why you don't need to lose faith in fighting the climate crisis by Eilidh Duffy](https://i-d.vice.com/en/article/epdgwk/climate-doomism-is-on-the-rise-but-heres-why-to-still-hope)
 - [Climatologist Michael E Mann: 'Good people fall victim to doomism. I do too sometimes' by Jonathan Watts](https://www.theguardian.com/environment/2021/feb/27/climatologist-michael-e-mann-doomism-climate-crisis-interview)
 - [The world’s biggest offshore wind farm is now fully operational by Anmar Frangoul](https://www.cnbc.com/2022/09/01/huge-offshore-wind-farm-hornsea-2-is-fully-operational-orsted-says.html)
 - [Stop Being a Climate Change Doomer by BritMonkey](https://youtu.be/TBYDgJ9Wf0E)
+- [Recent readings on climate ‘doomerism’ and science by Sueellen Campbell](https://yaleclimateconnections.org/2022/04/recent-readings-on-climate-doomerism-and-science/)
+- [No obituary for Earth: Scientists fight climate doom talk by Seth Borenstein](https://apnews.com/article/fighting-climate-doom-d47f2ea47bc428656b7be1f48771b75d)
+- [The Best Climate Science You’ve Never Heard Of by Michael E. Mann](https://michaelmann.net/content/best-climate-science-you%E2%80%99ve-never-heard)
+- [There’s Still Time to Fix Climate—About 11 Years by Mark Fischetti](https://www.scientificamerican.com/article/theres-still-time-to-fix-climate-about-11-years/)* NOTE: This headline is slightly misleading, lowering emissions pushes this "11 years" number back considerably
+- [Is It Too Late to Stop Climate Change? by Eban Goodstein](https://leadthechange.bard.edu/blog/too-late-to-stop-global-warming-a-response-to-franzen)
