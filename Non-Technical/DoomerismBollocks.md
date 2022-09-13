@@ -130,3 +130,5 @@ Just like the effects of GHG emissions are delayed, the effects of our mitigatio
 - [The Best Climate Science You’ve Never Heard Of by Michael E. Mann](https://michaelmann.net/content/best-climate-science-you%E2%80%99ve-never-heard)
 - [There’s Still Time to Fix Climate—About 11 Years by Mark Fischetti](https://www.scientificamerican.com/article/theres-still-time-to-fix-climate-about-11-years/)* NOTE: This headline is slightly misleading, lowering emissions pushes this "11 years" number back considerably
 - [Is It Too Late to Stop Climate Change? by Eban Goodstein](https://leadthechange.bard.edu/blog/too-late-to-stop-global-warming-a-response-to-franzen)
+- [Much less methane might be released from thawing tundra than previously thought by Daniel T Cross](https://www.sustainability-times.com/environmental-protection/much-less-methane-might-be-released-from-thawing-tundra-than-previously-thought/)
+- [Warming Climate unlikely to cause major methane release by the United States National Science Foundation](https://beta.nsf.gov/news/warming-climate-unlikely-cause-major-methane-release)
