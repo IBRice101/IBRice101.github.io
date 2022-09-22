@@ -111,6 +111,54 @@ Right now, we are investing in the future.  Investing in solutions that will mit
 
 Just like the effects of GHG emissions are delayed, the effects of our mitigation actions now will also be delayed, but once in place they will work much faster than our natural systems do. I mean, I wouldn't buy oceanfront property and there will certainly be a lot of struggles, but there have always been struggles, and we usually survive in spite of ourselves.
 
+## Reasons To Not Worry So Much About "Tipping Points"
+
+### Comment from u/grundar
+
+> Now I am coming from a layman's perspective here, but the recent video by a scientist and youtuber I respect, Simon Clark, essentially confirms my fears in this regard
+
+There are some key parts in the video's description that I think you may have skimmed past:  
+> "according to this research, we could be triggering **some tipping elements** already - and if we warm the planet by just 1.5°C then we are likely to do so.  
+> 
+> The climate is still within our control. But **if we keep emitting as we are**, that isn't always going to be the case."
+
+There's a long list of tipping points, some of which are *much* worse than others.  Which are the "some" we may already be triggering?
+
+[I went through the individual tipping points in the paper in this comment in r/science](https://old.reddit.com/r/science/comments/x98eb5/risk_of_multiple_climate_tipping_points_escalates/inn2yo8/); the latter part of that comment addresses that question directly:
+
+Looking at the nearer-warming (<4C), near-term (<200 year timescale) items gives:  
+ * Barents Sea ice (BARI):  1.6C threshold, regional impact, 25 year timescale.  
+ * North Atlantic SPG / Labrador-Irminger Sea Convection (LABC):  1.8C threshold, 0.5C cooling (3C regional), 10 year timescale.  
+ * Low-latitude Coral Reefs (REEF):  1.5C threshold, 90% coral loss, 10 year timescale.  
+ * Sahel & the West African Monsoon (SAHL):  2.8C threshold, regional greening, 50 year timescale.  
+ * Amazon rainforest (AMAZ):  3.5C threshold, 0.2C warming, 100 year timescale.  
+These changes would be bad (obviously) and disruptive to the regions affected, but are not changes that would put human civilization at risk.
+
+The major changes in the list are either far enough away in terms of warming (which, per the paper's author as quoted [here](https://www.eurekalert.org/news-releases/963785) is likely to be 2-3C) or in terms of timescale that there will be significant potential for mitigation of them.  In particular, if we follow the most likely-seeming emissions trends ([SSP1-2.6 to SSP2-4.5](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_SPM.pdf) as per estimates at [Climate Action Tracker](https://climateactiontracker.org/global/cat-thermometer/)) temperature will stabilize and decline over the coming centuries, mitigating or potentially forestalling entirely some of the longer-term changes.
+
+So this is a sobering assessment for sure, but it would be a mistake to interpret it as evidence of our impending doom.
+
+***
+
+Note that that last paragraph also addresses the second part of the video description I bolded -- there's virtually no chance we will continue emitting CO2 at the rate we are today.  That paragraph links to some estimates, but the *reasons* for the coming emissions declines are largely that the economics now favor clean energy:  
+ * [Renewables are now virtually all net new electricity generation worldwide.](https://www.theguardian.com/environment/2021/dec/01/renewable-energy-has-another-record-year-of-growth-says-iea)  
+ * [World coal consumption peaked almost a decade ago](https://www.bp.com/en/global/corporate/energy-economics/statistical-review-of-world-energy/coal.html.html#coal-consumption)  
+ * [EVs replace millions of ICE cars every year, and will be a **majority** of the global car market by 2034](https://assets.bbhub.io/professional/sites/24/BNEF-Zero-Emission-Vehicles-Factbook_FINAL.pdf) or even [2030](https://bnef.turtl.co/story/evo-2022/page/3/1?teaser=yes)
+
+***
+
+So, yes, climate change is going to kill people, destroy ecosystems, and set in motion some tipping points.  The truly catastrophic tipping points, though, require either more warming than we're likely to see (>4C), thousands of years, or both, either one of which gives humanity substantial scope to arrest or mitigate their effects.  In particular, [we're actively working on scalable technology to pull carbon out of the air](https://www.utilitydive.com/news/carbon-capture-doe-funding-45q-ccs-direct-air/629624/), and humanity in 2200 is likely to be significantly more technologically advanced than humanity in 2022, so it's not clear that temperatures and tipping points will follow the "assume humanity does nothing" path.
+
+### Comment by u/BlowjobPete
+
+>the fact that this was published in a reputable journal, by reputable people, and people who's opinions I respect in this matter seem to be as concerned as I am, all add up to an absolute doomerism bonanza on my part.
+
+There's a reason for the word 'could' in the title of the paper you linked. Even our best estimates can be inaccurate.
+
+That all being said, you also have to take into account that this paper discusses the triggering of tipping points, not how long the effects would actually take.
+
+For example, let's take the possibility of the Greenland Ice Sheet collapse. Our best estimates say [it would take around 1000 years to actually happen](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_09.pdf). At that rate of change, we can deal.
+
 ### Videos and Articles that Help
 
 - [Three Arguments to Avert Climate Despair by Dr Simon Clark](https://youtu.be/CqLukXm7nAc)
@@ -132,3 +180,4 @@ Just like the effects of GHG emissions are delayed, the effects of our mitigatio
 - [Is It Too Late to Stop Climate Change? by Eban Goodstein](https://leadthechange.bard.edu/blog/too-late-to-stop-global-warming-a-response-to-franzen)
 - [Much less methane might be released from thawing tundra than previously thought by Daniel T Cross](https://www.sustainability-times.com/environmental-protection/much-less-methane-might-be-released-from-thawing-tundra-than-previously-thought/)
 - [Warming Climate unlikely to cause major methane release by the United States National Science Foundation](https://beta.nsf.gov/news/warming-climate-unlikely-cause-major-methane-release)
+- [The U.S. will officially phase down HFCs, gases trapping 1,000x more heat than CO2 by Laura Benshoff](https://www.npr.org/2022/09/20/1123433566/hydrofluorocarbons-banned-us)
