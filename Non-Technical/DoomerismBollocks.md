@@ -159,7 +159,7 @@ That all being said, you also have to take into account that this paper discusse
 
 For example, let's take the possibility of the Greenland Ice Sheet collapse. Our best estimates say [it would take around 1000 years to actually happen](https://www.ipcc.ch/report/ar6/wg1/downloads/report/IPCC_AR6_WGI_Chapter_09.pdf). At that rate of change, we can deal.
 
-### Videos and Articles that Help
+## Videos and Articles that Help
 
 - [Three Arguments to Avert Climate Despair by Dr Simon Clark](https://youtu.be/CqLukXm7nAc)
 - [3 strategies to beat climate change by Dr Simon Clark](https://youtu.be/GkbuV_a-rvs)
@@ -181,3 +181,15 @@ For example, let's take the possibility of the Greenland Ice Sheet collapse. Our
 - [Much less methane might be released from thawing tundra than previously thought by Daniel T Cross](https://www.sustainability-times.com/environmental-protection/much-less-methane-might-be-released-from-thawing-tundra-than-previously-thought/)
 - [Warming Climate unlikely to cause major methane release by the United States National Science Foundation](https://beta.nsf.gov/news/warming-climate-unlikely-cause-major-methane-release)
 - [The U.S. will officially phase down HFCs, gases trapping 1,000x more heat than CO2 by Laura Benshoff](https://www.npr.org/2022/09/20/1123433566/hydrofluorocarbons-banned-us)
+
+## Quick Bit on Nuclear War
+
+From a comment by "John Dean" on [This video by Sky News](https://www.youtube.com/watch?v=-hATxnauync)
+
+The use by Russia of tactical nuclear weapons in Ukraine is unlikely: 
+(1) they are most effective against massed units of personnel and armour, and the Ukrainian Army follows NATO doctrine in keeping its forces dispersed, only concentrating them for attack 'punches' through enemy lines - although the consequences of a nuclear attack would be severe, the Ukrainians have prepared for this eventuality and they will not be cowed by Russian threats;
+(2) Russia would lose the support of a key ally, China, and India would no longer remain neutral in its attitude towards the war - Russia would be left with few, if any, friends; 
+(3) NATO would launch a massive non-nuclear response, for example it is quite capable of destroying the Russian Black Sea fleet;
+(4) Putin could not be certain that his senior commanders would obey such an order - it could even precipitate a Kremlin coup;
+(5) It would take time to organise a nuclear attack and the preparations would be difficult to conceal, and, as far as we can be aware, Western intelligence have picked up no signs of Russian weapons being readied and a target zone(s) being cleared of Russian forces.
+When a man says he's not bluffing, it usually means he is.
