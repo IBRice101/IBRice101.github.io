@@ -46,7 +46,7 @@ My first foray into the world of CTFs, a little reverse engineering task. **NOTE
 
 ---
 
-## [WHo What When Warez Why: Piracy From The Source](Talks/Warez/index.md)
+## [Who What When Warez Why: Piracy From The Source](Talks/Warez/index.md)
 
 On the 9th of March 2022 I gave a talk on Piracy and the Warez Scene at the Abertay Ethical Hacking Society, as is my way of going about things I first wrote an article fleshing out roughly what I was planning on saying, Please enjoy!
 
