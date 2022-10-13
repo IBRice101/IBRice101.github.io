@@ -1,4 +1,4 @@
-# Why Climate Doomerism is Bollocks
+# Why Doomerism is Bollocks
 
 NOTE: this article is primarily for my own benefit, I need to get all of this information out in a single place myself so I don't fall into the unhelpful trap of climate doomerism. As such, do not take this as gospel, this isn't scientific, this is just something I'm collecting to alleviate my own fears, and hopefully others too (if you happen to stumble across this)
 
@@ -182,7 +182,7 @@ For example, let's take the possibility of the Greenland Ice Sheet collapse. Our
 - [Warming Climate unlikely to cause major methane release by the United States National Science Foundation](https://beta.nsf.gov/news/warming-climate-unlikely-cause-major-methane-release)
 - [The U.S. will officially phase down HFCs, gases trapping 1,000x more heat than CO2 by Laura Benshoff](https://www.npr.org/2022/09/20/1123433566/hydrofluorocarbons-banned-us)
 
-## Quick Bit on Nuclear War
+# Nuclear War Won't Happen
 
 From a comment by "John Dean" on [This video by Sky News](https://www.youtube.com/watch?v=-hATxnauync)
 
