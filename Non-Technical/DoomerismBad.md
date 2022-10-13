@@ -1,4 +1,4 @@
-# Why Doomerism is Bollocks
+# Climate Doomerism is Bad
 
 NOTE: this article is primarily for my own benefit, I need to get all of this information out in a single place myself so I don't fall into the unhelpful trap of climate doomerism. As such, do not take this as gospel, this isn't scientific, this is just something I'm collecting to alleviate my own fears, and hopefully others too (if you happen to stumble across this)
 
