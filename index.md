@@ -2,11 +2,11 @@
 
 Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical Hacking at Abertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
 
----
-
 ## [Practical Malware Analysis & Triage](Projects/PMAT/index.md)
 
 On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt Kiely (HuskyHacks) for £0.99, an absolute bargain. This repository serves as my notes for the course.
+
+**PLEASE NOTE**, Due to my resuming uni work I was unable to fully complete this course, I will, however, return to it at the earliest stage I reasonably can :)
 
 ---
 

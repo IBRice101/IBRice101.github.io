@@ -197,9 +197,9 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ---
 
-## Year 3 Semester 2 - CMP320 - Ethical Hacking 2
+## Year 3 Semester 2 - CMP320 - Ethical Hacking 3 (Advanced Ethical Hacking)
 
-- Grate: A+
+- Grade: A+
 - Description: This module develops a critical understanding analysis techniques used by Ethical Hackers to examine binary files and to provide the student with the opportunity to undertake the practical and development of an individual project.
 - Coursework:
   - Unit 1 (50%): Developing a tutorial to illustrate a buffer overflow exploit on a vulnerable media player application
