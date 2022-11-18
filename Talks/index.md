@@ -16,7 +16,7 @@ Something a little different, a workshop I'm going to run on reverse engineering
 
 ---
 
-## [APT Talk (As yet untitled)](APTs/index.md)
+## [The Syscall Is Coming From Inside The House!: An Introduction to APTs](APTs/index.md)
 
 Delivered on Nov 9, 2022 at [Abertay Ethical Hacking Society](https://twitter.com/AbertayHackers)
 

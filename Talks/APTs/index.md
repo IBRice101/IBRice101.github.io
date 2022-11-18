@@ -1,8 +1,12 @@
-# [APT Talk Title Here]
+# The Syscall Is Coming From Inside The House!: An Introduction to APTs
 
 By Isaac Basque-Rice
 
-Talk given 2022-11-09
+Talk given 2022-11-30
+
+**NOTE**: This talk was given on a Universities and Colleges Union strike day. Having spoken to a lecturer about this fact, they assured me that it would not be taken, at least by them, as strikebreaking. The Ethical Hacking Society is exclusively affiliated with the Abertay Students' Association and, as such, is not an academic institution and not involved directly in the strike. 
+
+My full support and solidarity is with the UCU and their fight against a 25% real terms pay cut.
 
 ## Introduction
 
@@ -26,7 +30,7 @@ How, though, do we know about APTs? How do we know which ones do what, and how c
 
 ## MITRE ATT&CK
 
-Before we get into the meat of the talk, the tactics the APT groups use, and what they've actually done in the past (some really cool stories), it's important to know how we can learn about these groups, both for an interested amateur, such as myself and most of the people here (I imagine), wishing to do research, and from a blue team perspective, so they know what they're up against when an APT comes knocking.
+The tactics the APT groups use, and what they've actually done in the past (some really cool stories), it's important to know how we can learn about these groups, both for an interested amateur, such as myself and most of the people here (I imagine), wishing to do research, and from a blue team perspective, so they know what they're up against when an APT comes knocking.
 
 This is where the ATT&CK (Adversarial Tactics, Techniques, and Common Knowledge) framework comes in. This framework, developed by a non-profit research organisation called MITRE (who are also very highly regarded in the Cybersecurity field for helping maintain the Common Vulnerabilities and Exposures list, or CVEs), is a curated database of information around adversary groups of all flavours, including, of course, APTs, but also Ransomware groups and other such absolute pests. The framework, [available here](https://attack.mitre.org/), provides a categorised list of known tactics and techniques used by different groups in a "Matrix", as well as more in-depth information about specific tactics, techniques, data sources, mitigations, groups, software, and other resources on their website. I'd really recommend going over there if anything I'm about to say in this talk interests you
 
@@ -90,13 +94,52 @@ At this stage in the talk it is important to note that all of this is merely *al
 
 ### APT 28
 
-<!-- TODO: Talk about some of the Fancy Bear attacks -->
+Also known as Fancy Bear, Sofacy, Sednit, Tsar Team, STRONTIUM, and Pawn Storm. They're a Russian threat group that has likely been operating from the mid-2000s out of the Russian GRU (Main Intelligence Directorate) as Unit 26165. They primarily use spear-phishing and zero-days within malware in order to further their political aims. They have been associated with Russia as the attacks that have been attributed to them conveniently seem to follow the political aims of the Russian Federation remarkably closely, lol.
+
+Arguably their most famous attack was the (successful) attempt to influence the 2016 United States Presidential Election by spear-phishing members of the Democratic National Convention, wherein tens if not hundreds of thousands of emails were leaked, thousands of credentials stolen, as well as other research documents etc. being breached and leaked. It was concluded that APT28 were behind the attack through forensic work carried out by CrowdStrike and backed up by the US Intelligence Community and Congress. The method of identification is, naturally, secret, but we do know that a break in their work JUST SO HAPPENED to coincide with a Russian holiday in honour of the military's electronic warfare services so... make of that what you will.
+
+APT28 has also been linked to attacks on journalists in Russia, the US, Ukraine, Moldova, The Baltics, the parliament of Germany, ministries in the Netherlands, the International Olympic Committee, the Ecumenical Patriarchate, and, of course, Ukraine. Although the attacks on Ukrainian infrastructure have been remarkably light recently given current events, which not many analysts suspected (including several very smart people who gave talks at BSides Lisbon).
+
+Fancy Bear make use of methods consistent with state actors. Spear phishing, malware drop websites, and zero days (up to 6 in some cases in one case in 2016!!!) are all cornerstones of their arsenals as previously mentioned. Their preferred method of attack is the following:
+
+1. Leverage operational infrastructure (their server or a hijacked webmail server or something)
+2. Craft an email with a malicious link, often with something like "YOUR EMAIL HAS BEEN COMPROMISED, CLICK HERE: https://bit.ly/TotallyNormalLink
+3. Send to recipient
+4. Enters credentials to spoof login portal
+5. Creds sent to operational infrastructure and used to access targeted infrastructure
+6. Drop malware
+7. Move through
+8. Gather and exfiltrate
+
+These emails are primarily sent on mondays and fridays so they catch people off guard. They also have a few domains registered that resemble legitimate news sources (examples including bbcweather.org, politicweekend.com, and Georgia-travel.org) but link to sites that drop malware, often rootkits, onto the target computer. They have been known to route traffic through other compromised organisations as a sort of proxy. They tend to keep their malware extremely up to date so as to be avoided by AV software, returning to the environment to switch their implants, changing their command and control channels, and modifying their persistence methods. These changes can be done at blazing speed, in one instance the ADVSTORESHELL backdoor was implanted into a defence contractor's network, discovered by Kaspersky, removed, and then *patched and re-implanted within an hour and a half*.
 
 ### APT 38
 
-<!-- TODO: Talk about some of the Lazarus attacks -->
+<!-- TODO: Clean this up so it doesn't look so copy-pasted, add some more info too -->
+APT 38, known also as Guardians of Peace (self-proclaimed during the Sony attack), Whois Team, HIDDEN COBRA, Zinc, and most infamously as Lazarus Group, is the second Advanced Persistent Threat group this paper will be analysing and is said to be affiliated to the Reconnaissance General Bureau (RGB) of the Democratic People’s Republic of Korea (North Korea). 
+
+Lazarus Group are known for targeting financial institutions via the theft of credentials for the SWIFT monetary transaction system. Analysts have suggested that targeting financial institutions and cryptocurrency exchanges as they do is in order to raise funds for the North Korean state, as opposed to conducting legitimate trade on the global market. Arguably their most notable attack in this style was carried out against the Bangladesh Central Bank, during which $81 million USD was moved to four locations within the Philippines and a further $20 million USD was almost moved, were it not for a typo wherein an attacker misspelt “foundation” as “fandation”.
+
+A series of cyber bank heists before and after the Bangladesh central bank heist has also been attributed to Lazarus due to shared patterns of activity and methods used by the respective group(s) that carried out this attack. These attacks were on Banco del Austro in Ecuador (January 2015), Philippines Bank (October 2015), an unsuccessful heist on Vietnam Tien Phong Bank (December 2015), and a bank in Poland (February 2017).
+
+Lazarus Group’s most noteworthy and infamous alleged cyberattack is undoubtedly the 2017 WannaCry ransomware attack. Which saw the UK’s National Health Service IT system functionally unusable in many hospitals in the country, to the point they were forced to turn away patients. Other organisations affected included Telefonica (one of the largest telephone carriers in the world), a number of universities across China, arrival and departure screens on the German railway, and the interior ministry, railways, and many banks, in Russia were all affected. The demand for payment in bitcoin is consistent with the theory that “Use of ransomware to raise funds for the state [falls] under both North Korea’s asymmetric military strategy and ‘self-financing’ policy, and be within the broad operational remit of their intelligence services”.
+
+Other attacks alleged to have been carried out by Lazarus that tie into the political aims of the DPRK include “Operation DarkSeoul”, which “crippled tens of thousands of computers in South Korea's banking and media sectors through the use of destructive malware” (Martin, 2015), the 2014 breach of Sony Pictures in response to their publication of a film about the assassination of the leader of North Korea, Kim Jong Un, and spear-phishing attacks on pharmaceutical companies, specifically Astra-Zeneca in late 2020 in response to an uptick in profit as a result of the COVID-19 pandemic.
+
 
 ### Equation Group
 
-<!-- TODO: Talk about some of the EquationGroup attacks -->
+<!-- TODO: Clean this up so it doesn't look so copy-pasted, add some more info too -->
+The final APT group that is within the scope of this talk is the EquationGroup, which is alleged by the Russian cybersecurity firm Kaspersky to belong to the Tailored Access Operations unit of the US National Security Agency (NSA). Kaspersky themselves consider the group to be able to execute some of the “most complex and sophisticated hacking techniques ever seen” and are responsible for malware such as Stuxnet and the related Flame malware which have the ability to bridge air gapped systems through a mix of advanced malware development techniques and sophisticated espionage. 
 
+EquationGroup’s modus operandi is attacking critical national infrastructure such as Telecommunications, energy production (including oil and gas), and transportation, as well as military and nuclear research, companies in the financial, cryptographic, and aerospace sectors, mass media, and Islamic activists and scholars with a multitude of bespoke malware platforms. The extremely wide range of targets is another aspect of Equation that would point towards a highly sophisticated state actor funding this group. 
+
+Arguably the most well-known cyber-attack EquationGroup have been involved in is the (alleged and as yet unconfirmed) [Stuxnet](../Stuxnet/index.md) malware, which is a malicious computer worm that targeted SCADA systems, particularly within the Natanz Nuclear Facility in Iran.  Stuxnet made use of four zero day vulnerabilities, including a windows rootkit, previously unknown antivirus evasion techniques, and stolen certificates from trusted certificate authorities. Stuxnet worked by first infiltrating an air-gapped computer system in Natanz, likely via USB, and then once it was in it would map out the internal network of the facility and subsequently slightly alter the rate at which the centrifuges that enrich the uranium in the facility spin, thus ensuring their eventual destruction. Interestingly, the malware would also feedback bogus data to the scientists at the facility so they would have no reason to suspect anything was wrong.
+
+The extent to which the authors of the malware went in almost every regard, the usage of multiple zero days, the replaying of non-noteworthy data, has led some analysts to call Stuxnet “the best malware ever”.
+
+This is, however, by no means the only accomplishment that the EquationGroup are renowned for. In 2016 a hacking group calling themselves “the Shadow Brokers” released the first of what would be, up until the writing of this report, five separate leaks of internal EquationGroup malware, tools, and exploits that they had been using to conduct their work. Most well-known of the leaks, leak number 5, entitled “Lost in Translation” contained, amongst other exploits, one known by the name “EternalBlue”, which has been used to significant effect by other APT groups (notably Lazarus with WannaCry. Additionally, in 2017 WikiLeaks leaked the existence of a reverse engineering tool developed and used within EquationGroup known as “Ghidra”, which the National Security Agency later released on a free and open source basis two years after, to great acclaim.
+
+## Conclusion
+
+Advanced Persistent Threats are, in my view and the view of many security professionals, *the* biggest threat to *any* organisation in the world. Unless you, yourself, are a state-level organisation or backed by one, if an APT decides to attack you, you're essentially already compromised. That is not to say, however, that we shouldn't learn from them. The techniques that they use are useful from both a defensive and offensive security perspective. 
