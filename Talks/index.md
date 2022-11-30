@@ -18,7 +18,7 @@ Something a little different, a workshop I'm going to run on reverse engineering
 
 ## [The Syscall Is Coming From Inside The House!: An Introduction to APTs](APTs/index.md)
 
-Delivered on Nov 9, 2022 at [Abertay Ethical Hacking Society](https://twitter.com/AbertayHackers)
+Delivered on Nov 30, 2022 at [Abertay Ethical Hacking Society](https://twitter.com/AbertayHackers)
 
 A foray into the world of Advanced persistent Threats, a topic I've always been really interested in (and in fact got me into security in the first place) aimed at total beginners to the field.
 
