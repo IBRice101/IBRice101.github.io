@@ -105,6 +105,8 @@ My [twitter](https://twitter.com/IBRice101/)
 
 My [linkedin](www.linkedin.com/in/izbr)
 
+My [mastodon](https://infosec.exchange/@IBRice101)
+
 My email: izbr [at] protonmail [dot] com
 
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/A0A1D0FSN)
