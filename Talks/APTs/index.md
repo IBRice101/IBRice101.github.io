@@ -4,6 +4,8 @@ By Isaac Basque-Rice
 
 Talk given 2022-11-30
 
+[Slides Here](APT-Talk.pdf) 
+
 **NOTE**: This talk was given on a Universities and Colleges Union strike day. Having spoken to a lecturer about this fact, they assured me that it would not be taken, at least by them, as strikebreaking. The Ethical Hacking Society is exclusively affiliated with the Abertay Students' Association and, as such, is not an academic institution and not involved directly in the strike. 
 
 My full support and solidarity is with the UCU and their fight against a 25% real terms pay cut.
@@ -53,7 +55,7 @@ The 14 tactics are:
 1. **Reconnaissance**: AKA Information gathering, used to plan future operations
    - Active Scanning: includes Scanning IP Blocks, Vuln Scanning, and Wordlist Scanning. Can be performed in numerous, often native ways such as ICMP (ping), UDP, TCP, all often done through nmap. Is often a precursor to other kinds of recon such as open website/domain search and open technical database search. Not really able to mitigate this because it's based on stuff done outside of the reach of individual orgs' security team, just make sure all of your important stuff is not available through active scans, p obvious really
 2. **Resource Development**: Establishing resources they can use to support operations through the creation, purchasing, or theft of resources (such as tools, infrastructure, accounts)
-   - Develop Capabilities: Includes malware, code signing certificates, digital certificates, and exploits. APTs do this quite often, Specifically in malware, which was the focus of my mini project (and possibly dissertation who knows). An APT can create malware, sign the code to make it look like a legitimate executable (ex. Microsoft DLLs), and also discover and exploit new 0day vulns, like EternalBlue
+   - Develop Capabilities: Includes malware, code signing certificates, digital certificates, and exploits. APTs do this quite often, Specifically in malware, which was the focus of my mini project. An APT can create malware, sign the code to make it look like a legitimate executable (ex. Microsoft DLLs), and also discover and exploit new 0day vulns, like EternalBlue
 3. **Initial Access**: When they're trying to get into the network
    - Phishing: Includes spear-phishing by attachment, link clicking, or third party services. Electronically delivered social engineering, classic email scams, but often *remarkably* effective
 4. **Execution**: AKA remote code execution (RCE), results in often malicious code developed by the attacker running on a target machine
@@ -77,7 +79,7 @@ The 14 tactics are:
 10. **Lateral Movement**: Moving through an environment
    - Remote Services: including Remote Desktop Protocol (RDP), Server Message Block (SMB), Secure Shell (SSH), and so on. This can result in malicious actors gaining access further into, or around, the network.
 11. **Collection**: Gathering information of interest
-   - Can collect date through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
+   - Can collect data through many means, including MITM, where the adversary exists in between two data endpoints, discovery of information repositories such as code, an internal wiki, or SharePoint, as well as data that may be present on specific devices the attacker has accessed 
 12. **Command and Control**: Attempting to communicate with compromised systems in order to control them
    - Application Layer Protocol: Malicious Actors can communicate using application layer protocols to avoid suspicion. Many C2 servers are configured with web pages to make use of web protocols. Chinese APTs have been observed recently with websites on the Uyghur genocide being hosted on their C2s. FTP, DNS, or Email servers also function for this purpose too.  
 13. **Exfiltration**: Getting data out, stealing it from a target
@@ -115,10 +117,9 @@ These emails are primarily sent on mondays and fridays so they catch people off 
 
 ### APT 38
 
-<!-- TODO: Clean this up so it doesn't look so copy-pasted, add some more info too -->
-APT 38, known also as Guardians of Peace (self-proclaimed during the Sony attack), Whois Team, HIDDEN COBRA, Zinc, and most infamously as Lazarus Group, is the second Advanced Persistent Threat group this paper will be analysing and is said to be affiliated to the Reconnaissance General Bureau (RGB) of the Democratic People’s Republic of Korea (North Korea). 
+APT 38, known also as Guardians of Peace (self-proclaimed during the Sony attack), God's Apostles, God's Disciples, Whois Team, HIDDEN COBRA, Zinc, and most infamously as Lazarus Group, is the second Advanced Persistent Threat group this talk will be analysing and is said to be affiliated to the Reconnaissance General Bureau (RGB) of the Democratic People’s Republic of Korea (North Korea). 
 
-Lazarus Group are known for targeting financial institutions via the theft of credentials for the SWIFT monetary transaction system. Analysts have suggested that targeting financial institutions and cryptocurrency exchanges as they do is in order to raise funds for the North Korean state, as opposed to conducting legitimate trade on the global market. Arguably their most notable attack in this style was carried out against the Bangladesh Central Bank, during which $81 million USD was moved to four locations within the Philippines and a further $20 million USD was almost moved, were it not for a typo wherein an attacker misspelt “foundation” as “fandation”.
+Lazarus Group are known for targeting financial institutions via the theft of credentials for the SWIFT monetary transaction system. Analysts have suggested that targeting financial institutions and cryptocurrency exchanges as they do is in order to raise funds for the North Korean state, as opposed to conducting legitimate trade on the global market. Arguably their most notable attack in this style was carried out against the Bangladesh Central Bank, during which $81 million USD was moved to four locations within the Philippines and a further $20 million USD was almost moved, were it not for a typo wherein an attacker misspelt “foundation” as “fandation”. So much for God's Chosen Ones I guess.
 
 A series of cyber bank heists before and after the Bangladesh central bank heist has also been attributed to Lazarus due to shared patterns of activity and methods used by the respective group(s) that carried out this attack. These attacks were on Banco del Austro in Ecuador (January 2015), Philippines Bank (October 2015), an unsuccessful heist on Vietnam Tien Phong Bank (December 2015), and a bank in Poland (February 2017).
 
@@ -126,11 +127,9 @@ Lazarus Group’s most noteworthy and infamous alleged cyberattack is undoubtedl
 
 Other attacks alleged to have been carried out by Lazarus that tie into the political aims of the DPRK include “Operation DarkSeoul”, which “crippled tens of thousands of computers in South Korea's banking and media sectors through the use of destructive malware” (Martin, 2015), the 2014 breach of Sony Pictures in response to their publication of a film about the assassination of the leader of North Korea, Kim Jong Un, and spear-phishing attacks on pharmaceutical companies, specifically Astra-Zeneca in late 2020 in response to an uptick in profit as a result of the COVID-19 pandemic.
 
-
 ### Equation Group
 
-<!-- TODO: Clean this up so it doesn't look so copy-pasted, add some more info too -->
-The final APT group that is within the scope of this talk is the EquationGroup, which is alleged by the Russian cybersecurity firm Kaspersky to belong to the Tailored Access Operations unit of the US National Security Agency (NSA). Kaspersky themselves consider the group to be able to execute some of the “most complex and sophisticated hacking techniques ever seen” and are responsible for malware such as Stuxnet and the related Flame malware which have the ability to bridge air gapped systems through a mix of advanced malware development techniques and sophisticated espionage. 
+The final APT group in this talk is the EquationGroup, which is alleged by the Russian cybersecurity firm Kaspersky to belong to the Tailored Access Operations unit of the US National Security Agency (NSA). Kaspersky themselves consider the group to be able to execute some of the “most complex and sophisticated hacking techniques ever seen” and are responsible for malware such as Stuxnet and the related Flame malware which have the ability to bridge air gapped systems through a mix of advanced malware development techniques and sophisticated espionage. 
 
 EquationGroup’s modus operandi is attacking critical national infrastructure such as Telecommunications, energy production (including oil and gas), and transportation, as well as military and nuclear research, companies in the financial, cryptographic, and aerospace sectors, mass media, and Islamic activists and scholars with a multitude of bespoke malware platforms. The extremely wide range of targets is another aspect of Equation that would point towards a highly sophisticated state actor funding this group. 
 
@@ -142,4 +141,6 @@ This is, however, by no means the only accomplishment that the EquationGroup are
 
 ## Conclusion
 
-Advanced Persistent Threats are, in my view and the view of many security professionals, *the* biggest threat to *any* organisation in the world. Unless you, yourself, are a state-level organisation or backed by one, if an APT decides to attack you, you're essentially already compromised. That is not to say, however, that we shouldn't learn from them. The techniques that they use are useful from both a defensive and offensive security perspective. 
+Advanced Persistent Threats are, in my view and the view of many security professionals, *the* biggest threat to *any* organisation in the world. Unless you, yourself, are a state-level organisation or backed by one, if an APT decides to attack you, you're essentially already compromised. That is not to say, however, that we shouldn't learn from them. The techniques that they use are useful from both a defensive and offensive security perspective.
+
+Naturally, eventually all of the stuff that these guys are doing will probably tickle down, if not to skids (like stuff that got leaked from the NSA did), then probably to advanced, but not particularly persistent threats. As such, looking at, and paying close attention to, APTs is the closest thing we most probably have to a time machine or magic mirror or something. 
