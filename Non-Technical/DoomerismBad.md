@@ -181,6 +181,8 @@ For example, let's take the possibility of the Greenland Ice Sheet collapse. Our
 - [Much less methane might be released from thawing tundra than previously thought by Daniel T Cross](https://www.sustainability-times.com/environmental-protection/much-less-methane-might-be-released-from-thawing-tundra-than-previously-thought/)
 - [Warming Climate unlikely to cause major methane release by the United States National Science Foundation](https://beta.nsf.gov/news/warming-climate-unlikely-cause-major-methane-release)
 - [The U.S. will officially phase down HFCs, gases trapping 1,000x more heat than CO2 by Laura Benshoff](https://www.npr.org/2022/09/20/1123433566/hydrofluorocarbons-banned-us)
+- ['Holy grail’ wheat gene discovery could feed our overheated world by Robin McKie](https://www.theguardian.com/environment/2023/jan/07/holy-grail-wheat-gene-discovery-could-feed-our-overheated-world)
+- ['Extraordinary new phase' of renewable energy as Ukraine war accelerates shift from fossil fuels, energy leader says by Victoria Seabrook](https://news.sky.com/story/extraordinary-new-phase-of-renewable-energy-as-ukraine-war-accelerates-shift-from-fossil-fuels-energy-leader-says-12762623)
 
 # Nuclear War Won't Happen
 
