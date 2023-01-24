@@ -225,7 +225,8 @@ However in the event that my work has provided guidance for you, a little tip by
   - Unit 2 (55%): An IoT Development mini project that makes use of both AWS amd Linux kernel Modules
     - My Proposal: A network speed testing system with an associated web server. It will use a GPIO button to begin the speed test, a red LED to indicate that the test is running, and a green LED to indicate that the test has been completed
     - Code will be found [here](https://github.com/IBRice101/CMP408-Code)
-    - Report will be found [here](media/1901124-IotMiniProjectReport.pdf)
+    - Report will be found [here](media/1901124-IoTMiniProjectReport.pdf)
+    - Poster can be found [here](media/1901124-IoTMiniprojectPoster.pdf)
 
 ---
 
