@@ -215,17 +215,17 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ## Year 4 Semester 1 - CMP408 - IoT and Cloud Secure Development
 
-- Grade: TBA
+- Grade: A
 - Description: Students will explore system programming and development, with an understanding of the security implications of such systems.
 - Coursework:
   - Unit 1 (45%): Three quizzes:
     - Quiz 1: Questions on Raspberry Pi and Linux internals (13/15)
-    - Quiz 2: More questions on the above with a focus on GPIO and LKM programming (TBA)
-    - Quiz 3: Questions on AWS (TBA)
+    - Quiz 2: More questions on the above with a focus on GPIO and LKM programming (13/15)
+    - Quiz 3: Questions on AWS (9/15)
   - Unit 2 (55%): An IoT Development mini project that makes use of both AWS amd Linux kernel Modules
     - My Proposal: A network speed testing system with an associated web server. It will use a GPIO button to begin the speed test, a red LED to indicate that the test is running, and a green LED to indicate that the test has been completed
-    - Code will be found [here](https://github.com/IBRice101/CMP408-Code)
-    - Report will be found [here](media/1901124-IoTMiniProjectReport.pdf)
+    - Code can be found [here](https://github.com/IBRice101/CMP408-Code)
+    - Report can be found [here](media/1901124-IoTMiniProjectReport.pdf)
     - Poster can be found [here](media/1901124-IoTMiniprojectPoster.pdf)
 
 ---
