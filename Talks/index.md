@@ -8,6 +8,14 @@ With all that said, here are the talks I have written so far! (Mostly for the Ab
 
 ---
 
+## [UFOSINT: Open Source Intelligence and Unidentified Aerial Phenomena](UFOSINT/index.md)
+
+Delivered on Mar 3, 2023 at [Securi-Tay 2023](https://securi-tay.co.uk/)
+
+UFOs, or more accurately UAPs (Unidentified Aerial Phenomena) have been a hot topic of conversation for many years now. In the popular imagination this kind of thing is normally reserved for conspiracy theorists and "documentaries" on the History channel, however in recent years they have become the topic of much serious discussion amongst scientists and various military organisations around the world. In this talk I'll go over some of the OSINT techniques used to debunk UFO conspiracies, as well as outlining some of the cases for which there is no conclusive explanation one way or the other (probably not aliens though).
+
+---
+
 ## [Minesweeper Reverse Engineering Workshop](MinesweeperHackingWorkshop/index.md)
 
 Delivered on TBD at [Abertay Ethical Hacking Society](https://twitter.com/AbertayHackers)
