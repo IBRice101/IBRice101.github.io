@@ -63,7 +63,7 @@ Mick West, Game-Developer-Turned-Debunker, often talks about the "LIZ", Low Info
 
 ## Case Study 1: The Inverkeithing Sphere
 
-[Original Post](https://https://www.reddit.com/r/UFOs/comments/10ijukd/the_inverkeithing_sphere_in_scotland_allegedly/)
+[Original Post](https://www.reddit.com/r/UFOs/comments/10ijukd/the_inverkeithing_sphere_in_scotland_allegedly/)
 
 So now that that's out of the way, let's start out with some low-hanging fruit... This image (see below) was taken somewhere along the coastline of Inverkeithing in southern Fife, about 55km southwest of where we are now as the crow flies.
 
@@ -85,7 +85,7 @@ There's a dog right there...
 
 ## Case Study 2: UFO above Sapphire, Las Vegas
 
-[Original Post](https://https://www.reddit.com/r/UFOs/comments/zu0xxx/ufo_above_sapphire_las_vegas/)
+[Original Post](https://www.reddit.com/r/UFOs/comments/zu0xxx/ufo_above_sapphire_las_vegas/)
 
 As I'm sure a lot of you know, the Mojave Desert in Nevada is somewhat of a hotspot for UFO enthusiasts. Roswell, Area 51, the Black Mailbox, this is where it all goes down. If you knew this going to Vegas, for example, you could be very mentally primed to experience a sighting yourself, which can lead to some unfortunate circumstances if you aren't... in a state to view things from a sceptical lens.
 
@@ -95,7 +95,7 @@ Below you can see a screenshot from a TikTok video taken 2022-12-22, purporting 
 
 This is a classic case of man-made and natural phenomena coming together to create something unexplainable within the moment, but clear with the benefit of hindsight. If you were to look at satellite imagery immediately surrounding the Sapphire... "Gentleman's Club"... things become a bit more obvious.
 
-![A screenshot of another still from the same video, but with a Google Maps Satellite image laid on top showing several hotels highlighted, with colours matching the lights seen in the video.](media/Sapphire_2.webp)
+![A screenshot of another still from the same video, but with a Google Maps Satellite image laid on top showing several hotels highlighted, with colours matching the lights seen in the video.](media/sapphire_2.webp)
 
 **Conclusion**: The red lights in the video are three series of uplights placed on top of the Las Vegas Hilton hotel projecting onto the cloud layer, these two yellow light strips are the Wynn and the Encore hotels, and that weird small strip of light to the bottom right of the Hilton is... drum roll, please... Trump International!!
 
@@ -103,7 +103,7 @@ This particular phenomenon is not very common in Vegas, admittedly. It's likely 
 
 ## Case Study 3: Lights on the ISS Live Feed
 
-[Original Post](https://https://www.reddit.com/r/UFOs/comments/oixo2s/can_someone_please_explain_what_i_just_saw_on_the/)
+[Original Post](https://www.reddit.com/r/UFOs/comments/oixo2s/can_someone_please_explain_what_i_just_saw_on_the/)
 
 Now this one's a little more interesting. Below you can see a screenshot from the live feed of the International Space Station, taken approximately 2021-07-12. In the full video, the lights slowly move from left to right across the screen at a constant rate of speed without deviating from their path. You can also notice some other smaller points of light seemingly behind the main lights, which could reasonably be construed as stars in space.
 
@@ -119,7 +119,7 @@ This doesn't discredit the UFO theory just yet though, could be objects flying b
 
 ## Case Study 4: Antuco, Chile
 
-[Original Post](https://https://www.reddit.com/r/UFOs/comments/xsafch/a_triangle_shaped_orb_was_filmed_near_antuco/)
+[Original Post](https://www.reddit.com/r/UFOs/comments/xsafch/a_triangle_shaped_orb_was_filmed_near_antuco/)
 
 Here's another interesting case I investigated myself. Below you can see two screenshots of a "triangular orb" (lol) apparently floating in the middle of a valley near Antuco, Chile. This was taken from a video of three men hiking up the Antuco volcano 
 
@@ -145,7 +145,7 @@ All of this doesn't explain the triangular shape though, does it? The explanatio
 
 ## Case Study 5: Strange Lights Above SE Houston
 
-[Original post](https://https://www.reddit.com/r/UFOs/comments/10dksw2/strange_lights_above_se_houston/)
+[Original post](https://www.reddit.com/r/UFOs/comments/10dksw2/strange_lights_above_se_houston/)
 
 Here's one that took a little bit less work but is also an extremely common occurrence, especially around the time of year that the video was created. Below you can see a set of 11 or so lights floating silently above the South East Houston, TX area.
 
