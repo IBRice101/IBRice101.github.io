@@ -4,6 +4,8 @@
 
 This talk was delivered at Securi-Tay 2023 on 2023-03-03 at Abertay University, Dundee, Scotland.
 
+[Slides Available Here](UFOSINT.pdf)
+
 ## Introduction
 
 So I was always a bit of a weird kid. Growing up I spent a lot of time with my nan watching loads of random documentaries, Unsolved Mysteries, that sort of thing. And the History Channel, being what it is, meant that it was only a matter of time before I got introduced to UFO conspiracies. I was also (and to a great extent still am) an anxious kid, so these conspiracies, to be frank, scared me shitless (in many ways this talk is borne out of my anxiety). Obviously, as I grew up I realised that Ancient Aliens didn't exist and are, as with a lot of conspiracies, a cope for people without common sense and with a deep desire for things to be more than what they initially seem. Occam's Razor tells us, though, that the simplest explanation is usually the correct one and an in-depth understanding of reality reduced my anxiety to a great extent, as it often does. But my fascination with UFOs always remained, albeit with a more sceptical lens fitted to it.
