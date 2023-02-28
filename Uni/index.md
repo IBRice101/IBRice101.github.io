@@ -210,3 +210,59 @@ However in the event that my work has provided guidance for you, a little tip by
 ---
 
 ## At the end of Year 3 my GPA was: 4.33 (1st Class)
+
+---
+
+## Year 4 Semester 1 - CMP408 - IoT and Cloud Secure Development
+
+- Grade: A
+- Description: Students will explore system programming and development, with an understanding of the security implications of such systems.
+- Coursework:
+  - Unit 1 (45%): Three quizzes:
+    - Quiz 1: Questions on Raspberry Pi and Linux internals (13/15)
+    - Quiz 2: More questions on the above with a focus on GPIO and LKM programming (13/15)
+    - Quiz 3: Questions on AWS (9/15)
+  - Unit 2 (55%): An IoT Development mini project that makes use of both AWS amd Linux kernel Modules
+    - My Proposal: A network speed testing system with an associated web server. It will use a GPIO button to begin the speed test, a red LED to indicate that the test is running, and a green LED to indicate that the test has been completed
+    - Code can be found [here](https://github.com/IBRice101/CMP408-Code)
+    - Report can be found [here](media/1901124-IoTMiniProjectReport.pdf)
+    - Poster can be found [here](media/1901124-IoTMiniprojectPoster.pdf)
+
+---
+
+## Year 4 Semester 1 - CMP416 - Advanced Digital Forensics
+
+- Grade: A+
+- Description: The forensic investigation of computer (e.g. TCP/IP) and mobile phone networks. Starting with an understanding of the underlying communications technologies, go on to develop a comprehensive, systematic approach to the discovery and examination of evidence from both end-user devices (e.g. phones, tablets etc.) and the networking infrastructure itself. Module content: Mobile Phone technologies and networks; Principles and limitations of mobile operation; Forensic analysis of end-user devices; Cellsite Analysis; Mobile Phone Data mining; Evaluate techniques for the gathering, analysis and use of network based evidence - session data, alert data, statistical data. Tools and techniques - packet tools for real-time capture and analysis, log analysis tools, custom written tools; Network integrity; Live incident response; Intrusion detection systems; Server side forensics.
+- Coursework:
+  - Unit 1 (50%): A Digital Forensics Report Into The Storm Botnet
+    - Coursework can be found [here](media/1901124_ForensicsReport.pdf)
+  - Unit 2 (50%): A Network Forensics Investigation into Sporting Corruption
+    - Coursework can be found [here](media/1901124_NetworkInvestigation.pdf)
+
+---
+
+## Year 4 Semesters 1 and 2 - CMP400 - Honours Project Scoping and Proposal
+
+- Grade: TBA
+- Description: This module provides the student with the opportunity to undertake the practical and development work for a major, in-depth individual project in an aspect of their programme. Normally the idea for project will be devised by the student and development work will be undertaken during this module. During term 1 proof of concept development will be undertaken to support the specification of a well-researched project proposal document. During term 2 the main development work for the project will be undertaken and completed.
+
+### Semester 1:
+
+- Coursework:
+  - Unit 1: Project proposal
+    - Coursework can be found [here](media/1901124_HonsProposal.pdf)
+  - Unit 2: Feasibility demo
+    - Coursework can be found [here](media/FeasibilityDemoArtefacts.pdf)
+
+### Semester 2:
+
+- Coursework:
+  - Unit 3: Project Execution
+    - Coursework TBA
+
+---
+
+## At the end of Year 4 Semester 1 my GPA is TBA
+
+---
