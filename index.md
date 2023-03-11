@@ -4,6 +4,14 @@ Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical
 
 ---
 
+## [UFOSINT: Open Source Intelligence and Unidentified Aerial Phenomena](Talks/UFOSINT/index.md)
+
+UFOs, or more accurately UAPs (Unidentified Aerial Phenomena) have been a hot topic of conversation for many years now. In the popular imagination this kind of thing is normally reserved for conspiracy theorists and "documentaries" on the History channel, however in recent years they have become the topic of much serious discussion amongst scientists and various military organisations around the world. In this talk I'll go over some of the OSINT techniques used to debunk UFO conspiracies, as well as outlining some of the cases for which there is no conclusive explanation one way or the other (probably not aliens though).
+
+Talk delivered 2023-03-03 at Securi-Tay 2023
+
+---
+
 ## [Practical Malware Analysis & Triage](Projects/PMAT/index.md)
 
 On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt Kiely (HuskyHacks) for £0.99, an absolute bargain. This repository serves as my notes for the course.
