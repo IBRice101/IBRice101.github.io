@@ -122,7 +122,7 @@ However in the event that my work has provided guidance for you, a little tip by
 ## Year 2 Semester 2 - CMP209: Digital Forensics 1
 
 - Grade: A
-- Description: The basic technology and techniques used to investigate cybercrime. A systematic approach to planning and implementing a comprehensive computer forensic investigation, particularly evidence collection and the reconstruction of events therefrom. 
+- Description: The basic technology and techniques used to investigate cybercrime. A systematic approach to planning and implementing a comprehensive computer forensic investigation, particularly evidence collection and the reconstruction of events therein. 
 - Coursework: To perform a digital forensic analysis on a hard drive discovered at the scene of arrest of an alleged criminal, the target was illicit images of birds and other ornithological material such as PDFs, audio files, and videos. 
     - Coursework can be found [here](media/DigitalForensicsReport.pdf)
 
@@ -133,7 +133,7 @@ However in the event that my work has provided guidance for you, a little tip by
 - Grade: A
 - Description: This module introduces students to the cultural codes and formal content underlying the composition of popular cultural genres, as these are realised traditionally through films, and more contemporaneously through video games.
 - Coursework:
-    - Unit 1 (50%): Arrival An Analysis Through The Lens Of Sci-Fi Convention 
+    - Unit 1 (50%): Arrival An Analysis Through The Lens Of SciFi Convention 
         - Coursework can be found [here](media/ELE0012Assessment1.pdf)
     - Unit 2 (50%): An Exploration of Dystopia in Alfonso Cuarón’s Children Of Men 
         - Coursework can be found [here](media/ELE0012Assessment2.pdf)
@@ -180,7 +180,7 @@ However in the event that my work has provided guidance for you, a little tip by
 
 - Grade: A+
 - Description: Software development practices to develop applications for a range of smart and mainly mobile devices. Learn to develop and evaluate the techniques used to implement mobile applications. Modules content: Background to Smart and Mobile Development; User Interfaces; Storage; Location awareness; Telephony SMS; Communication Networks; Security; Performance; Mobile Web Application Development.
-- Coursework: An Android Application that fulfils specific criteria. My app is "Moodr", a mood tracking and improvement application. More information available in the README.md of the github repo
+- Coursework: An Android Application that fulfils specific criteria. My app is "Moodr", a mood tracking and improvement application. More information available in the README.md of the GitHub repo
   - Coursework can be found [here](https://github.com/IBRice101/CMP309-Moodr)
 
 ---
@@ -222,7 +222,7 @@ However in the event that my work has provided guidance for you, a little tip by
     - Quiz 1: Questions on Raspberry Pi and Linux internals (13/15)
     - Quiz 2: More questions on the above with a focus on GPIO and LKM programming (13/15)
     - Quiz 3: Questions on AWS (9/15)
-  - Unit 2 (55%): An IoT Development mini project that makes use of both AWS amd Linux kernel Modules
+  - Unit 2 (55%): An IoT Development mini project that makes use of both AWS and Linux kernel Modules
     - My Proposal: A network speed testing system with an associated web server. It will use a GPIO button to begin the speed test, a red LED to indicate that the test is running, and a green LED to indicate that the test has been completed
     - Code can be found [here](https://github.com/IBRice101/CMP408-Code)
     - Report can be found [here](media/1901124-IoTMiniProjectReport.pdf)
@@ -242,9 +242,23 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ---
 
+## Year 4 Semester 2 - CMP417 - Engineering Resilient Systems 1
+
+- Grade: B+
+- Description: This module examines social and technical approaches to better security resilience in systems through consideration of methods of attack and defence. The aim of this module is to provide the student with specialist knowledge and experience of advanced hacking techniques, both human and technical, and their countermeasures which can be used to improve socio-technical system resilience
+- Coursework:
+  - Unit 1 (33%): A report into a security issue present on the network of ScottishGlen, a small fictional energy company. Specifically I chose vulnerabilities associated with Kerberos 
+    - Coursework can be found [here](media/1901124-SoftwareSecurityReport.pdf)
+  - Unit 2 (33%): A report outlining the usefulness of certain Machine Learning algorithms in the context of an intrusion Detection System (IDS). I compared K-Means Clustering and Random Forest.
+    - Coursework can be found [here](media/1901124-MachineLearningReport.pdf)
+  - Unit 3 (33%): A report regarding both Human Centred Resilience (the risks that come along with people in an organisation and recommendations therein) and authentication design, with descriptions of different forms of authentication and a recommendation for a specific use case 
+    - Coursework can be found [here](media/1901124-HumanCentredSecurity.pdf)
+
+---
+
 ## Year 4 Semesters 1 and 2 - CMP400 - Honours Project Scoping and Proposal
 
-- Grade: TBA
+- Grade: A
 - Description: This module provides the student with the opportunity to undertake the practical and development work for a major, in-depth individual project in an aspect of their programme. Normally the idea for project will be devised by the student and development work will be undertaken during this module. During term 1 proof of concept development will be undertaken to support the specification of a well-researched project proposal document. During term 2 the main development work for the project will be undertaken and completed.
 
 ### Semester 1:
@@ -263,6 +277,8 @@ However in the event that my work has provided guidance for you, a little tip by
 
 ---
 
-## At the end of Year 4 Semester 1 my GPA is TBA
+## At the end of Year 4 my GPA was 4.35
+
+## This resulted in a **First Class Degree**
 
 ---
