@@ -1,6 +1,6 @@
 # HOME
 
-Hi there! I'm Isaac! I'm coming to the end of my 3rd year of BSc (Hons.) Ethical Hacking at Abertay University in lovely sunny Dundee, Scotland. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
+Hi there! I'm Isaac! I'm an EDR Security Engineer at an Edinburgh-based MSSP and graduate in Ethical Hacking from Abertay University, Dundee. I am also absolute garbage at introducing myself so I hope that the stuff on this site's a little bit better at telling you what I'm about than I am lol.
 
 ---
 
@@ -22,7 +22,7 @@ On 2022-08-15 I purchased the Practical Malware Analysis & Triage course by Matt
 
 ## [The Syscall Is Coming From Inside The House!: An Introduction to APTs](Talks/APTs/index.md)
 
-Another upcoming talk for the Abertay Ethical Hacking society, this time on APTs, or Advanced Persistent Threats.
+Another talk for the Abertay Ethical Hacking society, this time on APTs, or Advanced Persistent Threats.
 
 ---
 
