@@ -4,6 +4,14 @@ Hi there! I'm Isaac! I'm an EDR Security Engineer at an Edinburgh-based MSSP and
 
 ---
 
+## [What Your Famility Thinks You Do: An Investigation of Hacking in Hollywood](Talks/HackingInMovies/index.md)
+
+Have you ever been having a conversion with a non-technical person when the topic of what you study (or do for a living)s come up? I'm willing to bet that within a minute of the word "hacking" leaving your mouth the person has leapt at the opportunity to ask you whether you can hack X Y and Z for them. Why actually is that?
+
+Hacking has been (for better or for worse) an absolute mainstay in movies for over 40 years. For most people, this is the only interaction they have with cybersecurity outside of work and the odd news story. It stands to reason, then, that the depictions we all see and scoff at are what most people think we actually do. This talk will go over these depictions, talk about their effects on hacking culture and culture at large, and hopefully answer the question "how is hacking used in the movies?"
+
+---
+
 ## [UFOSINT: Open Source Intelligence and Unidentified Aerial Phenomena](Talks/UFOSINT/index.md)
 
 UFOs, or more accurately UAPs (Unidentified Aerial Phenomena) have been a hot topic of conversation for many years now. In the popular imagination this kind of thing is normally reserved for conspiracy theorists and "documentaries" on the History channel, however in recent years they have become the topic of much serious discussion amongst scientists and various military organisations around the world. In this talk I'll go over some of the OSINT techniques used to debunk UFO conspiracies, as well as outlining some of the cases for which there is no conclusive explanation one way or the other (probably not aliens though).
