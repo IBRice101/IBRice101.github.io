@@ -80,7 +80,7 @@ List of movies in this genre:
 
 ---
 
-Heist movies, a self-explanatory genre, often contain hackers to forward the plot. These characters are not really characters in my view, I think they're more like devices, they tend to be an amalgamation of various cliches and plot devices that allow the rest of the film to carry on relatively uninterrupted. A way of handwaving away technical limitations that may get in between the audience and sick highwire performances or dodging lasers or whatever. This is the genre most filled, in my view, with the cliches most associated with the hacker.
+Heist movies, a self-explanatory genre, often contain hackers to forward the plot. These characters are not really characters in my view, I think they're more like devices, they tend to be an amalgamation of various clichés and plot devices that allow the rest of the film to carry on relatively uninterrupted. A way of handwaving away technical limitations that may get in between the audience and sick highwire performances or dodging lasers or whatever. This is the genre most filled, in my view, with the cliches most associated with the hacker.
 
 Contrary to what you may think though, the presence of hackers is not a new phenomenon in this genre! In fact, one could argue that the heist film saw the birth of the hacker archetype (or at least the behaviour later associated with hackers on film). Peter Ustinov plays Marcus Pendleton in *Hot Millions* (1968), a con man who gets out of prison and uses various social engineering techniques, alongside a bit of physical tampering with security devices, to convince an organisation he's a programmer named Cesar Smith, subsequently sending checks to himself under various names all over Europe.
 
@@ -210,7 +210,6 @@ Some of the themes of the film, too, are significant in hacker culture. The film
 
 ### Hack the Planet!
 
-<!-- TODO: talk about Hackers -->
 *Hackers* (1995) is the movie that, for my money, most influenced hackers' perceptions of themselves. My manager at work, once I told him what I was doing my talk on, told me that he (and lots of hackers of his "generation" so to speak) was influenced to become a computer security person by this film. If that's not evidence of the power of movies I don't know what is, man.
 
 The film follows a group of high school hackers who discover that the security chief of a large corporation is planning to run a scheme to defraud his employer. When the CISO, Eugene "The Plague" Belford, discovers that our heroes have hacked into the company and attempted to steal his salami-slicing worm (albeit unknowingly) he claims to the US Secret Service the corrupted file is code for the daVinci worm, which he alleges is planted by the high school hackers and will capsize the companies oil tanker fleet causing an ecological disaster.
