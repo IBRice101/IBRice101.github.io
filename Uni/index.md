@@ -272,7 +272,7 @@ However in the event that my work has provided guidance for you, a little tip by
 ### Semester 2:
 
 - Coursework:
-  - Unit 3: Project Execution
+  - Unit 3: Project Execution **(Dissertation)**
     - Coursework can be found [here](media/1901124-Dissertation.pdf)
 
 ---
